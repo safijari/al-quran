@@ -1,0 +1,859 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+
+
+    html {
+      margin: auto;
+      max-width: 800px;
+      padding: 30px;
+    }
+
+
+    @media screen and (min-width: 900px) {}
+    @font-face {
+        font-family: "noorehuda";
+        src: url(noorehuda-webfont.e3f34e1d.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "nastaleeq";
+        src: url(Urdu-Nastaleeq.ttf) format("truetype");
+    }
+    div.arabic { 
+        font-family: "noorehuda", Verdana, Tahoma;
+        font-size: 35px;
+        direction: rtl;
+        text-align: right;
+        letter-spacing: normal;
+    }
+    div.urdu { 
+        font-family: "nastaleeq", Verdana, Tahoma;
+        font-size: 30px;
+        direction: rtl;
+        text-align: right;
+        letter-spacing: normal;
+    }
+    div.english { 
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 20px;
+        direction: ltr;
+        text-align: left;
+        letter-spacing: normal;
+    }
+    h2 {
+    text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <br/>
+    <div class="english"><h2>15</h2></div>
+    <div class="english"><h2>Al-Hijr<h2></div>
+    <div class="arabic"><h2>الحجر</h2></div>
+    
+    
+    <br/>
+    <div class="arabic">بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ ﴿۱﴾</div>
+    <br/>
+    <div class="urdu">اللہ کے نام کے ساتھ جو بے انتہا رحم کرنے والا، بِن مانگے دینے والا (اور) بار بار رحم کرنے والا ہے۔</div>
+    <br/>
+    <div class="english">(15-1) In the name of Allah, the Gracious, the Merciful.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">الٓرٰ ۟ تِلۡکَ اٰیٰتُ الۡکِتٰبِ وَقُرۡاٰنٍ مُّبِیۡنٍ ﴿۲﴾</div>
+    <br/>
+    <div class="urdu">اَنَا اللّٰہُ اَرٰی : میں اللہ ہوں۔ میں دیکھتا ہوں۔ یہ کتاب اور ایک کھلے کھلے قرآن کی آیات ہیں۔</div>
+    <br/>
+    <div class="english">(15-2) Alif Lam Ra. These are verses of the Book and of the illuminating Qur’an.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">رُبَمَا یَوَدُّ الَّذِیۡنَ کَفَرُوۡا لَوۡ کَانُوۡا مُسۡلِمِیۡنَ ﴿۳﴾</div>
+    <br/>
+    <div class="urdu">بسااوقات وہ لوگ جنہوں نے کفر کیا چاہیں گے کہ کاش وہ مسلمان ہوتے۔</div>
+    <br/>
+    <div class="english">(15-3) Often will the disbelievers wish that they were Muslims.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ذَرۡہُمۡ یَاۡکُلُوۡا وَیَتَمَتَّعُوۡا وَیُلۡہِہِمُ الۡاَمَلُ  فَسَوۡفَ یَعۡلَمُوۡنَ ﴿۴﴾</div>
+    <br/>
+    <div class="urdu">انہیں (اپنے حال پر) چھوڑ دے۔ وہ کھائیں، پئیں اور عارضی فائدہ اٹھائیں اورامید اُنہیں غافل کئے رکھے۔ پس وہ عنقریب جان لیں گے۔</div>
+    <br/>
+    <div class="english">(15-4) Leave them alone that they may eat and enjoy themselves and that vain hope may beguile them; but they will soon know.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَاۤ اَہۡلَکۡنَا مِنۡ قَرۡیَۃٍ اِلَّا وَلَہَا کِتَابٌ مَّعۡلُوۡمٌ ﴿۵﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے کسی بستی کو ہلاک نہیں کیا مگر اس کے لئے ایک معلوم کتاب (بطور تنبیہ) تھی۔</div>
+    <br/>
+    <div class="english">(15-5) And We have never destroyed any town but there was for it a known decree.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">مَا تَسۡبِقُ مِنۡ اُمَّۃٍ اَجَلَہَا وَمَا یَسۡتَاۡخِرُوۡنَ ﴿۶﴾</div>
+    <br/>
+    <div class="urdu">کوئی اُمّت اپنے مقررہ وقت سے آگے نہیں بڑھ سکتی اور نہ وہ پیچھے ہٹ سکتے ہیں۔</div>
+    <br/>
+    <div class="english">(15-6) No people can outstrip their appointed time, nor can they remain behind.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالُوۡا یٰۤاَیُّہَا الَّذِیۡ نُزِّلَ عَلَیۡہِ الذِّکۡرُ اِنَّکَ لَمَجۡنُوۡنٌ ؕ﴿۷﴾</div>
+    <br/>
+    <div class="urdu">اور انہوں نے کہا اے وہ شخص جس پر ذکر اُتارا گیا ہے! یقیناً تو مجنون ہے۔</div>
+    <br/>
+    <div class="english">(15-7) And they said, ‘O thou to whom this Exhortation has been sent down, thou art surely a madman.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَوۡ مَا تَاۡتِیۡنَا بِالۡمَلٰٓئِکَۃِ اِنۡ کُنۡتَ مِنَ الصّٰدِقِیۡنَ ﴿۸﴾</div>
+    <br/>
+    <div class="urdu">تو ہمارے پاس فرشتے لئے ہوئے کیوں نہیں آتا اگر تو سچوں میں سے ہے۔</div>
+    <br/>
+    <div class="english">(15-8) ‘Why dost thou not bring angels to us, if thou art of the truthful?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">مَا نُنَزِّلُ الۡمَلٰٓئِکَۃَ اِلَّا بِالۡحَقِّ وَمَا کَانُوۡۤا اِذًا مُّنۡظَرِیۡنَ ﴿۹﴾</div>
+    <br/>
+    <div class="urdu">ہم فرشتے نہیں اتارا کرتے مگر حق کے ساتھ اور اس وقت وہ مہلت نہیں دیئے جاتے۔</div>
+    <br/>
+    <div class="english">(15-9) We do not send down angels but by due right, and then they are granted no respite.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّا نَحۡنُ نَزَّلۡنَا الذِّکۡرَ وَاِنَّا لَہٗ لَحٰفِظُوۡنَ ﴿۱۰﴾</div>
+    <br/>
+    <div class="urdu">یقیناً ہم نے ہی یہ ذکر اُتارا ہے اور یقیناً ہم ہی اس کی حفاظت کرنے والے ہیں۔</div>
+    <br/>
+    <div class="english">(15-10) Verily, We Ourself have sent down this Exhortation, and most surely We will be its Guardian.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ اَرۡسَلۡنَا مِنۡ قَبۡلِکَ فِیۡ شِیَعِ الۡاَوَّلِیۡنَ ﴿۱۱﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے تجھ سے قبل بھی پہلے گروہوں میں (رسول) بھیجے تھے۔</div>
+    <br/>
+    <div class="english">(15-11) And We sent <i>Messengers</i> before thee among parties of ancient peoples.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا یَاۡتِیۡہِمۡ مِّنۡ رَّسُوۡلٍ اِلَّا کَانُوۡا بِہٖ یَسۡتَہۡزِءُوۡنَ ﴿۱۲﴾</div>
+    <br/>
+    <div class="urdu">اور کوئی رسول ان کے پاس نہیں آتا تھا مگر وہ اس سے تمسخر کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(15-12) And there never came to them any Messenger but they mocked at him.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">کَذٰلِکَ نَسۡلُکُہٗ فِیۡ قُلُوۡبِ الۡمُجۡرِمِیۡنَ ﴿ۙ۱۳﴾</div>
+    <br/>
+    <div class="urdu">اسی طرح ہم مجرموں کے دلوں میں اس (بےباکی) کو داخل کرتے ہیں۔</div>
+    <br/>
+    <div class="english">(15-13) Thus do We cause this <i>habit of mocking</i> to enter into the hearts of the sinful people;</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَا یُؤۡمِنُوۡنَ بِہٖ وَقَدۡ خَلَتۡ سُنَّۃُ الۡاَوَّلِیۡنَ ﴿۱۴﴾</div>
+    <br/>
+    <div class="urdu">وہ اس (رسول) پر ایمان نہیں لاتے حالانکہ اس سے پہلے لوگوں کا مآل گزر چکا ہے۔</div>
+    <br/>
+    <div class="english">(15-14) They believe not therein, though the example of the former peoples has gone <i>before them</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَوۡ فَتَحۡنَا عَلَیۡہِمۡ بَابًا مِّنَ السَّمَآءِ فَظَلُّوۡا فِیۡہِ یَعۡرُجُوۡنَ ﴿ۙ۱۵﴾</div>
+    <br/>
+    <div class="urdu">اور اگر ہم آسمان کا کوئی دَر اُن پر کھول دیتے پھر وہ اس پر چڑھنے بھی لگتے (تاکہ بچشمِ خود رسول کی صداقت کا نشان دیکھ لیتے)۔</div>
+    <br/>
+    <div class="english">(15-15) And even if We opened to them a door from heaven, and they began ascending through it,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَقَالُوۡۤا اِنَّمَا سُکِّرَتۡ اَبۡصَارُنَا بَلۡ نَحۡنُ قَوۡمٌ مَّسۡحُوۡرُوۡنَ ﴿٪۱۶﴾</div>
+    <br/>
+    <div class="urdu">تب بھی وہ ضرور کہتے کہ ہماری آنکھیں تو (کسی نشے سے) مدہوش کر دی گئی ہیں بلکہ ہم تو ایک ایسی قوم ہیں جن پر جادو کر دیا گیا ہے۔</div>
+    <br/>
+    <div class="english">(15-16) They would surely say, ‘Only our eyes are dazed; rather we are a bewitched people.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ جَعَلۡنَا فِی السَّمَآءِ بُرُوۡجًا وَّزَیَّنّٰہَا لِلنّٰظِرِیۡنَ ﴿ۙ۱۷﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً ہم نے آسمان میں ستاروں کی منازل بنائی ہیں اور اُس (آسمان) کو دیکھنے والوں کے لئے مزین کردیا ہے۔</div>
+    <br/>
+    <div class="english">(15-17) And We have, indeed, made mansions <i>of stars</i> in the heaven and have adorned it for beholders.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَحَفِظۡنٰہَا مِنۡ کُلِّ شَیۡطٰنٍ رَّجِیۡمٍ ﴿ۙ۱۸﴾</div>
+    <br/>
+    <div class="urdu">اور اُس کی ہم نے ہر ایک دھتکارے ہوئے شیطان سے حفاظت کی ہے۔</div>
+    <br/>
+    <div class="english">(15-18) And We have protected it against every rejected satan.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِلَّا مَنِ اسۡتَرَقَ السَّمۡعَ فَاَتۡبَعَہٗ شِہَابٌ مُّبِیۡنٌ ﴿۱۹﴾</div>
+    <br/>
+    <div class="urdu">سوائے اُس کے جو سننے کی کوئی بات اُچک لے تو آ گ کا ایک روشن شعلہ اس کا تعاقب کرتا ہے۔</div>
+    <br/>
+    <div class="english">(15-19) But if any one hears stealthily, there pursues him a bright flame.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَالۡاَرۡضَ مَدَدۡنٰہَا وَاَلۡقَیۡنَا فِیۡہَا رَوَاسِیَ وَاَنۡۢبَتۡنَا فِیۡہَا مِنۡ کُلِّ شَیۡءٍ مَّوۡزُوۡنٍ ﴿۲۰﴾</div>
+    <br/>
+    <div class="urdu">اور زمین کو ہم نے بچھا دیا اور اُس میں ہم نے مضبوطی سے گڑے ہوئے (پہاڑ) ڈال دیئے اور اس میں ہر قسم کی متناسب چیز اگائی۔</div>
+    <br/>
+    <div class="english">(15-20) And the earth have We spread out, and set therein firm mountains and caused everything to grow therein in proper proportion.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَجَعَلۡنَا لَکُمۡ فِیۡہَا مَعَایِشَ وَمَنۡ لَّسۡتُمۡ لَہٗ بِرٰزِقِیۡنَ ﴿۲۱﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے اس میں تمہارے لئے معیشت کے سامان بنائے ہیں اور ان کے لئے بھی جن کے تم رازق نہیں۔</div>
+    <br/>
+    <div class="english">(15-21) And We have made for you therein means of livelihood, and <i>also</i> for <i>all</i> those for whom you do not provide.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنۡ مِّنۡ شَیۡءٍ اِلَّا عِنۡدَنَا خَزَآئِنُہٗ ۫ وَمَا نُنَزِّلُہٗۤ اِلَّا بِقَدَرٍ مَّعۡلُوۡمٍ ﴿۲۲﴾</div>
+    <br/>
+    <div class="urdu">اور کوئی چیز نہیں مگر ہمارے پاس اس کے خزانے ہیں اور ہم اسے نازل نہیں کرتے مگر ایک معلوم اندازے کے مطابق۔</div>
+    <br/>
+    <div class="english">(15-22) And there is not a thing but with Us are the treasures thereof and We send it not down except in a known measure.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاَرۡسَلۡنَا الرِّیٰحَ لَوَاقِحَ فَاَنۡزَلۡنَا مِنَ السَّمَآءِ مَآءً فَاَسۡقَیۡنٰکُمُوۡہُ ۚ وَمَاۤ اَنۡتُمۡ لَہٗ بِخٰزِنِیۡنَ ﴿۲۳﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے (پانی سے) لدی ہوئی ہواؤں کو بھیجا۔ پس آسمان سے ہم نے پانی اتارا اور تمہیں اس سے سیراب کیا جبکہ تم اس کوذخیرہ کر لینے پر قادر نہیں تھے۔</div>
+    <br/>
+    <div class="english">(15-23) And We send impregnating winds, then We send down water from the clouds, then We give it to you to drink; and you are not the ones to store it up.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنَّا لَنَحۡنُ نُحۡیٖ وَنُمِیۡتُ وَنَحۡنُ الۡوٰرِثُوۡنَ ﴿۲۴﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً ہم ہی ہیں جو زندہ بھی کرتے ہیں اور مارتے بھی ہیں اور ہم ہی ہیں جو (ہر چیز کے) وارث ہوں گے۔</div>
+    <br/>
+    <div class="english">(15-24) And verily, it is We Who give life, and We Who cause death; and it is We Who are the <i>sole</i> Inheritor.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ عَلِمۡنَا الۡمُسۡتَقۡدِمِیۡنَ مِنۡکُمۡ وَلَقَدۡ عَلِمۡنَا الۡمُسۡتَاۡخِرِیۡنَ ﴿۲۵﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے یقیناً تم میں سے سبقت لے جانے والوں کو جان لیا ہے اور ان کو بھی جان لیا ہے جو پیچھے رہتے ہیں۔</div>
+    <br/>
+    <div class="english">(15-25) And We do know those who go ahead among you and We do know those who lag behind.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنَّ رَبَّکَ ہُوَ یَحۡشُرُہُمۡ ؕ اِنَّہٗ حَکِیۡمٌ عَلِیۡمٌ ﴿٪۲۶﴾</div>
+    <br/>
+    <div class="urdu">اور تیرا ربّ انہیں ضرور اکٹھا کرے گا۔ یقیناً وہ بہت حکمت والا (اور) دائمی علم رکھنے والا ہے۔</div>
+    <br/>
+    <div class="english">(15-26) And surely, it is thy Lord Who will gather them together. Surely, He is Wise, All-Knowing.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ خَلَقۡنَا الۡاِنۡسَانَ مِنۡ صَلۡصَالٍ مِّنۡ حَمَاٍ مَّسۡنُوۡنٍ ﴿ۚ۲۷﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً ہم نے انسان کو گلے سڑے کیچڑ سے بنی ہوئی خشک کھنکتی ہوئی ٹھیکریوں سے پیدا کیا ہے۔</div>
+    <br/>
+    <div class="english">(15-27) And, surely, We created man from dry ringing clay, from black mud wrought into shape.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَالۡجَآنَّ خَلَقۡنٰہُ مِنۡ قَبۡلُ مِنۡ نَّارِ السَّمُوۡمِ ﴿۲۸﴾</div>
+    <br/>
+    <div class="urdu">اور جنوں کو ہم نے اُس سے پہلے سخت گرم ہوا کی آگ سے بنایا۔</div>
+    <br/>
+    <div class="english">(15-28) And the Jinn We had created before from the fire of hot wind.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِذۡ قَالَ رَبُّکَ لِلۡمَلٰٓئِکَۃِ اِنِّیۡ خَالِقٌۢ بَشَرًا مِّنۡ صَلۡصَالٍ مِّنۡ حَمَاٍ مَّسۡنُوۡنٍ ﴿۲۹﴾</div>
+    <br/>
+    <div class="urdu">اور (یاد کر) جب تیرے ربّ نے فرشتوں سے کہا کہ میں گلے سڑے کیچڑ سے بنی ہوئی خشک کھنکتی ہوئی ٹھیکریوں سے بشر پیدا کرنے والا ہوں۔</div>
+    <br/>
+    <div class="english">(15-29) And <i>remember</i> when thy Lord said to the angels, ‘I am about to create man from dry ringing clay, from black mud wrought into shape;</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاِذَا سَوَّیۡتُہٗ وَنَفَخۡتُ فِیۡہِ مِنۡ رُّوۡحِیۡ فَقَعُوۡا لَہٗ سٰجِدِیۡنَ ﴿۳۰﴾</div>
+    <br/>
+    <div class="urdu">پس جب میں اسے ٹھیک ٹھاک کر لوں اور اس میں اپنا کلام پھونکوں تو اس کی اطاعت میں سجدہ ریز ہو جانا۔</div>
+    <br/>
+    <div class="english">(15-30) ‘So when I have fashioned him <i>in perfection</i> and have breathed into him of My Spirit, fall ye down in submission to him.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَسَجَدَ الۡمَلٰٓئِکَۃُ کُلُّہُمۡ اَجۡمَعُوۡنَ ﴿ۙ۳۱﴾</div>
+    <br/>
+    <div class="urdu">تو تمام فرشتوں نے سجدہ کیا۔</div>
+    <br/>
+    <div class="english">(15-31) So the angels submitted, all of them together,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِلَّاۤ اِبۡلِیۡسَ ؕ اَبٰۤی اَنۡ یَّکُوۡنَ مَعَ السّٰجِدِیۡنَ ﴿۳۲﴾</div>
+    <br/>
+    <div class="urdu">سوائے ابلیس کے۔ اس نے انکار کردیا کہ سجدہ کرنے والوں کے ساتھ شامل ہو۔</div>
+    <br/>
+    <div class="english">(15-32) Except Iblis; he refused to be among those who submit.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ یٰۤـاِبۡلِیۡسُ مَا لَکَ اَلَّا تَکُوۡنَ مَعَ السّٰجِدِیۡنَ ﴿۳۳﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا اے ابلیس! تجھے کیا ہوا کہ تو سجدہ کرنے والوں کے ساتھ شامل نہیں ہوا؟</div>
+    <br/>
+    <div class="english">(15-33) <i>God</i> said, ‘O Iblis, what is the matter with thee that thou wouldst not be among those who submit?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ لَمۡ اَکُنۡ لِّاَسۡجُدَ لِبَشَرٍ خَلَقۡتَہٗ مِنۡ صَلۡصَالٍ مِّنۡ حَمَاٍ مَّسۡنُوۡنٍ ﴿۳۴﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا میں ایسا نہیں کہ میں ایک ایسے بشر کے لئے سجدہ کروں جسے تو نے گلے سڑے کیچڑ سے بنی ہوئی خشک کھنکتی ہوئی ٹھیکریوں سے پیدا کیا ہے۔</div>
+    <br/>
+    <div class="english">(15-34) He answered, ‘I am not going to submit to man whom Thou hast created from dry ringing clay, from black mud wrought into shape.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ فَاخۡرُجۡ مِنۡہَا فَاِنَّکَ رَجِیۡمٌ ﴿ۙ۳۵﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا اس (مقام) میں سے نکل جا۔ یقیناً تُو دھتکارا ہوا ہے۔</div>
+    <br/>
+    <div class="english">(15-35) <i>God</i> said, ‘Then get out hence, for, surely, thou art rejected.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَّاِنَّ عَلَیۡکَ اللَّعۡنَۃَ اِلٰی یَوۡمِ الدِّیۡنِ ﴿۳۶﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً تجھ پر جزا سزا کے دن تک لعنت رہے گی۔</div>
+    <br/>
+    <div class="english">(15-36) ‘And, surely, on thee shall be <i>My</i> curse till the Day of Judgment.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ رَبِّ فَاَنۡظِرۡنِیۡۤ اِلٰی یَوۡمِ یُبۡعَثُوۡنَ ﴿۳۷﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا اے میرے ربّ! مجھے اس دن تک مہلت دے جب وہ (بشر) اٹھائے جائیں گے۔</div>
+    <br/>
+    <div class="english">(15-37) He said, ‘My Lord, then grant me respite till the day when they shall be raised.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ فَاِنَّکَ مِنَ الۡمُنۡظَرِیۡنَ ﴿ۙ۳۸﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا پس یقیناً تُو مہلت دیئے جانے والوں میں سے ہے۔</div>
+    <br/>
+    <div class="english">(15-38) <i>God</i> said, ‘Thou art of those that are granted respite,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِلٰی یَوۡمِ الۡوَقۡتِ الۡمَعۡلُوۡمِ ﴿۳۹﴾</div>
+    <br/>
+    <div class="urdu">ایک معلوم وقت کے دن تک۔</div>
+    <br/>
+    <div class="english">(15-39) ‘Till the day of the appointed time.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ رَبِّ بِمَاۤ اَغۡوَیۡتَنِیۡ لَاُزَیِّنَنَّ لَہُمۡ فِی الۡاَرۡضِ وَلَاُغۡوِیَنَّہُمۡ اَجۡمَعِیۡنَ ﴿ۙ۴۰﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا اے میرے ربّ! چونکہ تو نے مجھے گمراہ ٹھہرا دیا ہے سو میں ضرور زمین میں (قیام) ان کے لئے خوبصورت کر کے دکھاؤں گا اور میں ضرور ان سب کو گمراہ کر دوں گا۔</div>
+    <br/>
+    <div class="english">(15-40) He answered, ‘My Lord, since Thou hast adjudged me as lost, I will surely make <i>evil appear</i> beautiful to them on the earth, and I will surely lead them all astray,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِلَّا عِبَادَکَ مِنۡہُمُ الۡمُخۡلَصِیۡنَ ﴿۴۱﴾</div>
+    <br/>
+    <div class="urdu">سوائے اُن میں سے تیرے چنیدہ بندوں کے۔</div>
+    <br/>
+    <div class="english">(15-41) ‘Except Thy chosen servants from among them.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ ہٰذَا صِرَاطٌ عَلَیَّ مُسۡتَقِیۡمٌ ﴿۴۲﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا یہ سیدھی راہ (دکھانا) میرے ذمہ ہے۔</div>
+    <br/>
+    <div class="english">(15-42) <i>God</i> said, ‘This is a path <i>leading</i> straight to Me.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ عِبَادِیۡ لَیۡسَ لَکَ عَلَیۡہِمۡ سُلۡطٰنٌ اِلَّا مَنِ اتَّبَعَکَ مِنَ الۡغٰوِیۡنَ ﴿۴۳﴾</div>
+    <br/>
+    <div class="urdu">یقیناً (جو) میرے بندے (ہیں) ان پر تجھے کوئی غلبہ نصیب نہ ہوگا سوائے گمراہوں میں سے اُن کے جو (از خود) تیری پیروی کریں گے۔</div>
+    <br/>
+    <div class="english">(15-43) ‘Surely, thou shalt have no power over My servants, except such of the erring ones as <i>choose to</i> follow thee.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنَّ جَہَنَّمَ لَمَوۡعِدُہُمۡ اَجۡمَعِیۡنَ ﴿۟ۙ۴۴﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً جہنم اُن سب کا موعود ٹھکانا ہے۔</div>
+    <br/>
+    <div class="english">(15-44) And, surely, Hell is the promised place for them all.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَہَا سَبۡعَۃُ اَبۡوَابٍ ؕ لِکُلِّ بَابٍ مِّنۡہُمۡ جُزۡءٌ مَّقۡسُوۡمٌ ﴿٪۴۵﴾</div>
+    <br/>
+    <div class="urdu">اس کے سات دروازے ہیں ہر دروازے کے لئے ان (گمراہوں) کا ایک مقررہ حصّہ ہے۔</div>
+    <br/>
+    <div class="english">(15-45) It has seven gates: <i>and</i> each gate has a portion of them allotted <i>to it</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ الۡمُتَّقِیۡنَ فِیۡ جَنّٰتٍ وَّعُیُوۡنٍ ﴿ؕ۴۶﴾</div>
+    <br/>
+    <div class="urdu">یقیناً متقی باغوں اور چشمو ں میں (متمکن) ہوں گے۔</div>
+    <br/>
+    <div class="english">(15-46) Verily, the righteous will be <i>placed</i> amid gardens and fountains.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اُدۡخُلُوۡہَا بِسَلٰمٍ اٰمِنِیۡنَ ﴿۴۷﴾</div>
+    <br/>
+    <div class="urdu">ان میں سلامتی کے ساتھ مطمئن اور بے خوف ہوتے ہوئے داخل ہو جاؤ۔</div>
+    <br/>
+    <div class="english">(15-47) ‘Enter therein with peace, in safety.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَنَزَعۡنَا مَا فِیۡ صُدُوۡرِہِمۡ مِّنۡ غِلٍّ اِخۡوَانًا عَلٰی سُرُرٍ مُّتَقٰبِلِیۡنَ ﴿۴۸﴾</div>
+    <br/>
+    <div class="urdu">اور ہم ان کے دلوں سے جو بھی کینے ہیں نکال باہر کریں گے۔ بھائی بھائی بنتے ہوئے تختوں پرآمنے سامنے بیٹھے ہوں گے۔</div>
+    <br/>
+    <div class="english">(15-48) And We shall remove whatever of rancour may be in their breasts <i>so that they will become</i> as brothers <i>seated</i> on thrones, facing one another.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَا یَمَسُّہُمۡ فِیۡہَا نَصَبٌ وَّمَا ہُمۡ مِّنۡہَا بِمُخۡرَجِیۡنَ ﴿۴۹﴾</div>
+    <br/>
+    <div class="urdu">انہیں ان میں نہ کوئی تھکان چھوئے گی اور نہ وہ کبھی ان میں سے نکالے جائیں گے۔</div>
+    <br/>
+    <div class="english">(15-49) Fatigue shall not touch them there, nor shall they <i>ever</i> be ejected therefrom.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">نَبِّیٴۡ عِبَادِیۡۤ اَنِّیۡۤ اَنَا الۡغَفُوۡرُ الرَّحِیۡمُ ﴿ۙ۵۰﴾</div>
+    <br/>
+    <div class="urdu">میرے بندوں کو مطلع کر دے کہ یقیناً میں ہی بہت بخشنے والا (اور) بار بار رحم کرنے والا ہوں۔</div>
+    <br/>
+    <div class="english">(15-50) Tell My servants that I am surely the One Most Forgiving, the Merciful;</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاَنَّ عَذَابِیۡ ہُوَ الۡعَذَابُ الۡاَلِیۡمُ ﴿۵۱﴾</div>
+    <br/>
+    <div class="urdu">اور یہ بھی کہ یقیناً میرا عذاب ہی بہت دردناک عذاب ہے۔</div>
+    <br/>
+    <div class="english">(15-51) And <i>also</i> that My punishment is the grievous punishment.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَنَبِّئۡہُمۡ عَنۡ ضَیۡفِ اِبۡرٰہِیۡمَ ﴿ۘ۵۲﴾</div>
+    <br/>
+    <div class="urdu">اور اُنہیں ابراہیم کے مہمانوں کے متعلق آگاہ کر دے۔</div>
+    <br/>
+    <div class="english">(15-52) And tell them about Abraham’s guests.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِذۡ دَخَلُوۡا عَلَیۡہِ فَقَالُوۡا سَلٰمًا ؕ قَالَ اِنَّا مِنۡکُمۡ وَجِلُوۡنَ ﴿۵۳﴾</div>
+    <br/>
+    <div class="urdu">جب وہ اس کے پاس آئے تو انہوں نے کہا سلام۔ اس نے کہا ہم تو تم سے خائف ہیں۔</div>
+    <br/>
+    <div class="english">(15-53) When they entered in unto him and said, ‘Peace,’ he answered, ‘Verily, we feel afraid of you.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا لَا تَوۡجَلۡ اِنَّا نُبَشِّرُکَ بِغُلٰمٍ عَلِیۡمٍ ﴿۵۴﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا خوف نہ کر۔ ہم یقیناً تجھے ایک صاحبِ علم بیٹے کی خوشخبری دیتے ہیں۔</div>
+    <br/>
+    <div class="english">(15-54) They said, ‘Fear not, we give thee glad tidings of a son <i>who shall be</i> endowed with knowledge.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ اَبَشَّرۡتُمُوۡنِیۡ عَلٰۤی اَنۡ مَّسَّنِیَ الۡکِبَرُ فَبِمَ تُبَشِّرُوۡنَ ﴿۵۵﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا کیا تم نے مجھے خوشخبری دی ہے باوجود اس کے کہ مجھے بڑھاپے نے آ لیا ہے۔ پس تم کس بنا پر خوشخبری دے رہے ہو؟</div>
+    <br/>
+    <div class="english">(15-55) He said, ‘Do you give me the glad tidings in spite of the fact that old age has overtaken me? Of what then do you give me the glad tidings?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا بَشَّرۡنٰکَ بِالۡحَقِّ فَلَا تَکُنۡ مِّنَ الۡقٰنِطِیۡنَ ﴿۵۶﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا ہم نے تجھے برحق خوشخبری دی ہے۔ پس مایوس ہونے والوں میں سے نہ ہو۔</div>
+    <br/>
+    <div class="english">(15-56) They said, ‘We have, indeed, given thee glad tidings in truth; be not therefore of those who despair.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ وَمَنۡ یَّقۡنَطُ مِنۡ رَّحۡمَۃِ رَبِّہٖۤ اِلَّا الضَّآلُّوۡنَ ﴿۵۷﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا بھلا گمراہوں کے سوا کون ہے جو اَپنے ربّ کی رحمت سے مایوس ہو جائے۔</div>
+    <br/>
+    <div class="english">(15-57) He said, ‘And who can despair of the mercy of his Lord save those who go astray?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ فَمَا خَطۡبُکُمۡ اَیُّہَا الۡمُرۡسَلُوۡنَ ﴿۵۸﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا اے بھیجے ہوؤ! تمہارا اصل مقصدکیا ہے؟</div>
+    <br/>
+    <div class="english">(15-58) He said, ‘What <i>now</i> is your business, O ye messengers?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡۤا اِنَّاۤ اُرۡسِلۡنَاۤ اِلٰی قَوۡمٍ مُّجۡرِمِیۡنَ ﴿ۙ۵۹﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا یقیناً ہم ایک مجرم قوم کی طرف بھیجے گئے ہیں۔</div>
+    <br/>
+    <div class="english">(15-59) They said, ‘We have been sent unto a guilty people</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِلَّاۤ اٰلَ لُوۡطٍ ؕ اِنَّا لَمُنَجُّوۡہُمۡ اَجۡمَعِیۡنَ ﴿ۙ۶۰﴾</div>
+    <br/>
+    <div class="urdu">سوائے آلِ لوط کے۔ ہم ان سب کوضروربچا لیں گے۔</div>
+    <br/>
+    <div class="english">(15-60) ‘Excepting the family of Lot. Them we shall save all,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِلَّا امۡرَاَتَہٗ قَدَّرۡنَاۤ ۙ اِنَّہَا لَمِنَ الۡغٰبِرِیۡنَ ﴿٪۶۱﴾</div>
+    <br/>
+    <div class="urdu">اس کی بیوی کے سوا۔ ہم نے (اس کا انجام) جانچ لیا ہے کہ وہ ضرور پیچھے رہ جانے والوں میں سے ہوگی۔</div>
+    <br/>
+    <div class="english">(15-61) ‘Except his wife. We surmise that she shall be of those who remain behind.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا جَآءَ اٰلَ لُوۡطِ ۣالۡمُرۡسَلُوۡنَ ﴿ۙ۶۲﴾</div>
+    <br/>
+    <div class="urdu">پس جب آلِ لوط کے پاس پیغامبر پہنچے۔</div>
+    <br/>
+    <div class="english">(15-62) And when the messengers came unto the family of Lot,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ اِنَّکُمۡ قَوۡمٌ مُّنۡکَرُوۡنَ ﴿۶۳﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا تم یقیناً اجنبی لوگ ہو۔</div>
+    <br/>
+    <div class="english">(15-63) He said, ‘Verily, you are a party of strangers.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا بَلۡ جِئۡنٰکَ بِمَا کَانُوۡا فِیۡہِ یَمۡتَرُوۡنَ ﴿۶۴﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے جواب دیا بلکہ ہم تو تیرے پاس وہ (خبر) لائے ہیں جس کے متعلق وہ شک میں مبتلا رہتے تھے۔</div>
+    <br/>
+    <div class="english">(15-64) They said, ‘Nay, but we have come to thee with that about which they doubted.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاَتَیۡنٰکَ بِالۡحَقِّ وَاِنَّا لَصٰدِقُوۡنَ ﴿۶۵﴾</div>
+    <br/>
+    <div class="urdu">اور ہم تیرے پاس حق کے ساتھ آئے ہیں اور یقیناً ہم سچے ہیں۔</div>
+    <br/>
+    <div class="english">(15-65) ‘And we have come to thee with the truth, and surely we are truthful.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاَسۡرِ بِاَہۡلِکَ بِقِطۡعٍ مِّنَ الَّیۡلِ وَاتَّبِعۡ اَدۡبَارَہُمۡ وَلَا یَلۡتَفِتۡ مِنۡکُمۡ اَحَدٌ وَّامۡضُوۡا حَیۡثُ تُؤۡمَرُوۡنَ ﴿۶۶﴾</div>
+    <br/>
+    <div class="urdu">پس اپنے اہل کو لے کر رات کے ایک حصے میں نکل کھڑا ہو اور ان کے پیچھے چل اور تم میں سے کوئی پیچھے مڑ کر نہ دیکھے اور تم چلتے رہو جس طرف (چلنے کا) تمہیں حکم دیا جاتا ہے۔</div>
+    <br/>
+    <div class="english">(15-66) ‘So go forth with thy family in the <i>latter</i> part of the night, and follow thou in their rear. And let none of you look back, and <i>now</i> proceed to where you are commanded.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَضَیۡنَاۤ اِلَیۡہِ ذٰلِکَ الۡاَمۡرَ اَنَّ دَابِرَ ہٰۤؤُلَآءِ مَقۡطُوۡعٌ مُّصۡبِحِیۡنَ ﴿۶۷﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے اُسے یہ فیصلہ سنا دیا کہ ان لوگوں کی جڑ صبح ہوتے وقت کاٹی جا چکی ہو گی۔</div>
+    <br/>
+    <div class="english">(15-67) And We communicated to him this decree that the root of them was to be cut off by the morning.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَجَآءَ اَہۡلُ الۡمَدِیۡنَۃِ یَسۡتَبۡشِرُوۡنَ ﴿۶۸﴾</div>
+    <br/>
+    <div class="urdu">اور شہر کے رہنے والے خوشیاں مناتے ہوئے آئے۔</div>
+    <br/>
+    <div class="english">(15-68) And the people of the city came rejoicing.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ اِنَّ ہٰۤؤُلَآءِ ضَیۡفِیۡ فَلَا تَفۡضَحُوۡنِ ﴿ۙ۶۹﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا یہ میرے مہمان ہیں پس مجھے رُسوا نہ کرو۔</div>
+    <br/>
+    <div class="english">(15-69) He said, ‘These are my guests, so put me not to shame;</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاتَّقُوا اللّٰہَ وَلَا تُخۡزُوۡنِ ﴿۷۰﴾</div>
+    <br/>
+    <div class="urdu">اور اللہ سے ڈرو اور مجھے ذلیل نہ کرو۔</div>
+    <br/>
+    <div class="english">(15-70) ‘And fear Allah and disgrace me not.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡۤا اَوَلَمۡ نَنۡہَکَ عَنِ الۡعٰلَمِیۡنَ ﴿۷۱﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا کیا ہم نے تجھے سب جہانوں (سے راہ و رسم رکھنے) سے منع نہیں کیا تھا؟</div>
+    <br/>
+    <div class="english">(15-71) They said, ‘Did we not forbid thee <i>to entertain</i> all <i>sorts of</i> people?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ ہٰۤؤُلَآءِ بَنٰتِیۡۤ اِنۡ کُنۡتُمۡ فٰعِلِیۡنَ ﴿ؕ۷۲﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا (دیکھو) یہ میری بیٹیاں ہیں (اِن کی حیا کرو) اگر تم کچھ کرنے والے ہو۔</div>
+    <br/>
+    <div class="english">(15-72) He said, ‘These are my daughters if you must do something.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَعَمۡرُکَ اِنَّہُمۡ لَفِیۡ سَکۡرَتِہِمۡ یَعۡمَہُوۡنَ ﴿۷۳﴾</div>
+    <br/>
+    <div class="urdu">(اللہ نے وحی کی کہ) تیری عمر کی قسم! یقیناً وہ اپنی بدمستی میں بھٹک رہے ہیں۔</div>
+    <br/>
+    <div class="english">(15-73) By thy life, these <i>too</i> in their <i>mad</i> intoxication are wandering in distraction —</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاَخَذَتۡہُمُ الصَّیۡحَۃُ مُشۡرِقِیۡنَ ﴿ۙ۷۴﴾</div>
+    <br/>
+    <div class="urdu">پس انہیں ایک گونج دار عذاب نے صبح ہوتے آپکڑا۔</div>
+    <br/>
+    <div class="english">(15-74) Then the punishment seized them at sunrise.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَجَعَلۡنَا عَالِیَہَا سَافِلَہَا وَاَمۡطَرۡنَا عَلَیۡہِمۡ حِجَارَۃً مِّنۡ سِجِّیۡلٍ ﴿ؕ۷۵﴾</div>
+    <br/>
+    <div class="urdu">پس ہم نے اس (بستی) کو تہ و بالا کردیا اور ان پر ہم نے کنکروں والی مٹی سے بنے ہوئے پتھروں کی بارش برسائی۔</div>
+    <br/>
+    <div class="english">(15-75) We turned it upside down, and We rained upon them stones of clay.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ فِیۡ ذٰلِکَ لَاٰیٰتٍ لِّلۡمُتَوَسِّمِیۡنَ ﴿۷۶﴾</div>
+    <br/>
+    <div class="urdu">یقیناً اس (واقعہ) میں کھوج لگانے والوں کے لئے نشانات ہیں۔</div>
+    <br/>
+    <div class="english">(15-76) Surely, in this are Signs for those who can read <i>signs</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنَّہَا لَبِسَبِیۡلٍ مُّقِیۡمٍ ﴿۷۷﴾</div>
+    <br/>
+    <div class="urdu">اور وہ (بستی) یقیناً ایک مستقل شاہراہ پر (واقع) ہے۔</div>
+    <br/>
+    <div class="english">(15-77) And it lies on a road that <i>still</i> exists.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ فِیۡ ذٰلِکَ لَاٰیَۃً لِّلۡمُؤۡمِنِیۡنَ ﴿ؕ۷۸﴾</div>
+    <br/>
+    <div class="urdu">یقیناً اس میں مومنوں کے لئے ایک بہت بڑا نشان ہے۔</div>
+    <br/>
+    <div class="english">(15-78) Surely, in this is a Sign for believers.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنۡ کَانَ اَصۡحٰبُ الۡاَیۡکَۃِ لَظٰلِمِیۡنَ ﴿ۙ۷۹﴾</div>
+    <br/>
+    <div class="urdu">اور گھنے درختوں کے علاقہ (میں بسنے) والے بھی یقیناً ظالم تھے۔</div>
+    <br/>
+    <div class="english">(15-79) And the People of the Wood <i>too</i> were surely wrongdoers.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَانۡتَقَمۡنَا مِنۡہُمۡ ۘ وَاِنَّہُمَا لَبِاِمَامٍ مُّبِیۡنٍ ﴿ؕ٪۸۰﴾</div>
+    <br/>
+    <div class="urdu">پس ہم نے ان سے انتقام لیا اور یہ دونوں (بستیاں) ایک نمایاں شاہراہ پر (واقع) ہیں۔</div>
+    <br/>
+    <div class="english">(15-80) So We chastised them <i>also</i>. And they both lie on a manifest way.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ کَذَّبَ اَصۡحٰبُ الۡحِجۡرِ الۡمُرۡسَلِیۡنَ ﴿ۙ۸۱﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً حجر (کے رہنے) والوں نے بھی پیغمبروں کو جھٹلا دیا تھا۔</div>
+    <br/>
+    <div class="english">(15-81) And the People of the Hijr <i>also</i> did treat the Messengers as liars.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاٰتَیۡنٰہُمۡ اٰیٰتِنَا فَکَانُوۡا عَنۡہَا مُعۡرِضِیۡنَ ﴿ۙ۸۲﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے ان کو اپنے نشانات دیئے تو وہ ان سے اِعراض کرتے رہے۔</div>
+    <br/>
+    <div class="english">(15-82) And We gave them Our Signs, but they turned away from them.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَکَانُوۡا یَنۡحِتُوۡنَ مِنَ الۡجِبَالِ بُیُوۡتًا اٰمِنِیۡنَ ﴿۸۳﴾</div>
+    <br/>
+    <div class="urdu">اور وہ پہاڑوں میں بے خطر گھر تراشتے تھے۔</div>
+    <br/>
+    <div class="english">(15-83) And they used to hew out houses in the mountains, in security.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاَخَذَتۡہُمُ الصَّیۡحَۃُ مُصۡبِحِیۡنَ ﴿ۙ۸۴﴾</div>
+    <br/>
+    <div class="urdu">پس انہیں بھی ایک گونج دار عذاب نے صبح ہوتے میں آ پکڑا۔</div>
+    <br/>
+    <div class="english">(15-84) But the punishment seized them in the morning,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَمَاۤ اَغۡنٰی عَنۡہُمۡ مَّا کَانُوۡا یَکۡسِبُوۡنَ ﴿ؕ۸۵﴾</div>
+    <br/>
+    <div class="urdu">پس اُن کے کام نہ آ سکا جو کَسَب وہ کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(15-85) And all that they had earned availed them not.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا خَلَقۡنَا السَّمٰوٰتِ وَالۡاَرۡضَ وَمَا بَیۡنَہُمَاۤ اِلَّا بِالۡحَقِّ ؕ وَاِنَّ السَّاعَۃَ لَاٰتِیَۃٌ  فَاصۡفَحِ الصَّفۡحَ الۡجَمِیۡلَ ﴿۸۶﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے آسمانوں اور زمین کو اور جو کچھ ان کے درمیان ہے نہیں پیدا کیا مگر حق کے ساتھ اور ساعت ضرور آنے والی ہے۔ پس بہت عمدہ طریق پر درگزر کر۔</div>
+    <br/>
+    <div class="english">(15-86) And We have not created the heavens and the earth and all that is between the two but in accordance with the requirements of wisdom; and the Hour is sure to come. So turn away <i>from them</i> in a comely manner.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ رَبَّکَ ہُوَ الۡخَلّٰقُ الۡعَلِیۡمُ ﴿۸۷﴾</div>
+    <br/>
+    <div class="urdu">تیرا ربّ ہی یقیناً بہت باکمال خالق (اور) صاحبِ علم ہے۔</div>
+    <br/>
+    <div class="english">(15-87) Verily, it is thy Lord Who is the Great Creator, the All-Knowing.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ اٰتَیۡنٰکَ سَبۡعًا مِّنَ الۡمَثَانِیۡ وَالۡقُرۡاٰنَ الۡعَظِیۡمَ ﴿۸۸﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً ہم نے تجھے سات بار بار دہرائی جانے والی (آیات) اور قرآنِ عظیم عطا کئے ہیں۔</div>
+    <br/>
+    <div class="english">(15-88) And We have, indeed, given thee the seven oft-repeated <i>verses</i>, and the Great Qur’an.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَا تَمُدَّنَّ عَیۡنَیۡکَ اِلٰی مَا مَتَّعۡنَا بِہٖۤ اَزۡوَاجًا مِّنۡہُمۡ وَلَا تَحۡزَنۡ عَلَیۡہِمۡ وَاخۡفِضۡ جَنَاحَکَ لِلۡمُؤۡمِنِیۡنَ ﴿۸۹﴾</div>
+    <br/>
+    <div class="urdu">اپنی آنکھیں اس عارضی متاع کی طرف نہ پسار جو ہم نے ان میں سے بعض گروہوں کو عطا کی ہے اور اُن پر غم نہ کھا اور مومنوں کے لئے اپنے (شفقت کے) پَر جھکا دے۔</div>
+    <br/>
+    <div class="english">(15-89) Stretch not thy eyes towards what We have bestowed on some classes of them to enjoy for a short time, and grieve not over them; and lower thy wing <i>of mercy</i> for the believers.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقُلۡ اِنِّیۡۤ اَنَا النَّذِیۡرُ الۡمُبِیۡنُ ﴿ۚ۹۰﴾</div>
+    <br/>
+    <div class="urdu">اور کہہ دے کہ میں تو یقیناً ایک کھلا کھلا ڈرانے والا ہوں۔</div>
+    <br/>
+    <div class="english">(15-90) And say, ‘I am, indeed, a plain Warner.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">کَمَاۤ اَنۡزَلۡنَا عَلَی الۡمُقۡتَسِمِیۡنَ ﴿ۙ۹۱﴾</div>
+    <br/>
+    <div class="urdu">(اس عذاب سے) جیسا ہم نے باہم بٹ جانے والوں پر نازل کیا تھا۔</div>
+    <br/>
+    <div class="english">(15-91) Because We <i>have decided to</i> send down <i>punishment</i> on those who have formed themselves into groups <i>against thee</i>;</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">الَّذِیۡنَ جَعَلُوا الۡقُرۡاٰنَ عِضِیۡنَ ﴿۹۲﴾</div>
+    <br/>
+    <div class="urdu">جنہوں نے قرآن کو ٹکڑے ٹکڑے کر دیا۔</div>
+    <br/>
+    <div class="english">(15-92) Who have pronounced the Qur’an to be <i>so many</i> lies;</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَوَرَبِّکَ لَنَسۡـَٔلَنَّہُمۡ اَجۡمَعِیۡنَ ﴿ۙ۹۳﴾</div>
+    <br/>
+    <div class="urdu">پس تیرے ربّ کی قسم! ہم یقیناً ان سب سے ضرور پوچھیں گے۔</div>
+    <br/>
+    <div class="english">(15-93) So by thy Lord, We will, surely, question them all</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">عَمَّا کَانُوۡا یَعۡمَلُوۡنَ ﴿ٙ۹۴﴾</div>
+    <br/>
+    <div class="urdu">اس کے متعلق جو وہ کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(15-94) Concerning that which they used to do.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاصۡدَعۡ بِمَا تُؤۡمَرُ وَاَعۡرِضۡ عَنِ الۡمُشۡرِکِیۡنَ ﴿۹۵﴾</div>
+    <br/>
+    <div class="urdu">پس خوب کھول کر بیان کر جو تجھے حکم دیا جاتا ہے اور شرک کرنے والوں سے اعراض کر۔</div>
+    <br/>
+    <div class="english">(15-95) So declare openly that with which thou art commanded and turn aside from those who ascribe partners <i>to God.</i></div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّا کَفَیۡنٰکَ الۡمُسۡتَہۡزِءِیۡنَ ﴿ۙ۹۶﴾</div>
+    <br/>
+    <div class="urdu">یقیناً ہم استہزاءکرنے والوں کے مقابل پر تجھے بہت کافی ہیں۔</div>
+    <br/>
+    <div class="english">(15-96) We will, surely, suffice thee against those who mock:</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">الَّذِیۡنَ یَجۡعَلُوۡنَ مَعَ اللّٰہِ اِلٰہًا اٰخَرَ ۚ فَسَوۡفَ یَعۡلَمُوۡنَ ﴿۹۷﴾</div>
+    <br/>
+    <div class="urdu">جنہوں نے اللہ کے ساتھ ایک دوسرا معبود بنا لیا ہے پس عنقریب وہ جان لیں گے۔</div>
+    <br/>
+    <div class="english">(15-97) Who set up another God with Allah, but soon shall they come to know.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ نَعۡلَمُ اَنَّکَ یَضِیۡقُ صَدۡرُکَ بِمَا یَقُوۡلُوۡنَ ﴿ۙ۹۸﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً ہم جانتے ہیں کہ تیرا سینہ اُن باتوں سے تنگ ہوتا ہے جو وہ کہتے ہیں۔</div>
+    <br/>
+    <div class="english">(15-98) And, indeed, We know that thy bosom becomes straitened because of what they say.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَسَبِّحۡ بِحَمۡدِ رَبِّکَ وَکُنۡ مِّنَ السّٰجِدِیۡنَ ﴿ۙ۹۹﴾</div>
+    <br/>
+    <div class="urdu">پس اپنے ربّ کی حمد کے ساتھ تسبیح کر اور سجدہ کرنے والوں میں سے ہو جا۔</div>
+    <br/>
+    <div class="english">(15-99) But glorify thy Lord praising Him, and be of those who prostrate themselves <i>before Him</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاعۡبُدۡ رَبَّکَ حَتّٰی یَاۡتِیَکَ الۡیَقِیۡنُ ﴿٪۱۰۰﴾</div>
+    <br/>
+    <div class="urdu">اور اپنے ربّ کی عبادت کرتا چلا جا یہاں تک کہ تجھے یقین آجائے۔</div>
+    <br/>
+    <div class="english">(15-100) And continue worshipping thy Lord, till death comes to thee.</div>
+    <hr/>
+    
+    </body>

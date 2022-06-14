@@ -1,0 +1,939 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+
+
+    html {
+      margin: auto;
+      max-width: 800px;
+      padding: 30px;
+    }
+
+
+    @media screen and (min-width: 900px) {}
+    @font-face {
+        font-family: "noorehuda";
+        src: url(noorehuda-webfont.e3f34e1d.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "nastaleeq";
+        src: url(Urdu-Nastaleeq.ttf) format("truetype");
+    }
+    div.arabic { 
+        font-family: "noorehuda", Verdana, Tahoma;
+        font-size: 35px;
+        direction: rtl;
+        text-align: right;
+        letter-spacing: normal;
+    }
+    div.urdu { 
+        font-family: "nastaleeq", Verdana, Tahoma;
+        font-size: 30px;
+        direction: rtl;
+        text-align: right;
+        letter-spacing: normal;
+    }
+    div.english { 
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 20px;
+        direction: ltr;
+        text-align: left;
+        letter-spacing: normal;
+    }
+    h2 {
+    text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <br/>
+    <div class="english"><h2>10</h2></div>
+    <div class="english"><h2>Yunus<h2></div>
+    <div class="arabic"><h2>یونس</h2></div>
+    
+    
+    <br/>
+    <div class="arabic">بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ ﴿۱﴾</div>
+    <br/>
+    <div class="urdu">اللہ کے نام کے ساتھ جو بے انتہا رحم کرنے والا، بِن مانگے دینے والا (اور) بار بار رحم کرنے والا ہے۔</div>
+    <br/>
+    <div class="english">(10-1) In the name of Allah, the Gracious, the Merciful.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">الٓرٰ ۟ تِلۡکَ اٰیٰتُ الۡکِتٰبِ الۡحَکِیۡمِ ﴿۲﴾</div>
+    <br/>
+    <div class="urdu">اَنَا اللّٰہُ اَرٰی: میں اللہ ہوں۔ میں دیکھتا ہوں۔ یہ ایک حکمت والی کتاب کی آیات ہیں۔</div>
+    <br/>
+    <div class="english">(10-2) Alif Lam Ra. These are the verses of the Book that is full of wisdom.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَکَانَ لِلنَّاسِ عَجَبًا اَنۡ اَوۡحَیۡنَاۤ اِلٰی رَجُلٍ مِّنۡہُمۡ اَنۡ اَنۡذِرِ النَّاسَ وَبَشِّرِ الَّذِیۡنَ اٰمَنُوۡۤا اَنَّ لَہُمۡ قَدَمَ صِدۡقٍ عِنۡدَ رَبِّہِمۡ ؕؔ قَالَ الۡکٰفِرُوۡنَ اِنَّ ہٰذَا لَسٰحِرٌ مُّبِیۡنٌ ﴿۳﴾</div>
+    <br/>
+    <div class="urdu">کیا لوگوں کے لئے تعجب انگیز ہے کہ ہم نے انہی میں سے ایک شخص کی طرف وحی نازل کی (اِس حکم کے ساتھ) کہ لوگوں کو ڈرا اور ان لوگوں کو جو ایمان لائے ہیں خوشخبری دے کہ ان کا قدم ان کے ربّ کے نزدیک سچائی پر ہے۔ کافروں نے کہا یقیناً یہ تو ایک کھلا کھلا جادوگر ہے۔</div>
+    <br/>
+    <div class="english">(10-3) Is it a <i>matter of</i> wonder for men that We have inspired a man from among them, <i>saying</i>, ‘Warn mankind and give glad tidings to those who believe that they have a true rank <i>of honour</i> with their Lord?’ The disbelievers say, ‘Surely, this is a manifest enchanter.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ رَبَّکُمُ اللّٰہُ الَّذِیۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ فِیۡ سِتَّۃِ اَیَّامٍ ثُمَّ اسۡتَوٰی عَلَی الۡعَرۡشِ  یُدَبِّرُ الۡاَمۡرَ ؕ مَا مِنۡ شَفِیۡعٍ اِلَّا مِنۡۢ بَعۡدِ اِذۡنِہٖ ؕ ذٰلِکُمُ اللّٰہُ رَبُّکُمۡ فَاعۡبُدُوۡہُ ؕ اَفَلَا تَذَکَّرُوۡنَ ﴿۴﴾</div>
+    <br/>
+    <div class="urdu">یقیناً تمہارا ربّ اللہ ہے جس نے آسمانوں اور زمین کو چھ دنوں میں پیدا کیا۔ پھر اس نے عرش پر قرار پکڑا۔ وہ ہر معاملہ کو تدبیر سے کرتا ہے۔ کوئی شفاعت کرنے والا نہیں مگر اس کی اجازت کے بعد۔ یہ ہے اللہ تمہارا ربّ۔ پس اُسی کی عبادت کرو۔ کیا تم نصیحت حاصل نہیں کروگے؟</div>
+    <br/>
+    <div class="english">(10-4) Verily, your Lord is Allah Who created the heavens and the earth in six periods, then He settled Himself on the Throne; He governs everything. There is no intercessor <i>with Him</i> save after His permission. That is Allah, your Lord, so worship Him. Will you not, then, be admonished?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِلَیۡہِ مَرۡجِعُکُمۡ جَمِیۡعًا ؕ وَعۡدَ اللّٰہِ حَقًّا ؕ اِنَّہٗ یَبۡدَؤُا الۡخَلۡقَ ثُمَّ یُعِیۡدُہٗ لِیَجۡزِیَ الَّذِیۡنَ اٰمَنُوۡا وَعَمِلُوا الصّٰلِحٰتِ بِالۡقِسۡطِ ؕ وَالَّذِیۡنَ کَفَرُوۡا لَہُمۡ شَرَابٌ مِّنۡ حَمِیۡمٍ وَّعَذَابٌ اَلِیۡمٌۢ بِمَا کَانُوۡا یَکۡفُرُوۡنَ ﴿۵﴾</div>
+    <br/>
+    <div class="urdu">اسی کی طرف تم سب کا لوٹ کر جانا ہے۔ یہ اللہ کا سچا وعدہ ہے۔ یقینا وہ تخلیق کا آغاز بھی کرتا ہے پھر اسے دہراتا بھی ہے تا کہ ان لوگوں کو جو ایمان لائے اور نیک اعمال بجا لائے انصاف کے ساتھ جزا دے۔ اور وہ لوگ جنہوں نے کفر کیا ان کے لئے کھولتا ہوا پانی بطور مشروب اور درد ناک عذاب ہوگا بسبب اس کے جو وہ انکار کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(10-5) To Him shall you all return. The promise of Allah is true. Surely, He originates the creation; then He reproduces it, that He may reward those who believe and do good works, with equity; and <i>as for</i> those who disbelieve, they shall have a drink of boiling water, and a painful punishment, because they disbelieved.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ہُوَ الَّذِیۡ جَعَلَ الشَّمۡسَ ضِیَآءً وَّالۡقَمَرَ نُوۡرًا وَّقَدَّرَہٗ مَنَازِلَ لِتَعۡلَمُوۡا عَدَدَ السِّنِیۡنَ وَالۡحِسَابَ ؕ مَا خَلَقَ اللّٰہُ ذٰلِکَ اِلَّا بِالۡحَقِّ ۚ یُفَصِّلُ الۡاٰیٰتِ لِقَوۡمٍ یَّعۡلَمُوۡنَ ﴿۶﴾</div>
+    <br/>
+    <div class="urdu">وہی ہے جس نے سورج کو روشنی کا ذریعہ بنایا اور چاند کو نور، اور اس کے لئے منزلیں مقرر کیں تاکہ تم سالوں کی گنتی اور حساب سیکھ لو۔ اللہ نے یہ (سب کچھ) پیدا نہیں کیا مگر حق کے ساتھ۔ وہ آیات کو ایک ایسی قوم کے لئے کھول کھول کر بیان کرتا ہے جو علم رکھتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-6) He it is Who made the sun <i>radiate</i> a brilliant light and the moon <i>reflect</i> a lustre, and ordained for it stages, that you might know the number of  years and the reckoning <i>of time</i>. Allah has not created this but in truth. He details the Signs for a people who have knowledge.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ فِی اخۡتِلَافِ الَّیۡلِ وَالنَّہَارِ وَمَا خَلَقَ اللّٰہُ فِی السَّمٰوٰتِ وَالۡاَرۡضِ لَاٰیٰتٍ لِّقَوۡمٍ یَّتَّقُوۡنَ ﴿۷﴾</div>
+    <br/>
+    <div class="urdu">یقیناً رات اور دن کے اَدلنے بدلنے میں اور اس میں جو اللہ نے آسمانوں اور زمین میں پیدا کیا ایک تقویٰ کرنے والی قوم کے لئے بہت سے نشانات ہیں۔</div>
+    <br/>
+    <div class="english">(10-7) Verily, in the alternation of night and day, and in all that Allah has created in the heavens and the earth there are Signs for a God-fearing people.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ الَّذِیۡنَ لَا یَرۡجُوۡنَ لِقَآءَنَا وَرَضُوۡا بِالۡحَیٰوۃِ الدُّنۡیَا وَاطۡمَاَنُّوۡا بِہَا وَالَّذِیۡنَ ہُمۡ عَنۡ اٰیٰتِنَا غٰفِلُوۡنَ ۙ﴿۸﴾</div>
+    <br/>
+    <div class="urdu">یقیناً وہ لوگ جو ہماری ملاقات کی توقع نہیں رکھتے اور دنیوی زندگی پر راضی ہو چکے ہیں اور اسی پر مطمئن ہو گئے ہیں اور وہ لوگ بھی جو ہمارے نشانات سے غافل ہیں۔</div>
+    <br/>
+    <div class="english">(10-8) Those who look not for the meeting with Us and are content with the life of this world and feel at rest therewith, and those who are heedless of Our Signs —</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اُولٰٓئِکَ مَاۡوٰٮہُمُ النَّارُ بِمَا کَانُوۡا یَکۡسِبُوۡنَ ﴿۹﴾</div>
+    <br/>
+    <div class="urdu">یہی وہ لوگ ہیں جن کا ٹھکانا آگ ہے بسبب اس کے جو وہ کَسَب کرتے رہے۔</div>
+    <br/>
+    <div class="english">(10-9) It is these whose abode in Fire, because of what they earned.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ الَّذِیۡنَ اٰمَنُوۡا وَعَمِلُوا الصّٰلِحٰتِ یَہۡدِیۡہِمۡ رَبُّہُمۡ بِاِیۡمَانِہِمۡ ۚ تَجۡرِیۡ مِنۡ تَحۡتِہِمُ الۡاَنۡہٰرُ فِیۡ جَنّٰتِ النَّعِیۡمِ ﴿۱۰﴾</div>
+    <br/>
+    <div class="urdu">یقیناً وہ لوگ جو ایمان لائے اور انہوں نے نیک اعمال کئے ان کا ربّ انہیں ان کے ایمان کی بدولت ہدایت دے گا۔ نعمتوں والی جنتوں کے درمیان ان کے زیرتصرف نہریں بہہ رہی ہوں گی۔</div>
+    <br/>
+    <div class="english">(10-10) But <i>as for</i> those who believe, and do good works — their Lord will guide them because of their faith. Rivers shall flow beneath them in the Gardens of Bliss.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">دَعۡوٰٮہُمۡ فِیۡہَا سُبۡحٰنَکَ اللّٰہُمَّ وَتَحِیَّتُہُمۡ فِیۡہَا سَلٰمٌ ۚ وَاٰخِرُ دَعۡوٰٮہُمۡ اَنِ الۡحَمۡدُ لِلّٰہِ رَبِّ الۡعٰلَمِیۡنَ ﴿٪۱۱﴾</div>
+    <br/>
+    <div class="urdu">وہاں ان کا اعلان یہ ہوگا کہ اے (ہمارے) اللہ! تو پاک ہے اور وہاں ان کا خیرسگالی کا کلمہ سلام ہوگا اور اُن کا آخری اعلان یہ ہوگا کہ سب تعریف اللہ ہی کے لئے ہے جو تمام جہانوں کا ربّ ہے۔</div>
+    <br/>
+    <div class="english">(10-11) Their prayer therein shall be, ‘Glory be to Thee, O Allah!’ and their greeting therein shall be, ‘Peace.’ And the conclusion of their prayer shall be, ‘All praise be to Allah, the Lord of the worlds.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَوۡ یُعَجِّلُ اللّٰہُ لِلنَّاسِ الشَّرَّ اسۡتِعۡجَالَہُمۡ بِالۡخَیۡرِ لَقُضِیَ اِلَیۡہِمۡ اَجَلُہُمۡ ؕ فَنَذَرُ الَّذِیۡنَ لَا یَرۡجُوۡنَ لِقَآءَنَا فِیۡ طُغۡیَانِہِمۡ یَعۡمَہُوۡنَ ﴿۱۲﴾</div>
+    <br/>
+    <div class="urdu">اور اگر اللہ لوگوں کی شرارت کا بدلہ اسی تیزی سے ان کو دے دیتا جس تیزی سے وہ خیر طلب کرتے ہیں تو انہیں ان کی اَجَل کا فیصلہ سنا دیا جاتا۔ پس ہم اُن لوگوں کو جو ہم سے ملنے کی توقع نہیں رکھتے ان کی سرکشی میں بھٹکتا ہوا چھوڑ دیتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-12) And if Allah were to hasten for men the ill <i>they have earned</i> as they would hasten on the <i>acquisition of</i> wealth, <i>the end of</i> their term <i>of life</i> would have been already brought upon them. But We leave those who look not for the meeting with Us to wander distractedly in their transgression.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِذَا مَسَّ الۡاِنۡسَانَ الضُّرُّ دَعَانَا لِجَنۡۢبِہٖۤ اَوۡ قَاعِدًا اَوۡ قَآئِمًا ۚ فَلَمَّا کَشَفۡنَا عَنۡہُ ضُرَّہٗ مَرَّ کَاَنۡ لَّمۡ یَدۡعُنَاۤ اِلٰی ضُرٍّ مَّسَّہٗ ؕ کَذٰلِکَ زُیِّنَ لِلۡمُسۡرِفِیۡنَ مَا کَانُوۡا یَعۡمَلُوۡنَ ﴿۱۳﴾</div>
+    <br/>
+    <div class="urdu">اور جب انسان کو کوئی تکلیف پہنچے تو اپنے پہلو کے بل (لیٹے ہوئے) یا بیٹھے ہوئے یا کھڑے ہوئے ہمیں پکارتا ہے۔ مگر جب ہم اس سے اس کی تکلیف دور کر دیتے ہیں تو وہ یوں گزر جاتا ہے جیسے اس نے کبھی ہمیں اس دکھ کی طرف بلایا ہی نہ ہو جو اُسے پہنچا ہو۔ اسی طرح حد سے بڑھنے والوں کو خوبصورت بنا کر دکھایا جاتا ہے جو وہ کرتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-13) And when trouble befalls a man, he calls on Us, lying on his side, or sitting, or standing; but when We have removed his trouble from him,  he goes his way as though he had never called on Us for the <i>removal of the</i> trouble that befell him. Thus it is that the doings of the extravagant are given a fair appearance in their eyes.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ اَہۡلَکۡنَا الۡقُرُوۡنَ مِنۡ قَبۡلِکُمۡ لَمَّا ظَلَمُوۡا ۙ وَجَآءَتۡہُمۡ رُسُلُہُمۡ بِالۡبَیِّنٰتِ وَمَا کَانُوۡا لِیُؤۡمِنُوۡا ؕ کَذٰلِکَ نَجۡزِی الۡقَوۡمَ الۡمُجۡرِمِیۡنَ ﴿۱۴﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً ہم نے تم سے پہلے کتنے ہی زمانوں کے لوگوں کو ہلاک کردیا تھا جب انہوں نے ظلم کئے حالانکہ ان کے پاس ان کے رسول کھلے کھلے نشانات لے کر آئے۔ اور وہ ایسے تھے ہی نہیں کہ ایمان لے آتے۔ اسی طرح ہم مجرم قوم کو جزا دیا کرتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-14) And We destroyed the generations before you when they did wrong; and there came to them their Messengers with clear Signs, but they would not believe. Thus do We requite the guilty people.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ثُمَّ جَعَلۡنٰکُمۡ خَلٰٓئِفَ فِی الۡاَرۡضِ مِنۡۢ بَعۡدِہِمۡ لِنَنۡظُرَ کَیۡفَ تَعۡمَلُوۡنَ ﴿۱۵﴾</div>
+    <br/>
+    <div class="urdu">پھر ہم نے تمہیں ان کے بعد زمین میں جانشین بنادیا تا کہ ہم دیکھیں کہ تم کیسے عمل کرتے ہو۔</div>
+    <br/>
+    <div class="english">(10-15) Then, We made you <i>their</i> successors in the earth after them, that We might see how you would act.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِذَا تُتۡلٰی عَلَیۡہِمۡ اٰیَاتُنَا بَیِّنٰتٍ ۙ قَالَ الَّذِیۡنَ لَا یَرۡجُوۡنَ لِقَآءَنَا ائۡتِ بِقُرۡاٰنٍ غَیۡرِ ہٰذَاۤ اَوۡ بَدِّلۡہُ ؕ قُلۡ مَا یَکُوۡنُ لِیۡۤ اَنۡ اُبَدِّلَہٗ مِنۡ تِلۡقَآیِٔ نَفۡسِیۡ ۚ اِنۡ اَتَّبِعُ اِلَّا مَا یُوۡحٰۤی اِلَیَّ ۚ اِنِّیۡۤ اَخَافُ اِنۡ عَصَیۡتُ رَبِّیۡ عَذَابَ یَوۡمٍ عَظِیۡمٍ ﴿۱۶﴾</div>
+    <br/>
+    <div class="urdu">اور جب ان پر ہماری کھلی کھلی آیات کی تلاوت کی جاتی ہے تو وہ لوگ جو ہماری ملاقات کی توقع نہیں رکھتے کہتے ہیں اس کی بجائے کوئی اور قرآن لے آیا اِسے ہی تبدیل کردے۔ تو کہہ دے کہ مجھے اختیار نہیں کہ میں اسے اپنی طرف سے بدل دوں۔ میں نہیں پیروی کرتا مگر اُسی کی جو میری طرف وحی کیا جاتا ہے۔ اگر میں اپنے ربّ کی نافرمانی کروں تو میں یقیناً ایک عظیم دن کے عذاب سے ڈرتا ہوں۔</div>
+    <br/>
+    <div class="english">(10-16) And when Our clear Signs are recited unto them, those who look not for the meeting with Us say, ‘Bring a Qur’an other than this or change it.’ Say, ‘It is not for me to change it of my own accord. I only follow what is revealed to me. Indeed, I fear, if I disobey my Lord, the punishment of an awful day.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ لَّوۡ شَآءَ اللّٰہُ مَا تَلَوۡتُہٗ عَلَیۡکُمۡ وَلَاۤ اَدۡرٰٮکُمۡ بِہٖ ۫ۖ فَقَدۡ لَبِثۡتُ فِیۡکُمۡ عُمُرًا مِّنۡ قَبۡلِہٖ ؕ اَفَلَا تَعۡقِلُوۡنَ ﴿۱۷﴾</div>
+    <br/>
+    <div class="urdu">تو کہہ دے اگر اللہ چاہتا تو میں تم پر اس کی تلاوت نہ کرتا اور نہ وہ (اللہ) تمہیں اس پر مطلع کرتا۔ پس میں اس (رسالت) سے پہلے بھی تمہارے درمیان ایک لمبی عمر گزار چکا ہوں، تو کیا تم عقل نہیں کرتے؟</div>
+    <br/>
+    <div class="english">(10-17) Say, ‘If Allah had <i>so</i> willed, I should not have recited it to you nor would He have made it known to you. I have indeed lived among you a <i>whole</i> lifetime before this. Will you not then understand?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَمَنۡ اَظۡلَمُ مِمَّنِ افۡتَرٰی عَلَی اللّٰہِ کَذِبًا اَوۡ کَذَّبَ بِاٰیٰتِہٖ ؕ اِنَّہٗ لَا یُفۡلِحُ الۡمُجۡرِمُوۡنَ ﴿۱۸﴾</div>
+    <br/>
+    <div class="urdu">پس اس سے زیادہ ظالم کون ہوگا جس نے اللہ پر جھوٹ گھڑا یا اس کی آیات کو جھٹلایا۔ حقیقت یہی ہے کہ مجرم کبھی کامیاب نہیں ہوا کرتے۔</div>
+    <br/>
+    <div class="english">(10-18) Who is then more unjust than he who forges a lie against Allah or <i>he</i> who treats His Signs as lies? Surely, the guilty shall never prosper.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَیَعۡبُدُوۡنَ مِنۡ دُوۡنِ اللّٰہِ مَا لَا یَضُرُّہُمۡ وَلَا یَنۡفَعُہُمۡ وَیَقُوۡلُوۡنَ ہٰۤؤُلَآءِ شُفَعَآؤُنَا عِنۡدَ اللّٰہِ ؕ قُلۡ اَتُنَبِّـُٔوۡنَ اللّٰہَ بِمَا لَا یَعۡلَمُ فِی السَّمٰوٰتِ وَلَا فِی الۡاَرۡضِ ؕ سُبۡحٰنَہٗ وَتَعٰلٰی عَمَّا یُشۡرِکُوۡنَ ﴿۱۹﴾</div>
+    <br/>
+    <div class="urdu">اور وہ اللہ کے سوا اس کی عبادت کرتے ہیں جو نہ انہیں نقصان پہنچا سکتا ہے اور نہ نفع پہنچا سکتا ہے اور وہ کہتے ہیں کہ یہ (سب) اللہ کے حضور ہماری شفاعت کرنے والے ہیں۔ تُو پوچھ کہ کیا تم اللہ کو وہ خبر دیتے ہو جس (کے وجود) کا اُسے نہ آسمانوں میں کوئی علم ہے نہ زمین میں۔ پاک ہے وہ اور بہت بلند ہے اس سے جو وہ شرک کرتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-19) And they worship, instead of Allah, that which neither harms them nor profits them; and they say, ‘These are our intercessors with Allah.’ Say, ‘Would you inform  Allah of something He knows not in the heavens or in the earth?’ Holy is He, and high exalted above <i>all</i> that which they associate <i>with Him</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا کَانَ النَّاسُ اِلَّاۤ اُمَّۃً وَّاحِدَۃً فَاخۡتَلَفُوۡا ؕ وَلَوۡلَا کَلِمَۃٌ سَبَقَتۡ مِنۡ رَّبِّکَ لَقُضِیَ بَیۡنَہُمۡ فِیۡمَا فِیۡہِ یَخۡتَلِفُوۡنَ ﴿۲۰﴾</div>
+    <br/>
+    <div class="urdu">اور تمام انسان نہیں تھے مگر ایک ہی امت۔ پھر انہوں نے اختلاف شروع کر دیا۔ اور اگر تیرے ربّ کی طرف سے (قضاءو قدر کا) فرمان صادر نہ ہو چکا ہوتا تو اُن کے درمیان اس کا فیصلہ نپٹا دیا جاتا جس میں وہ اختلاف کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(10-20) And mankind were but one community, then they differed <i>among themselves</i>; and had it not been for a word that had gone before from thy Lord, it would have <i>already</i> been judged between them concerning that in which they differed.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَیَقُوۡلُوۡنَ لَوۡلَاۤ اُنۡزِلَ عَلَیۡہِ اٰیَۃٌ مِّنۡ رَّبِّہٖ ۚ فَقُلۡ اِنَّمَا الۡغَیۡبُ لِلّٰہِ فَانۡتَظِرُوۡا ۚ اِنِّیۡ مَعَکُمۡ مِّنَ الۡمُنۡتَظِرِیۡنَ ﴿٪۲۱﴾</div>
+    <br/>
+    <div class="urdu">اور وہ کہتے ہیں کہ اس پر اس کے ربّ کی طرف سے کوئی آیت کیوں نہیں اتاری جاتی؟ تو کہہ دے کہ یقیناً غیب (پر تسلّط) اللہ ہی کا ہے۔ پس انتظار کرو، یقیناً میں بھی تمہارے ساتھ انتظار کرنے والوں میں سے ہوں۔</div>
+    <br/>
+    <div class="english">(10-21) And they say, ‘Why has not a Sign been sent down to him from his Lord?’ Say, ‘The unseen belongs only to Allah. So wait; I am with you among those who wait.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِذَاۤ اَذَقۡنَا النَّاسَ رَحۡمَۃً مِّنۡۢ بَعۡدِ ضَرَّآءَ مَسَّتۡہُمۡ اِذَا لَہُمۡ مَّکۡرٌ فِیۡۤ اٰیَاتِنَا ؕ قُلِ اللّٰہُ اَسۡرَعُ مَکۡرًا ؕ اِنَّ رُسُلَنَا یَکۡتُبُوۡنَ مَا تَمۡکُرُوۡنَ ﴿۲۲﴾</div>
+    <br/>
+    <div class="urdu">اور جب ہم لوگوں کو ایک رحمت کا مزا چکھاتے ہیں کسی ایسی تکلیف کے بعد جو اُنہیں پہنچ چکی ہو تو اچانک ہماری آیات میں مکر کرنا اُن کا وطیرہ ہو جاتا ہے۔ اُن سے کہہ دے کہ اللہ (جوابی) مکر میں سب سے زیادہ تیز ہے۔ ہمارے بھیجے ہوئے ایلچی اُسے یقیناً لکھ رہے ہیں جو تم فریب کر رہے ہو۔</div>
+    <br/>
+    <div class="english">(10-22) And when We make people taste of mercy after adversity has touched them, behold, they begin to plan against Our Signs. Say, ‘Allah is swifter in planning.’ Surely, Our messengers write down all that you plan.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ہُوَ الَّذِیۡ یُسَیِّرُکُمۡ فِی الۡبَرِّ وَالۡبَحۡرِ ؕ حَتّٰۤی اِذَا کُنۡتُمۡ فِی الۡفُلۡکِ ۚ وَجَرَیۡنَ بِہِمۡ بِرِیۡحٍ طَیِّبَۃٍ وَّفَرِحُوۡا بِہَا جَآءَتۡہَا رِیۡحٌ عَاصِفٌ وَّجَآءَہُمُ الۡمَوۡجُ مِنۡ کُلِّ مَکَانٍ وَّظَنُّوۡۤا اَنَّہُمۡ اُحِیۡطَ بِہِمۡ ۙ دَعَوُا اللّٰہَ مُخۡلِصِیۡنَ لَہُ الدِّیۡنَ ۬ۚ لَئِنۡ اَنۡجَیۡتَنَا مِنۡ ہٰذِہٖ لَنَکُوۡنَنَّ مِنَ الشّٰکِرِیۡنَ ﴿۲۳﴾</div>
+    <br/>
+    <div class="urdu">وہی ہے جو تمہیں خشکی پر بھی چلاتا ہے اور تری میں بھی یہاں تک کہ جب تم کشتیوں میں ہوتے ہو اور وہ خوشگوار ہواؤں کی مدد سے اُنہیں لئے ہوئے چلتی ہیں اور وہ اس سے بہت خوش ہوتے ہیں تو اچانک سخت تیز ہوا انہیں آ لیتی ہے اور موج ہر طرف سے اُن کی طرف بڑھتی ہے اور وہ گمان کرنے لگتے ہیں کہ وہ گھیر لئے گئے ہیں، تب وہ اللہ کو پکارتے ہیں دین کو اُسی کے لئے خالص کرتے ہوئے کہ اگر تو ہمیں اس سے نجات دےدے تو یقیناً ہم شکر گزاروں میں سے ہوجائیں گے۔</div>
+    <br/>
+    <div class="english">(10-23) He it is Who enables you to journey through land and sea until, when you are on <i>board</i> the ships and they sail with them with a fair breeze and they rejoice in it, there overtakes them (the ships) a violent wind and the waves come on them from every side and they think they are encompassed, <i>then</i> they call upon Allah, purifying <i>their</i> religion for Him, <i>saying</i>, ‘If Thou deliver us from this, we will surely be of the thankful.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّاۤ اَنۡجٰہُمۡ اِذَا ہُمۡ یَبۡغُوۡنَ فِی الۡاَرۡضِ بِغَیۡرِ الۡحَقِّ ؕ یٰۤاَیُّہَا النَّاسُ اِنَّمَا بَغۡیُکُمۡ عَلٰۤی اَنۡفُسِکُمۡ ۙ مَّتَاعَ الۡحَیٰوۃِ الدُّنۡیَا ۫ ثُمَّ اِلَیۡنَا مَرۡجِعُکُمۡ فَنُنَبِّئُکُمۡ بِمَا کُنۡتُمۡ تَعۡمَلُوۡنَ ﴿۲۴﴾</div>
+    <br/>
+    <div class="urdu">پس جب وہ انہیں نجات دے دیتا ہے تو وہ زمین میں ناحق بغاوت کرنے لگتے ہیں۔ اے لوگو! یقیناً تمہاری بغاوت تمہارے اپنے ہی خلاف ہے۔ (تمہیں) دنیا کی زندگی کا تھوڑا سا فائدہ اٹھانا ہے پھر ہماری طرف ہی تمہارا لوٹ کر آنا ہے۔ پھر ہم تمہیں ان اعمال کی خبر دیں گے جو تم کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(10-24) But when He has delivered them, lo! they begin to commit excesses in the earth wrongfully. O ye men, your excesses are only against your own selves. <i>Have</i> the enjoyment of the present life. Then to Us shall be your return; and We will inform you of what you used to do.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّمَا مَثَلُ الۡحَیٰوۃِ الدُّنۡیَا کَمَآءٍ اَنۡزَلۡنٰہُ مِنَ السَّمَآءِ فَاخۡتَلَطَ بِہٖ نَبَاتُ الۡاَرۡضِ مِمَّا یَاۡکُلُ النَّاسُ وَالۡاَنۡعَامُ ؕ حَتّٰۤی اِذَاۤ اَخَذَتِ الۡاَرۡضُ زُخۡرُفَہَا وَازَّیَّنَتۡ وَظَنَّ اَہۡلُہَاۤ اَنَّہُمۡ قٰدِرُوۡنَ عَلَیۡہَاۤ ۙ اَتٰہَاۤ اَمۡرُنَا لَیۡلًا اَوۡ نَہَارًا فَجَعَلۡنٰہَا حَصِیۡدًا کَاَنۡ لَّمۡ تَغۡنَ بِالۡاَمۡسِ ؕ کَذٰلِکَ نُفَصِّلُ الۡاٰیٰتِ لِقَوۡمٍ یَّتَفَکَّرُوۡنَ ﴿۲۵﴾</div>
+    <br/>
+    <div class="urdu">یقیناً دنیا کی زندگی کی مثال تو اس پانی کی طرح ہے جسے ہم نے آسمان سے اتارا تو اس میں زمین کی روئیدگی گھل مل گئی جس میں سے انسان بھی کھاتے ہیں اور مویشی بھی۔ یہاں تک کہ جب زمین اپنے سنگھار پہن لیتی ہے اور خوب سج جاتی ہے اور اس کے رہنے والے یہ گمان کرنے لگتے ہیں کہ وہ اس پر پورا اختیار رکھتے ہیں تو ہمارا فیصلہ رات یا دن (کسی وقت بھی) اسے آ لیتا ہے اور ہم اُسے ایک ایسے کٹے ہوئے کھیت کی طرح کر دیتے ہیں (جو پھل لانے سے پہلے ہی کٹ گرا ہو) گویا کل تک اس کا کوئی وجود نہ تھا۔ اسی طرح ہم غور وفکر کرنے والوں کے لئے نشانات کو کھول کھول کر بیان کرتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-25) The likeness of the present life is only as water which We send down from the clouds, then there mingles with it the produce of the earth, of which men and cattle eat till, when the earth receives its ornature and looks beautiful and its owners think that they have power over it, there comes to it Our command by night or by day and We render it a field that is mown down, as if nothing had existed there the day before. Thus do We expound the Signs for a people who reflect.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاللّٰہُ یَدۡعُوۡۤا اِلٰی دَارِ السَّلٰمِ ؕ وَیَہۡدِیۡ مَنۡ یَّشَآءُ اِلٰی صِرَاطٍ مُّسۡتَقِیۡمٍ ﴿۲۶﴾</div>
+    <br/>
+    <div class="urdu">اور اللہ سلامتی کے گھر کی طرف بلاتا ہے اور جسے چاہتا ہے اسے سیدھے راستے کی طرف ہدایت دیتا ہے۔</div>
+    <br/>
+    <div class="english">(10-26) And Allah calls to the abode of peace, and guides whom He pleases to the straight path.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لِلَّذِیۡنَ اَحۡسَنُوا الۡحُسۡنٰی وَزِیَادَۃٌ ؕ وَلَا یَرۡہَقُ وُجُوۡہَہُمۡ قَتَرٌ وَّلَا ذِلَّۃٌ ؕ اُولٰٓئِکَ اَصۡحٰبُ الۡجَنَّۃِ ۚ ہُمۡ فِیۡہَا خٰلِدُوۡنَ ﴿۲۷﴾</div>
+    <br/>
+    <div class="urdu">جن لوگوں نے احسان کئے ان کے لئے سب سے حسین جزا ہے اور اس سے بھی زیادہ۔ اور ان کے چہروں پر کبھی سیاہی اور ذلت نہیں چھائے گی۔ یہی اہلِ جنت ہیں وہ اس میں ہمیشہ رہنے والے ہیں۔</div>
+    <br/>
+    <div class="english">(10-27) For those who do good deeds, there shall be the best <i>reward</i> and <i>yet</i> more <i>blessings</i>. And neither darkness nor ignominy shall cover their faces. It is these who are the inmates of Heaven; therein shall they abide.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَالَّذِیۡنَ کَسَبُوا السَّیِّاٰتِ جَزَآءُ سَیِّئَۃٍۭ بِمِثۡلِہَا ۙ وَتَرۡہَقُہُمۡ ذِلَّۃٌ ؕ مَا لَہُمۡ مِّنَ اللّٰہِ مِنۡ عَاصِمٍ ۚ کَاَنَّمَاۤ اُغۡشِیَتۡ وُجُوۡہُہُمۡ قِطَعًا مِّنَ الَّیۡلِ مُظۡلِمًا ؕ اُولٰٓئِکَ اَصۡحٰبُ النَّارِ ۚ ہُمۡ فِیۡہَا خٰلِدُوۡنَ ﴿۲۸﴾</div>
+    <br/>
+    <div class="urdu">اور وہ لوگ جنہوں نے بدیاں کمائیں (ان کےلئے) ہر بدی کی جزا اس جیسی ہی ہوگی اور ان پر ذلت چھا جائے گی۔ اللہ سے ان کو کوئی بچانے والا نہیں ہوگا۔ گویا ان کے چہرے ایک رات کے اندھیرا کر دینے والے ٹکڑے سے ڈھانپ دیئے گئے ہیں۔یہی آگ والے لوگ ہیں وہ اس میں لمبا عرصہ رہنے والے ہیں۔</div>
+    <br/>
+    <div class="english">(10-28) And <i>as for</i> those who do evil deeds, the punishment of an evil shall be the like thereof, and ignominy shall cover them. They shall have none to protect them against Allah. <i>And they shall look</i> as if their faces had been covered with dark patches of night. It is these who are  the inmates of the Fire; therein shall they abide.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَیَوۡمَ نَحۡشُرُہُمۡ جَمِیۡعًا ثُمَّ نَقُوۡلُ لِلَّذِیۡنَ اَشۡرَکُوۡا مَکَانَکُمۡ اَنۡتُمۡ وَشُرَکَآؤُکُمۡ ۚ فَزَیَّلۡنَا بَیۡنَہُمۡ  وَقَالَ شُرَکَآؤُہُمۡ مَّا کُنۡتُمۡ اِیَّانَا تَعۡبُدُوۡنَ ﴿۲۹﴾</div>
+    <br/>
+    <div class="urdu">اور (یاد رکھو) وہ دن جب ہم ان سب کو اکٹھا کریں گے پھر ہم ان سے جنہوں نے شرک کیا کہیں گے اپنی جگہ پر تم (بھی) رُک جاؤ اور تمہارے شریک بھی۔ پھر ہم ان کے درمیان تفریق کردیں گے اور ان کے (مزعومہ) شریک کہیں گے تم ہماری عبادت تو نہیں کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(10-29) And <i>remember</i> the day when We shall gather them all together, then shall We say to those who ascribed partners <i>to God</i>, “<i>Stand back in</i> your places, you and your ‘partners’”. Then We shall separate them widely, one from another, and their ‘partners’ will say: ‘It was not us that you worshipped.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَکَفٰی بِاللّٰہِ شَہِیۡدًۢا بَیۡنَنَا وَبَیۡنَکُمۡ اِنۡ کُنَّا عَنۡ عِبَادَتِکُمۡ لَغٰفِلِیۡنَ ﴿۳۰﴾</div>
+    <br/>
+    <div class="urdu">پس اللہ ہی ہمارے اور تمہارے درمیان بطور گواہ کافی ہے۔ یقیناً ہم تمہارے عبادت کرنے سے بے خبر تھے۔</div>
+    <br/>
+    <div class="english">(10-30) ‘So Allah is <i>now</i> sufficient as a Witness between us and you. We were certainly unaware of your worship.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ہُنَالِکَ تَبۡلُوۡا کُلُّ نَفۡسٍ مَّاۤ اَسۡلَفَتۡ  وَرُدُّوۡۤا اِلَی اللّٰہِ مَوۡلٰٮہُمُ الۡحَقِّ  وَضَلَّ عَنۡہُمۡ مَّا کَانُوۡا یَفۡتَرُوۡنَ ﴿٪۳۱﴾</div>
+    <br/>
+    <div class="urdu">وہاں ہر رُوح جان لے گی جو وہ کرتی رہی ہے اور وہ اپنے حقیقی مولیٰ اللہ کی طرف لوٹائے جائیں گے اور اُن سے جاتا رہے گا جو وہ افترا کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(10-31) There shall every soul realize what it shall have sent on before. And they shall be brought back to Allah, their true Master, and all that they used to forge shall be lost to them.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ مَنۡ یَّرۡزُقُکُمۡ مِّنَ السَّمَآءِ وَالۡاَرۡضِ اَمَّنۡ یَّمۡلِکُ السَّمۡعَ وَالۡاَبۡصَارَ وَمَنۡ یُّخۡرِجُ الۡحَیَّ مِنَ الۡمَیِّتِ وَیُخۡرِجُ الۡمَیِّتَ مِنَ الۡحَیِّ وَمَنۡ یُّدَبِّرُ الۡاَمۡرَ ؕ فَسَیَقُوۡلُوۡنَ اللّٰہُ ۚ فَقُلۡ اَفَلَا تَتَّقُوۡنَ ﴿۳۲﴾</div>
+    <br/>
+    <div class="urdu">پوچھ کہ کون ہے جو تمہیں آسمان اور زمین سے رزق عطا کرتا ہے یا وہ کون ہے جو کانوں اور آنکھوں پر اختیار رکھتا ہے اور زندہ کو مُردہ سے نکالتا ہے اور مُردہ کو زندہ سے نکالتا ہے اور کون ہے جو نظامِ کائنات کو تدبیر سے چلاتا ہے۔ پس وہ کہیں گے کہ اللّٰہ۔ تُو کہہ دے کہ پھر کیا تم تقویٰ اختیار نہیں کروگے؟</div>
+    <br/>
+    <div class="english">(10-32) Say, ‘Who provides sustenance for you from the heaven and the earth? Or who is it that has power over the ears and the eyes? And who brings forth the living from the dead and brings the dead out of the living? And who governs all affairs?’ They will say, ‘Allah’. Then say, ‘Will you not then seek <i>His</i> protection?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَذٰلِکُمُ اللّٰہُ رَبُّکُمُ الۡحَقُّ ۚ فَمَاذَا بَعۡدَ الۡحَقِّ اِلَّا الضَّلٰلُ ۚۖ فَاَنّٰی تُصۡرَفُوۡنَ ﴿۳۳﴾</div>
+    <br/>
+    <div class="urdu">پس وہی ہے اللہ تمہارا حقیقی ربّ۔ پھر حق کے بعد گمراہی کے سوا کیا رہ جاتا ہے۔ پس تم کہاں پھرائے جا رہے ہو۔</div>
+    <br/>
+    <div class="english">(10-33) Such is Allah, your true Lord. So what <i>would you have</i> after <i>discarding</i> the truth except error? How then are you being turned away <i>from the truth</i>?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">کَذٰلِکَ حَقَّتۡ کَلِمَتُ رَبِّکَ عَلَی الَّذِیۡنَ فَسَقُوۡۤا اَنَّہُمۡ لَا یُؤۡمِنُوۡنَ ﴿۳۴﴾</div>
+    <br/>
+    <div class="urdu">اسی طرح تیرے ربّ کا فرمان ان لوگوں پر صادق آتا ہے جنہوں نے فسق کیا کہ وہ ہرگز ایمان نہیں لائیں گے۔</div>
+    <br/>
+    <div class="english">(10-34) Thus is the word of thy Lord proved true against those who rebel,  that they believe not.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ ہَلۡ مِنۡ شُرَکَآئِکُمۡ مَّنۡ یَّبۡدَؤُا الۡخَلۡقَ ثُمَّ یُعِیۡدُہٗ ؕ قُلِ اللّٰہُ یَبۡدَؤُا الۡخَلۡقَ ثُمَّ یُعِیۡدُہٗ  فَاَنّٰی تُؤۡفَکُوۡنَ ﴿۳۵﴾</div>
+    <br/>
+    <div class="urdu">پوچھ کہ کیا تمہارے شرکاءمیں سے بھی کوئی ہے جو تخلیق کا آغاز بھی کرتا ہو پھر اسے دہراتا بھی ہو؟ توُ (ان سے) کہہ دے اللہ ہی ہے جو تخلیق کا آغاز کرتا ہے پھر اسے دہراتا بھی ہے۔پس تم کہاں بہکائے جا رہے ہو۔</div>
+    <br/>
+    <div class="english">(10-35) Say, ‘Is there any of your associate-gods who originates creation and then reproduces it?’ Say, ‘It is Allah <i>alone</i> Who originates creation and then reproduces it. Whither then are you turned away?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ ہَلۡ مِنۡ شُرَکَآئِکُمۡ مَّنۡ یَّہۡدِیۡۤ اِلَی الۡحَقِّ ؕ قُلِ اللّٰہُ یَہۡدِیۡ لِلۡحَقِّ ؕ اَفَمَنۡ یَّہۡدِیۡۤ اِلَی الۡحَقِّ اَحَقُّ اَنۡ یُّتَّبَعَ اَمَّنۡ لَّا یَہِدِّیۡۤ اِلَّاۤ اَنۡ یُّہۡدٰی ۚ فَمَا لَکُمۡ ۟ کَیۡفَ تَحۡکُمُوۡنَ ﴿۳۶﴾</div>
+    <br/>
+    <div class="urdu">پوچھ کہ کیا تمہارے شرکاءمیں سے کوئی ایسا بھی ہے جو حق کی طرف ہدایت دے؟ کہہ دے اللہ ہی ہے جو حق کی طرف ہدایت دیتا ہے۔ پس کیا وہ جو حق کی طرف ہدایت دیتا ہے زیادہ حق رکھتا ہے کہ اس کی پیروی کی جائے یا وہ جو ہدایت نہیں پا سکتا مگر محض اس صورت میں کہ اسے ہدایت دی جائے؟ پس تمہیں کیا ہو گیا ہے تم کیسے فیصلے کرتے ہو۔</div>
+    <br/>
+    <div class="english">(10-36) Say, ‘Is there any of your associate-gods who leads to the truth?’ Say, ‘It is Allah Who leads to the truth. Is then He Who leads to the truth more worthy to be followed or he who finds not the way <i>himself</i> unless he be guided? What, then, is the matter with you? How judge ye?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا یَتَّبِعُ اَکۡثَرُہُمۡ اِلَّا ظَنًّا ؕ اِنَّ الظَّنَّ لَا یُغۡنِیۡ مِنَ الۡحَقِّ شَیۡئًا ؕ اِنَّ اللّٰہَ عَلِیۡمٌۢ بِمَا یَفۡعَلُوۡنَ ﴿۳۷﴾</div>
+    <br/>
+    <div class="urdu">اور ان میں سے اکثر لوگ ظن کے سوا کسی چیز کی پیروی نہیں کرتے (جبکہ) یقیناً ظن حق سے کچھ بھی بے نیاز نہیں کر سکتا۔ یقیناً اللہ اسے خوب جانتا ہے جو وہ کرتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-37) And most of them follow nothing but conjecture. Surely, conjecture avails nothing against truth. Verily, Allah is well aware of what they do.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا کَانَ ہٰذَا الۡقُرۡاٰنُ اَنۡ یُّفۡتَرٰی مِنۡ دُوۡنِ اللّٰہِ وَلٰکِنۡ تَصۡدِیۡقَ الَّذِیۡ بَیۡنَ یَدَیۡہِ وَتَفۡصِیۡلَ الۡکِتٰبِ لَا رَیۡبَ فِیۡہِ مِنۡ رَّبِّ الۡعٰلَمِیۡنَ ﴿۟۳۸﴾</div>
+    <br/>
+    <div class="urdu">اور یہ قرآن ایسا نہیں کہ اللہ سے الگ رہ کر (محض) افترا کرلیا جائے۔ لیکن یہ اس کی تصدیق (کرتا) ہے جو اس کے سامنے ہے اور اس کتاب کی تفصیل ہے جس میں کوئی شک نہیں۔ ربّ العالمین کی طرف سے ہے۔</div>
+    <br/>
+    <div class="english">(10-38) And this Qur’an is not such as might be devised by any one except Allah. On the contrary, it fulfils that which is before it and is an exposition of the Law <i>of God</i>. There is no doubt about it. <i>It is</i> from the Lord of the worlds.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَمۡ یَقُوۡلُوۡنَ افۡتَرٰٮہُ ؕ قُلۡ فَاۡتُوۡا بِسُوۡرَۃٍ مِّثۡلِہٖ وَادۡعُوۡا مَنِ اسۡتَطَعۡتُمۡ مِّنۡ دُوۡنِ اللّٰہِ اِنۡ کُنۡتُمۡ صٰدِقِیۡنَ ﴿۳۹﴾</div>
+    <br/>
+    <div class="urdu">کیا وہ یہ کہتے ہیں کہ اس نے اسے افترا کرلیا ہے۔ تُو کہہ دے کہ پھر اس (کی سورت) جیسی کوئی سورت تو بنا لاؤ اور اللہ کے سوا جن کو بلانے کی طاقت رکھتے ہو بلالو اگر تم سچے ہو۔</div>
+    <br/>
+    <div class="english">(10-39) Do they say, ‘He has forged it?’ Say, ‘Bring then a Surah like unto it, and call for help on all you can besides Allah, if you are truthful.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">بَلۡ کَذَّبُوۡا بِمَا لَمۡ یُحِیۡطُوۡا بِعِلۡمِہٖ وَلَمَّا یَاۡتِہِمۡ تَاۡوِیۡلُہٗ ؕ کَذٰلِکَ کَذَّبَ الَّذِیۡنَ مِنۡ قَبۡلِہِمۡ  فَانۡظُرۡ کَیۡفَ کَانَ عَاقِبَۃُ الظّٰلِمِیۡنَ ﴿۴۰﴾</div>
+    <br/>
+    <div class="urdu">حقیقت یہ ہے کہ وہ اُسے جھٹلا رہے ہیں جس کے علم کا وہ احاطہ نہیں کرسکے اور ابھی تک اس کا مفہوم اُن پر ظاہر نہیں ہوا۔ اسی طرح ان لوگوں نے بھی جھٹلایا تھا جو اُن سے پہلے تھے۔ پس تُو دیکھ کہ ظالموں کا کیسا انجام ہوا۔</div>
+    <br/>
+    <div class="english">(10-40) Nay, but they have rejected that the knowledge of which they did not encompass nor has the <i>true</i> significance thereof yet come to them. In like manner did those before them reject <i>the truth</i>. But see what was the end of those who did wrong!</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمِنۡہُمۡ مَّنۡ یُّؤۡمِنُ بِہٖ وَمِنۡہُمۡ مَّنۡ لَّا یُؤۡمِنُ بِہٖ ؕ وَرَبُّکَ اَعۡلَمُ بِالۡمُفۡسِدِیۡنَ ﴿٪۴۱﴾</div>
+    <br/>
+    <div class="urdu">اوران میں سے وہ بھی ہے جو اس پر ایمان لاتا ہے اور ان میں سے وہ بھی ہے جو اس پر ایمان نہیں لاتا اور تیرا ربّ فساد کرنے والوں کو سب سے زیادہ جانتا ہے۔</div>
+    <br/>
+    <div class="english">(10-41) And of them there are <i>some</i> who believe therein, and of them there are <i>others</i> who do not believe  therein, and thy Lord well knows those who act corruptly.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنۡ کَذَّبُوۡکَ فَقُلۡ لِّیۡ عَمَلِیۡ وَلَکُمۡ عَمَلُکُمۡ ۚ اَنۡتُمۡ بَرِیۡٓـــُٔوۡنَ مِمَّاۤ اَعۡمَلُ وَاَنَا بَرِیۡٓءٌ مِّمَّا تَعۡمَلُوۡنَ ﴿۴۲﴾</div>
+    <br/>
+    <div class="urdu">اور اگر وہ تجھے جھٹلا دیں تو کہہ دے کہ میرے لئے میرا عمل ہے اور تمہارے لئے تمہارا عمل ہے۔ تم اس سے بَری ہو جو میں کرتاہوں اور میں اس سے بَری ہوں جو تم کرتے ہو۔</div>
+    <br/>
+    <div class="english">(10-42) And if they accuse thee of lying, say, ‘For me is my work and for you is your work. You are not responsible for what I do and I am not responsible for what you do.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمِنۡہُمۡ مَّنۡ یَّسۡتَمِعُوۡنَ اِلَیۡکَ ؕ اَفَاَنۡتَ تُسۡمِعُ الصُّمَّ وَلَوۡ کَانُوۡا لَا یَعۡقِلُوۡنَ ﴿۴۳﴾</div>
+    <br/>
+    <div class="urdu">اور ان میں سے ایسے بھی ہیں جو تیری طرف کان لگائے رکھتے ہیں۔ پس کیا تُو بہروں کو بھی سنا سکتا ہے اگرچہ وہ عقل بھی نہ رکھتے ہوں۔</div>
+    <br/>
+    <div class="english">(10-43) And among them are <i>some</i> who give ear to thee. But canst thou make the deaf hear, even though they understand not?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمِنۡہُمۡ مَّنۡ یَّنۡظُرُ اِلَیۡکَ ؕ اَفَاَنۡتَ تَہۡدِی الۡعُمۡیَ وَلَوۡ کَانُوۡا لَا یُبۡصِرُوۡنَ ﴿۴۴﴾</div>
+    <br/>
+    <div class="urdu">اور ان میں وہ بھی ہے جو تجھ پر نظر لگائے ہوئے ہے۔ پس کیا تُو اندھوں کو بھی ہدایت دے سکتا ہے اگرچہ وہ بصیرت نہ رکھتے ہوں۔</div>
+    <br/>
+    <div class="english">(10-44) And among them are <i>some</i> who look towards thee. But canst thou guide the blind, even though they see not?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ اللّٰہَ لَا یَظۡلِمُ النَّاسَ شَیۡئًا وَّلٰکِنَّ النَّاسَ اَنۡفُسَہُمۡ یَظۡلِمُوۡنَ ﴿۴۵﴾</div>
+    <br/>
+    <div class="urdu">یقیناً اللہ لوگوں پر کچھ بھی ظلم نہیں کرتا لیکن لوگ خود اپنی ہی جانوں پر ظلم کرتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-45) Certainly, Allah wrongs not men at all, but men wrong their own souls.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَیَوۡمَ یَحۡشُرُہُمۡ کَاَنۡ لَّمۡ یَلۡبَثُوۡۤا اِلَّا سَاعَۃً مِّنَ النَّہَارِ یَتَعَارَفُوۡنَ بَیۡنَہُمۡ ؕ قَدۡ خَسِرَ الَّذِیۡنَ کَذَّبُوۡا بِلِقَآءِ اللّٰہِ وَمَا کَانُوۡا مُہۡتَدِیۡنَ ﴿۴۶﴾</div>
+    <br/>
+    <div class="urdu">اور (یاد کرو) وہ دن جب وہ انہیں اکٹھا کرے گا اُنہیں لگے گا کہ وہ (زمین پر) دن کی ایک گھڑی سے زیادہ نہیں رہے وہ ایک دوسرے سے تعارف حاصل کریں گے۔ یقیناً وہ گھاٹے میں رہے جنہوں نے اللہ کی لِقاءکا انکار کر دیا تھا اور وہ ہدایت پانے والوں میں سے نہ ہو سکے۔</div>
+    <br/>
+    <div class="english">(10-46) And on the day when He will gather them together, <i>it will appear to them</i> as though they had not tarried in the world save for an hour of a day. They will recognize one another. Losers indeed are those who deny the meeting with Allah and would not follow guidance.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِمَّا نُرِیَنَّکَ بَعۡضَ الَّذِیۡ نَعِدُہُمۡ اَوۡ نَتَوَفَّیَنَّکَ فَاِلَیۡنَا مَرۡجِعُہُمۡ ثُمَّ اللّٰہُ شَہِیۡدٌ عَلٰی مَا یَفۡعَلُوۡنَ ﴿۴۷﴾</div>
+    <br/>
+    <div class="urdu">اور اگر ہم تجھے اس (اِنذار) میں سے کچھ دکھا دیں جس سے ہم انہیں ڈرایا کرتے تھے یا تجھے وفات دے دیں تو (بہرحال) ہماری طرف ہی ان کو لَوٹ کر آنا ہے۔ پھر اللہ ہی اس پر گواہ ہے جو وہ کرتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-47) And if We show thee <i>in thy lifetime the fulfilment of</i> some of the things with which We have threatened them, <i>thou wilt know it</i>; or if We cause thee to die <i>before that</i>, then to Us is their return, <i>and thou wilt see the fulfilment in the next world</i>; and Allah is Witness to all that they do.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلِکُلِّ اُمَّۃٍ رَّسُوۡلٌ ۚ فَاِذَا جَآءَ رَسُوۡلُہُمۡ قُضِیَ بَیۡنَہُمۡ بِالۡقِسۡطِ وَہُمۡ لَا یُظۡلَمُوۡنَ ﴿۴۸﴾</div>
+    <br/>
+    <div class="urdu">اور ہر ایک امت کے لئے کوئی نہ کوئی رسول ہوتا ہے۔ پس جب ان کا رسول ان کے پاس آجائے تو ان کے درمیان انصاف کے ساتھ فیصلہ کر دیا جاتا ہے اور وہ ہرگز ظلم نہیں کئے جاتے۔</div>
+    <br/>
+    <div class="english">(10-48) And for every people there is a Messenger. So when their Messenger comes, it is judged between them with equity, and they are not wronged.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَیَقُوۡلُوۡنَ مَتٰی ہٰذَا الۡوَعۡدُ اِنۡ کُنۡتُمۡ صٰدِقِیۡنَ ﴿۴۹﴾</div>
+    <br/>
+    <div class="urdu">اور وہ کہتے ہیں کہ یہ وعدہ کب پورا ہو گا اگر تم سچے ہو۔</div>
+    <br/>
+    <div class="english">(10-49) And they say, ‘When will this promise be <i>fulfilled</i>, if you are truthful?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ لَّاۤ اَمۡلِکُ لِنَفۡسِیۡ ضَرًّا وَّلَا نَفۡعًا اِلَّا مَا شَآءَ اللّٰہُ ؕ لِکُلِّ اُمَّۃٍ اَجَلٌ ؕ اِذَا جَآءَ اَجَلُہُمۡ فَلَا یَسۡتَاۡخِرُوۡنَ سَاعَۃً وَّلَا یَسۡتَقۡدِمُوۡنَ ﴿۵۰﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ میں تو اپنے نفس کے لئے بھی نہ کسی نقصان کا کوئی اختیار رکھتا ہوں اور نہ نفع کا مگر (اتنا ہی) جو اللہ چاہے۔ ہر قوم کے لئے ایک اَجل مقرر ہے۔ جب ان کی اَجل آجائے تو نہ وہ ایک لمحہ پیچھے ہٹ سکتے ہیں اور نہ آگے بڑھ سکتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-50) Say, ‘I have no power for myself over any harm or benefit, save that which Allah wills. For every <i>disbelieving</i> people there is an appointed term. When their term is come, they cannot remain behind a single moment, nor can they get ahead <i>of it</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ اَرَءَیۡتُمۡ اِنۡ اَتٰٮکُمۡ عَذَابُہٗ بَیَاتًا اَوۡ نَہَارًا مَّاذَا یَسۡتَعۡجِلُ مِنۡہُ الۡمُجۡرِمُوۡنَ ﴿۵۱﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ بتاؤ تو سہی کہ اگر تمہارے پاس اُس کا عذاب رات کو آپہنچے یا دن کو تو مجرم کس سہارے پر اس سے بھاگنے کی جلدی کریں گے۔</div>
+    <br/>
+    <div class="english">(10-51) Say, ‘Tell me, if His punishment comes upon you by night or by day, how will the guilty run away from it?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَثُمَّ اِذَا مَا وَقَعَ اٰمَنۡتُمۡ بِہٖ ؕ آٰلۡـٰٔنَ وَقَدۡ کُنۡتُمۡ بِہٖ تَسۡتَعۡجِلُوۡنَ ﴿۵۲﴾</div>
+    <br/>
+    <div class="urdu">تو پھر کیا اس وقت اس پر ایمان لاؤ گے جب وہ واقعہ ہو چکا ہوگا۔ کیا اب (بھاگ نکلنے کی کوئی راہ ہے) اور تم تو اُسے جلدتر لانے کا مطالبہ کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(10-52) ‘Is it then when it has befallen you that you will believe in it? What! Now! And <i>before this</i> you used to demand its speedy coming?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ثُمَّ قِیۡلَ لِلَّذِیۡنَ ظَلَمُوۡا ذُوۡقُوۡا عَذَابَ الۡخُلۡدِ ۚ ہَلۡ تُجۡزَوۡنَ اِلَّا بِمَا کُنۡتُمۡ تَکۡسِبُوۡنَ ﴿۵۳﴾</div>
+    <br/>
+    <div class="urdu">پھر ان لوگوں سے جنہوں نے ظلم کیا کہا جائے گا کہ (اب) ہمیشگی کا عذاب چکھو۔ کیا تمہیں اُن کے سوا بھی جزا دی جا رہی ہے جو کَسَب تم کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(10-53) Then will it be said to those who did wrong, ‘Taste ye the abiding punishment. You are not requited save for that which you used to earn.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَیَسۡتَنۡۢبِئُوۡنَکَ اَحَقٌّ ہُوَ ؕؔ قُلۡ اِیۡ وَرَبِّیۡۤ اِنَّہٗ لَحَقٌّ ۚؕؔ وَمَاۤ اَنۡتُمۡ بِمُعۡجِزِیۡنَ ﴿٪۵۴﴾</div>
+    <br/>
+    <div class="urdu">اور وہ تجھ سے پوچھتے ہیں کہ کیا وہ حق ہے؟ توُ کہہ دے ہاں! قسم ہے میرے ربّ کی کہ یقیناً وہ حق ہے اور تم (اُسے) عاجز کرنے والے نہیں بن سکوگے۔</div>
+    <br/>
+    <div class="english">(10-54) And they enquire of thee, ‘Is it true?’ Say, ‘Yea, by my Lord! It is most surely true; and you cannot frustrate <i>it</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَوۡ اَنَّ لِکُلِّ نَفۡسٍ ظَلَمَتۡ مَا فِی الۡاَرۡضِ لَافۡتَدَتۡ بِہٖ ؕ وَاَسَرُّوا النَّدَامَۃَ لَمَّا رَاَوُا الۡعَذَابَ ۚ وَقُضِیَ بَیۡنَہُمۡ بِالۡقِسۡطِ وَہُمۡ لَا یُظۡلَمُوۡنَ ﴿۵۵﴾</div>
+    <br/>
+    <div class="urdu">اور اگر ہر اُس جان کا جس نے ظلم کیا وہ سب کچھ ہوتا جو زمین میں ہے تو وہ اُسے فدیہ میں دے دیتی۔ اور جب وہ عذاب کو دیکھیں گے تو اپنی ندامت چھپاتے پھریں گے اور ان کے درمیان انصاف سے فیصلہ کیا جائے گا اور وہ ظلم نہیں کئے جائیں گے۔</div>
+    <br/>
+    <div class="english">(10-55) And if every soul that does wrong possessed all that is in the earth, it would surely offer to ransom <i>itself</i> therewith. And they will conceal <i>their</i> remorse when they see the punishment. And judgment shall be passed between them with equity, and they shall not be wronged.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَلَاۤ اِنَّ لِلّٰہِ مَا فِی السَّمٰوٰتِ وَالۡاَرۡضِ ؕ اَلَاۤ اِنَّ وَعۡدَ اللّٰہِ حَقٌّ وَّلٰکِنَّ اَکۡثَرَہُمۡ لَا یَعۡلَمُوۡنَ ﴿۵۶﴾</div>
+    <br/>
+    <div class="urdu">خبردار! یقیناً اللہ ہی کا ہے جو آسمانوں اور زمین میں ہے۔ خبردار! اللہ کا وعدہ یقیناً سچا ہے۔ لیکن ان میں سے اکثر نہیں جانتے۔</div>
+    <br/>
+    <div class="english">(10-56) Know ye! to Allah, surely, belongs whatever is in the heavens and the earth. Know ye, that Allah’s promise is surely true! But most of them understand not.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ہُوَ یُحۡیٖ وَیُمِیۡتُ وَاِلَیۡہِ تُرۡجَعُوۡنَ ﴿۵۷﴾</div>
+    <br/>
+    <div class="urdu">وہی زندہ کرتا ہے اور مارتا بھی ہے اور اسی کی طرف تم لوٹائے جاؤ گے۔</div>
+    <br/>
+    <div class="english">(10-57) He it is Who gives life and causes death, and to Him shall you be brought back.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">یٰۤاَیُّہَا النَّاسُ قَدۡ جَآءَتۡکُمۡ مَّوۡعِظَۃٌ مِّنۡ رَّبِّکُمۡ وَشِفَآءٌ لِّمَا فِی الصُّدُوۡرِ ۬ۙ وَہُدًی وَّرَحۡمَۃٌ لِّلۡمُؤۡمِنِیۡنَ ﴿۵۸﴾</div>
+    <br/>
+    <div class="urdu">اے انسانو! یقیناً تمہارے پاس تمہارے ربّ کی طرف سے نصیحت کی بات آچکی ہے اِسی طرح جو (بیماری) سینوں میں ہے اس کی شفا بھی۔ اور مومنوں کے لئے ہدایت اور رحمت بھی۔</div>
+    <br/>
+    <div class="english">(10-58) O mankind! there has indeed come to you an exhortation from your Lord and a cure for whatever <i>disease</i> there is in the hearts, and a guidance and a mercy to the believers.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ بِفَضۡلِ اللّٰہِ وَبِرَحۡمَتِہٖ فَبِذٰلِکَ فَلۡیَفۡرَحُوۡا ؕ ہُوَ خَیۡرٌ مِّمَّا یَجۡمَعُوۡنَ ﴿۵۹﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ (یہ) محض اللہ کے فضل اور اس کی رحمت سے ہے۔ پس اس پر چاہئے کہ وہ بہت خوش ہوں۔ وہ اُس سے بہتر ہے جو وہ جمع کرتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-59) Say, ‘<i>All this is</i> through the grace of Allah and through His mercy; therein, therefore, let them rejoice. That is better than what they hoard.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ اَرَءَیۡتُمۡ مَّاۤ اَنۡزَلَ اللّٰہُ لَکُمۡ مِّنۡ رِّزۡقٍ فَجَعَلۡتُمۡ مِّنۡہُ حَرَامًا وَّحَلٰلًا ؕ قُلۡ آٰللّٰہُ اَذِنَ لَکُمۡ  اَمۡ عَلَی اللّٰہِ تَفۡتَرُوۡنَ ﴿۶۰﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کیا تم غور نہیں کرتے کہ اللہ نے تمہارے لئے جو رزق اتارا ہے اس میں سے تم نے خود ہی حرام اور حلال بنا لئے ہیں۔ تُو (ان سے) پوچھ کہ کیا اللہ نے تمہیں (ان باتوں کی) اجازت دی ہے یا تم محض اللہ پر افترا باندھ رہے ہو۔</div>
+    <br/>
+    <div class="english">(10-60) Say, ‘Have you considered that Allah sent down provision to you, then you made <i>some</i> of it unlawful and <i>some</i> lawful?’ Say, ‘Has Allah permitted you <i>that</i> or do you invent lies against Allah?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا ظَنُّ الَّذِیۡنَ یَفۡتَرُوۡنَ عَلَی اللّٰہِ الۡکَذِبَ یَوۡمَ الۡقِیٰمَۃِ ؕ اِنَّ اللّٰہَ لَذُوۡ فَضۡلٍ عَلَی النَّاسِ وَلٰکِنَّ اَکۡثَرَہُمۡ لَا یَشۡکُرُوۡنَ ﴿٪۶۱﴾</div>
+    <br/>
+    <div class="urdu">اور وہ لوگ جو اللہ پر جھوٹ گھڑتے ہیں قیامت کے دن ان کی کیا سوچ ہوگی۔ یقیناً اللہ لوگوں پر بہت فضل کرنے والا ہے لیکن ان میں سے اکثر شکر ادا نہیں کرتے۔</div>
+    <br/>
+    <div class="english">(10-61) What think those who invent lies against Allah of the Day of Resurrection? Surely, Allah is gracious towards mankind, but most of them are not thankful.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا تَکُوۡنُ فِیۡ شَاۡنٍ وَّمَا تَتۡلُوۡا مِنۡہُ مِنۡ قُرۡاٰنٍ وَّلَا تَعۡمَلُوۡنَ مِنۡ عَمَلٍ اِلَّا کُنَّا عَلَیۡکُمۡ شُہُوۡدًا اِذۡ تُفِیۡضُوۡنَ فِیۡہِ ؕ وَمَا یَعۡزُبُ عَنۡ رَّبِّکَ مِنۡ مِّثۡقَالِ ذَرَّۃٍ فِی الۡاَرۡضِ وَلَا فِی السَّمَآءِ وَلَاۤ اَصۡغَرَ مِنۡ ذٰلِکَ وَلَاۤ اَکۡبَرَ اِلَّا فِیۡ کِتٰبٍ مُّبِیۡنٍ ﴿۶۲﴾</div>
+    <br/>
+    <div class="urdu">اور تُو کبھی کسی خاص کیفیت میں نہیں ہوتا اور اس کیفیت میں قرآن کی تلاوت نہیں کرتا۔ اسی طرح تُم (اے مومنو!) کوئی (اچھا) عمل نہیں کرتے مگر ہم تم پر گواہ ہوتے ہیں جب تم اس میں مستغرق ہوتے ہو۔ اور تیرے ربّ سے ایک ذرّہ برابر بھی کوئی چیز چھپی نہیں رہتی، نہ زمین میں اور نہ آسمان میں اور نہ ہی اس سے کوئی چھوٹی اور نہ کوئی بڑی چیز ہے مگر کھلی کھلی کتاب میں (تحریر) ہے۔</div>
+    <br/>
+    <div class="english">(10-62) And thou art not engaged in anything, and thou recitest not from Him any portion of the Qur’an, and you do no work, but We are witnesses of you when you are engrossed therein. And there is not hidden from thy Lord even an atom’s weight in the earth or in heaven. And there is nothing smaller than that or greater, but it is <i>recorded</i> in a clear Book.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَلَاۤ اِنَّ اَوۡلِیَآءَ اللّٰہِ لَا خَوۡفٌ عَلَیۡہِمۡ وَلَا ہُمۡ یَحۡزَنُوۡنَ ﴿ۚۖ۶۳﴾</div>
+    <br/>
+    <div class="urdu">سنو کہ یقیناً اللہ کے دوست ہی ہیں جن پر کوئی خوف نہیں اور نہ وہ غمگین ہوں گے۔</div>
+    <br/>
+    <div class="english">(10-63) Behold! the friends of Allah shall certainly have no fear, nor shall they grieve —</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">الَّذِیۡنَ اٰمَنُوۡا وَکَانُوۡا یَتَّقُوۡنَ ﴿ؕ۶۴﴾</div>
+    <br/>
+    <div class="urdu">وہ لوگ جو ایمان لائے اور وہ تقویٰ پر عمل پیرا تھے۔</div>
+    <br/>
+    <div class="english">(10-64) Those who believed and kept to righteousness —</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَہُمُ الۡبُشۡرٰی فِی الۡحَیٰوۃِ الدُّنۡیَا وَفِی الۡاٰخِرَۃِ ؕ لَا تَبۡدِیۡلَ لِکَلِمٰتِ اللّٰہِ ؕ ذٰلِکَ ہُوَ الۡفَوۡزُ الۡعَظِیۡمُ ﴿ؕ۶۵﴾</div>
+    <br/>
+    <div class="urdu">اُن کے لئے دنیا کی زندگی میں بھی خوشخبری ہے اور آخرت میں بھی۔ اللہ کے کلمات میں کوئی تبدیلی نہیں۔ یہی بہت بڑی کامیابی ہے۔</div>
+    <br/>
+    <div class="english">(10-65) For them are glad tidings in the present life and <i>also</i> in the Hereafter — there is no changing the words of Allah; that indeed is the supreme triumph.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَا یَحۡزُنۡکَ قَوۡلُہُمۡ ۘ اِنَّ الۡعِزَّۃَ لِلّٰہِ جَمِیۡعًا ؕ ہُوَ السَّمِیۡعُ الۡعَلِیۡمُ ﴿۶۶﴾</div>
+    <br/>
+    <div class="urdu">اور تجھے اُن کی بات غمگین نہ کرے۔ یقیناً عزت تمام تر اللہ ہی کے اختیار میں ہے۔ وہ بہت سننے والا (اور) دائمی علم رکھنے والا ہے۔</div>
+    <br/>
+    <div class="english">(10-66) And let not their words grieve thee. Surely, all power belongs to Allah. He is the All-Hearing, the All-Knowing.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَلَاۤ اِنَّ لِلّٰہِ مَنۡ فِی السَّمٰوٰتِ وَمَنۡ فِی الۡاَرۡضِ ؕ وَمَا یَتَّبِعُ الَّذِیۡنَ یَدۡعُوۡنَ مِنۡ دُوۡنِ اللّٰہِ شُرَکَآءَ ؕ اِنۡ یَّـتَّبِعُوۡنَ اِلَّا الظَّنَّ وَاِنۡ ہُمۡ اِلَّا یَخۡرُصُوۡنَ ﴿۶۷﴾</div>
+    <br/>
+    <div class="urdu">خبردار! یقیناً اللہ ہی کے ہیں جو آسمانوں میں ہیں اور جو زمین میں ہیں اور جو لوگ اللہ کے سوا پکارتے ہیں وہ (مزعومہ) شریکوں کی پیروی نہیں کرتے، وہ تو محض ظن کی پیروی کرتے ہیں اور صرف اٹکلوں سے کام لیتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-67) Behold! whoever is in the heavens and whoever is in the earth is Allah’s. Those who call on others than Allah do not <i>really</i> follow <i>these</i> ‘partners’; they follow only a conjecture, and they do nothing but guess.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ہُوَ الَّذِیۡ جَعَلَ لَکُمُ الَّیۡلَ لِتَسۡکُنُوۡا فِیۡہِ وَالنَّہَارَ مُبۡصِرًا ؕ اِنَّ فِیۡ ذٰلِکَ لَاٰیٰتٍ لِّقَوۡمٍ یَّسۡمَعُوۡنَ ﴿۶۸﴾</div>
+    <br/>
+    <div class="urdu">وہی ہے جس نے تمہارے لئے رات بنائی تا کہ تم اس میں تسکین پاؤ اور دن کو روشن کرنے والا بنایا۔ یقیناً اس میں ایسے لوگوں کے لئے بہت سے نشانات ہیں جو (بات) سنتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-68) He it is Who has made for you the night <i>dark</i> that you may rest therein, and the day full of light. Surely, therein are Signs for a people who listen.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوا اتَّخَذَ اللّٰہُ وَلَدًا  سُبۡحٰنَہٗ ؕ ہُوَ الۡغَنِیُّ ؕ لَہٗ مَا فِی السَّمٰوٰتِ وَمَا فِی الۡاَرۡضِ ؕ اِنۡ عِنۡدَکُمۡ مِّنۡ سُلۡطٰنٍۭ بِہٰذَا ؕ اَتَقُوۡلُوۡنَ عَلَی اللّٰہِ مَا لَا تَعۡلَمُوۡنَ ﴿۶۹﴾</div>
+    <br/>
+    <div class="urdu">وہ کہتے ہیں اللہ نے بیٹا بنا لیا، پاک ہے وہ۔ وہ غنی ہے۔ اسی کا ہے جو آسمانوں میں ہے اور جو زمین میں ہے۔ تمہارے پاس اس (دعویٰ) کی کوئی بھی دلیل نہیں۔ کیا تم اللہ پر وہ (بات) کہتے ہو جس کا تمہیں علم نہیں۔</div>
+    <br/>
+    <div class="english">(10-69) They say, ‘Allah has taken unto Himself a son.’ Holy is He! He is Self-Sufficient. To Him belongs whatsoever is in the heavens and whatsoever is in the earth. You have no authority for this. Do you say against Allah what you know not?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ اِنَّ الَّذِیۡنَ یَفۡتَرُوۡنَ عَلَی اللّٰہِ الۡکَذِبَ لَا یُفۡلِحُوۡنَ ﴿ؕ۷۰﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے یقیناً وہ لوگ جو اللہ پر جھوٹ گھڑتے ہیں کامیاب نہیں ہوں گے۔</div>
+    <br/>
+    <div class="english">(10-70) Say, ‘Those who invent a lie against Allah shall not prosper.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">مَتَاعٌ فِی الدُّنۡیَا ثُمَّ اِلَیۡنَا مَرۡجِعُہُمۡ ثُمَّ نُذِیۡقُہُمُ الۡعَذَابَ الشَّدِیۡدَ بِمَا کَانُوۡا یَکۡفُرُوۡنَ ﴿٪۷۱﴾</div>
+    <br/>
+    <div class="urdu">دنیا میں کچھ فائدہ اٹھانا ہے پھر ہماری ہی طرف اُن کا لَوٹنا ہے پھر ہم انہیں سخت عذاب چکھائیں گے بسبب اس کے کہ وہ کفر کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(10-71) <i>They will have some</i> enjoyment in this world. Then to Us is their return. Then shall We make them taste a severe punishment, because they used to disbelieve.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاتۡلُ عَلَیۡہِمۡ نَبَاَ نُوۡحٍ ۘ اِذۡ قَالَ لِقَوۡمِہٖ یٰقَوۡمِ اِنۡ کَانَ کَبُرَ عَلَیۡکُمۡ مَّقَامِیۡ وَتَذۡکِیۡرِیۡ بِاٰیٰتِ اللّٰہِ فَعَلَی اللّٰہِ تَوَکَّلۡتُ فَاَجۡمِعُوۡۤا اَمۡرَکُمۡ وَشُرَکَآءَکُمۡ ثُمَّ لَا یَکُنۡ اَمۡرُکُمۡ عَلَیۡکُمۡ غُمَّۃً ثُمَّ اقۡضُوۡۤا اِلَیَّ وَلَا تُنۡظِرُوۡنِ ﴿۷۲﴾</div>
+    <br/>
+    <div class="urdu">اور تُو ان پر نوح کی خبر پڑھ جب اس نے اپنی قوم سے کہا اے میری قوم! اگر تم پر میرا موقف اور اللہ کے نشانات کے ذریعہ نصیحت کرنا شاق گزرتا ہے تو میں تو اللہ ہی پر توکل کرتا ہوں۔ پس تم اپنی تمام طاقت اکٹھی کر لو اور اپنے شرکا کو بھی۔ پھر اپنی طاقت پر تمہیں کوئی اشتباہ نہ رہے پھر کر گزرو جو مجھ سے کرنا ہے اور مجھے کوئی مہلت نہ دو۔</div>
+    <br/>
+    <div class="english">(10-72) And recite unto them the story of Noah, when he said to his people, ‘O my people, if my station <i>with God</i> and my reminding you <i>of your duty</i> through the Signs of Allah offend you — and in Allah do I put my trust — muster then <i>all</i> your designs, <i>you</i> and your ‘partners’; then let not your course of action be obscure to you; then carry out <i>your designs</i> against me and give me no respite.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاِنۡ تَوَلَّیۡتُمۡ فَمَا سَاَلۡتُکُمۡ مِّنۡ اَجۡرٍ ؕ اِنۡ اَجۡرِیَ اِلَّا عَلَی اللّٰہِ ۙ وَاُمِرۡتُ اَنۡ اَکُوۡنَ مِنَ الۡمُسۡلِمِیۡنَ ﴿۷۳﴾</div>
+    <br/>
+    <div class="urdu">پس اگر تم منہ موڑتے ہو تو میں تم سے کوئی اجر تو نہیں مانگتا۔ میرا اَجر اللہ کے سوا کسی پر نہیں اور مجھے حکم دیا گیا ہے کہ میں فرمانبرداروں میں سے ہو جاؤں۔</div>
+    <br/>
+    <div class="english">(10-73) ‘But if you turn back, <i>remember</i>, I have not asked of you any reward. My reward is with Allah alone, and I have been commanded to be of those who are resigned <i>to Him</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَکَذَّبُوۡہُ فَنَجَّیۡنٰہُ وَمَنۡ مَّعَہٗ فِی الۡفُلۡکِ وَجَعَلۡنٰہُمۡ خَلٰٓئِفَ وَاَغۡرَقۡنَا الَّذِیۡنَ کَذَّبُوۡا بِاٰیٰتِنَا ۚ فَانۡظُرۡ کَیۡفَ کَانَ عَاقِبَۃُ الۡمُنۡذَرِیۡنَ ﴿۷۴﴾</div>
+    <br/>
+    <div class="urdu">پس انہوں نے اُسے جھٹلایا تو ہم نے اسے اور ان کو جو اس کے ساتھ کشتی میں تھے نجات دی اور ان کو جانشین بنا دیا اور ہم نے ان لوگوں کو جنہوں نے ہمارے نشانات کو جھٹلایا تھا غرق کر دیا۔ پس دیکھ کہ جن کو ڈرایا گیا ان کی عاقبت کیسی تھی۔</div>
+    <br/>
+    <div class="english">(10-74) But they rejected him, so We saved him and those who were with him in the Ark. And We made them inheritors <i>of Our favours</i>, while We drowned those who rejected Our Signs. See then, how was the end of those who had been warned!</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ثُمَّ بَعَثۡنَا مِنۡۢ بَعۡدِہٖ رُسُلًا اِلٰی قَوۡمِہِمۡ فَجَآءُوۡہُمۡ بِالۡبَیِّنٰتِ فَمَا کَانُوۡا لِیُؤۡمِنُوۡا بِمَا کَذَّبُوۡا بِہٖ مِنۡ قَبۡلُ ؕ کَذٰلِکَ نَطۡبَعُ عَلٰی قُلُوۡبِ الۡمُعۡتَدِیۡنَ ﴿۷۵﴾</div>
+    <br/>
+    <div class="urdu">پھر ہم نے اس کے بعد کئی رسولوں کو اُن کی اپنی اپنی قوم کی طرف مبعوث کیا۔ پس وہ ان کے پاس کھلے کھلے نشان لے کر آئے۔ لیکن وہ اس پر ایمان لانے والے نہ بنے جسے وہ پہلے سے جھٹلا چکے تھے۔ اسی طرح ہم حد سے بڑھنے والوں کے دلوں پر مہر لگا دیتے ہیں۔</div>
+    <br/>
+    <div class="english">(10-75) Then We sent, after him, <i>other</i> Messengers to their <i>respective</i> peoples, and they brought them clear proofs. But they would not believe <i>in them</i>, because they had rejected them before. Thus do We seal the hearts of transgressors.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ثُمَّ بَعَثۡنَا مِنۡۢ بَعۡدِہِمۡ مُّوۡسٰی وَہٰرُوۡنَ اِلٰی فِرۡعَوۡنَ وَمَلَا۠ئِہٖ بِاٰیٰتِنَا فَاسۡتَکۡبَرُوۡا وَکَانُوۡا قَوۡمًا مُّجۡرِمِیۡنَ ﴿۷۶﴾</div>
+    <br/>
+    <div class="urdu">پھر ان کے بعد ہم نے موسیٰ اور ہارون کو فرعون اور اس کے سرداروں کی طرف اپنے نشانات کے ساتھ مبعوث کیا تو انہوں نے استکبار کیا اور وہ ایک مجرم قوم تھے۔</div>
+    <br/>
+    <div class="english">(10-76) Then did We send, after them, Moses and Aaron to Pharaoh and his chiefs with Our Signs, but they behaved arrogantly. And they were a sinful people.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا جَآءَہُمُ الۡحَقُّ مِنۡ عِنۡدِنَا قَالُوۡۤا اِنَّ ہٰذَا لَسِحۡرٌ مُّبِیۡنٌ ﴿۷۷﴾</div>
+    <br/>
+    <div class="urdu">پس جب ہماری طرف سے ان کے پاس حق آیا تو انہوں نے کہا یقیناً یہ ایک کھلا کھلا جادو ہے۔</div>
+    <br/>
+    <div class="english">(10-77) And when there came to them the truth from Us, they said, ‘This is surely a manifest enchantment.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ مُوۡسٰۤی اَتَقُوۡلُوۡنَ لِلۡحَقِّ لَمَّا جَآءَکُمۡ ؕ اَسِحۡرٌ ہٰذَا ؕ وَلَا یُفۡلِحُ السّٰحِرُوۡنَ ﴿۷۸﴾</div>
+    <br/>
+    <div class="urdu">موسیٰ نے کہا کیا تم حق کے متعلق (یہ) کہہ رہے ہو جبکہ وہ تمہارے پاس آگیا ہے۔ کیا یہ جادو ہے؟ جبکہ جادو گر تو کامیاب نہیں ہوا کرتے۔</div>
+    <br/>
+    <div class="english">(10-78) Moses said, ‘Do you say <i>this</i> of the truth when it has come to you? Is this enchantment? And the enchanters never prosper.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡۤا اَجِئۡتَنَا لِتَلۡفِتَنَا عَمَّا وَجَدۡنَا عَلَیۡہِ اٰبَآءَنَا وَتَکُوۡنَ لَکُمَا الۡکِبۡرِیَآءُ فِی الۡاَرۡضِ ؕ وَمَا نَحۡنُ لَکُمَا بِمُؤۡمِنِیۡنَ ﴿۷۹﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا کیا تُو ہمارے پاس اس لئے آیا ہے کہ تُو ہمیں اس (مسلک) سے پھیر دے جس پر ہم نے اپنے باپ دادا کو پایا، اور تم دونوں کی زمین میں بڑائی ہو جبکہ ہم تو کبھی تم دونوں پر ایمان لانے والے نہیں۔</div>
+    <br/>
+    <div class="english">(10-79) They said, ‘Hast thou come to us that thou mayest turn us away from what we found our fathers following, and that you two may have greatness in the land? But we will not believe in either of you.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ فِرۡعَوۡنُ ائۡتُوۡنِیۡ بِکُلِّ سٰحِرٍ عَلِیۡمٍ ﴿۸۰﴾</div>
+    <br/>
+    <div class="urdu">اور فرعون نے کہا میرے پاس ہر ماہرِفن جادوگر لے آؤ۔</div>
+    <br/>
+    <div class="english">(10-80) And Pharaoh said, ‘Bring to me every expert magician.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا جَآءَ السَّحَرَۃُ قَالَ لَہُمۡ مُّوۡسٰۤی اَلۡقُوۡا مَاۤ اَنۡتُمۡ مُّلۡقُوۡنَ ﴿۸۱﴾</div>
+    <br/>
+    <div class="urdu">پس جب جادوگر آگئے تو موسیٰ نے ان سے کہا ڈال دو جو بھی تم ڈالنے والے ہو۔</div>
+    <br/>
+    <div class="english">(10-81) And when the magicians came, Moses said to them, ‘Cast ye what you would cast.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّاۤ اَلۡقَوۡا قَالَ مُوۡسٰی مَا جِئۡتُمۡ بِہِ ۙ السِّحۡرُ ؕ اِنَّ اللّٰہَ سَیُبۡطِلُہٗ ؕ اِنَّ اللّٰہَ لَا یُصۡلِحُ عَمَلَ الۡمُفۡسِدِیۡنَ ﴿۸۲﴾</div>
+    <br/>
+    <div class="urdu">پس جب انہوں نے ڈال دیا (جو ڈالنا تھا) تو موسیٰ نے کہا جو تم لائے ہو وہ محض نظر کا دھوکہ ہے۔ اللہ یقیناً اُسے باطل کردے گا۔ یقیناً اللہ مفسدین کے عمل کو صحیح قرار نہیں دیتا۔</div>
+    <br/>
+    <div class="english">(10-82) And when they had cast, Moses said, ‘What you have brought is <i>mere</i> sorcery. Surely, Allah will make it vain. Verily, Allah does not allow the work of mischief-makers to prosper.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَیُحِقُّ اللّٰہُ الۡحَقَّ بِکَلِمٰتِہٖ وَلَوۡ کَرِہَ الۡمُجۡرِمُوۡنَ ﴿٪۸۳﴾</div>
+    <br/>
+    <div class="urdu">اور اللہ اپنے کلمات سے حق کو سچ کر دکھاتا ہے خواہ مجرم کیسا ہی ناپسند کریں۔</div>
+    <br/>
+    <div class="english">(10-83) ‘And Allah establishes the truth by His words, even though the sinners be averse <i>to it</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَمَاۤ اٰمَنَ لِمُوۡسٰۤی اِلَّا ذُرِّیَّۃٌ مِّنۡ قَوۡمِہٖ عَلٰی خَوۡفٍ مِّنۡ فِرۡعَوۡنَ وَمَلَا۠ئِہِمۡ اَنۡ یَّفۡتِنَہُمۡ ؕ وَاِنَّ فِرۡعَوۡنَ لَعَالٍ فِی الۡاَرۡضِ ۚ وَاِنَّہٗ لَمِنَ الۡمُسۡرِفِیۡنَ ﴿۸۴﴾</div>
+    <br/>
+    <div class="urdu">پس موسیٰ پر ایمان نہیں لائی مگر اس کی قوم میں سے ایک (معدودے چند) ذریت اس خوف کے باوجود کہ فرعون اور اُن کے سردار انہیں کسی تکلیف دِہ آزمائش میں نہ ڈال دیں اور یقیناً فرعون زمین میں بہت سرکشی کرنے والا تھا اور یقیناً وہ حد سے گزر جانے والوں میں سے تھا۔</div>
+    <br/>
+    <div class="english">(10-84) And none obeyed Moses save some youths from among his people, because of the fear of Pharaoh and their chiefs, lest he should persecute them. And of a truth, Pharaoh was a tyrant in the land and surely he was of the transgressors.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ مُوۡسٰی یٰقَوۡمِ اِنۡ کُنۡتُمۡ اٰمَنۡتُمۡ بِاللّٰہِ فَعَلَیۡہِ تَوَکَّلُوۡۤا اِنۡ کُنۡتُمۡ مُّسۡلِمِیۡنَ ﴿۸۵﴾</div>
+    <br/>
+    <div class="urdu">اور موسیٰ نے کہا اے میری قوم! اگر تم اللہ پر ایمان لائے ہو تو اسی پر توکل کرو اگر تم (فی الحقیقت) فرمانبردار ہو۔</div>
+    <br/>
+    <div class="english">(10-85) And Moses said, ‘O my people, if you have believed in Allah, then in Him put your trust, if you indeed submit <i>to His will</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَقَالُوۡا عَلَی اللّٰہِ تَوَکَّلۡنَا ۚ رَبَّنَا لَا تَجۡعَلۡنَا فِتۡنَۃً لِّلۡقَوۡمِ الظّٰلِمِیۡنَ ﴿ۙ۸۶﴾</div>
+    <br/>
+    <div class="urdu">تو انہوں نے (جواباً) کہا اللہ پر ہی ہم توکل رکھتے ہیں۔ اے ہمارے ربّ! ہمیں ظالم لوگوں کے لئے ابتلا نہ بنا۔</div>
+    <br/>
+    <div class="english">(10-86) And they said, ‘In Allah do we put our trust. Our Lord, make us not a trial for the wrongdoing people.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَنَجِّنَا بِرَحۡمَتِکَ مِنَ الۡقَوۡمِ الۡکٰفِرِیۡنَ ﴿۸۷﴾</div>
+    <br/>
+    <div class="urdu">اور ہمیں اپنی رحمت سے کافر لوگوں سے نجات بخش۔</div>
+    <br/>
+    <div class="english">(10-87) ‘And deliver us by Thy mercy from the disbelieving people.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاَوۡحَیۡنَاۤ اِلٰی مُوۡسٰی وَاَخِیۡہِ اَنۡ تَبَوَّاٰ لِقَوۡمِکُمَا بِمِصۡرَ بُیُوۡتًا وَّاجۡعَلُوۡا بُیُوۡتَکُمۡ قِبۡلَۃً وَّاَقِیۡمُوا الصَّلٰوۃَ ؕ وَبَشِّرِ الۡمُؤۡمِنِیۡنَ ﴿۸۸﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے موسیٰ اور اس کے بھائی کی طرف وحی کی کہ تم دونوں اپنی قوم کے لئے مصر میں گھر تیار کرو اور اپنے گھروں کو قبلہ رُخ رکھو اور نماز قائم کرو۔ اور تُو مومنوں کو خوشخبری دےدے۔</div>
+    <br/>
+    <div class="english">(10-88) And We spoke to Moses and his brother, <i>saying</i>, ‘Take, ye twain, <i>some</i> houses for your people in <i>the</i> town, and make your houses so as to face one another, and observe Prayer. And give glad tidings to the believers.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ مُوۡسٰی رَبَّنَاۤ اِنَّکَ اٰتَیۡتَ فِرۡعَوۡنَ وَمَلَاَہٗ زِیۡنَۃً وَّاَمۡوَالًا فِی الۡحَیٰوۃِ الدُّنۡیَا ۙ رَبَّنَا لِیُضِلُّوۡا عَنۡ سَبِیۡلِکَ ۚ رَبَّنَا اطۡمِسۡ عَلٰۤی اَمۡوَالِہِمۡ وَاشۡدُدۡ عَلٰی قُلُوۡبِہِمۡ فَلَا یُؤۡمِنُوۡا حَتّٰی یَرَوُا الۡعَذَابَ الۡاَلِیۡمَ ﴿۸۹﴾</div>
+    <br/>
+    <div class="urdu">اور موسیٰ نے کہا اے ہمارے ربّ! یقیناً تو نے فرعون کو اور اس کے سرداروں کو اس دنیوی زندگی میں ایک بڑی زینت اور اموال دئیے ہیں۔ اے ہمارے ربّ! (کیا) اس لئے کہ وہ تیری راہ سے (لوگوں کو) بھٹکادیں۔ اے ہمارے ربّ! ان کے اموال برباد کر دے اور ان کے دلوں پر سختی کر۔ پس وہ ایمان نہیں لائیں گے یہاں تک کہ دردناک عذاب دیکھ لیں۔</div>
+    <br/>
+    <div class="english">(10-89) And Moses said, ‘Our Lord, Thou hast bestowed upon Pharaoh and his chiefs embellishment and wealth in the present life, with the result, our Lord, that they are leading <i>men</i> astray from Thy path. Our Lord! destroy their riches and attack their hearts — and they are not going to believe until they see the grievous punishment.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ قَدۡ اُجِیۡبَتۡ دَّعۡوَتُکُمَا فَاسۡتَقِیۡمَا وَلَا تَتَّبِعٰٓنِّ سَبِیۡلَ الَّذِیۡنَ لَا یَعۡلَمُوۡنَ ﴿۹۰﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا تم دونوں کی دعا قبول کرلی گئی۔ پس تم دونوں استقامت دکھاؤ اور ہرگز ان لوگوں کے رستے کی پیروی نہ کرو جو کچھ نہیں جانتے۔</div>
+    <br/>
+    <div class="english">(10-90) He said, ‘Your prayer is accepted. So be ye twain steadfast, and follow not the path of those who know not.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَجٰوَزۡنَا بِبَنِیۡۤ اِسۡرَآءِیۡلَ الۡبَحۡرَ فَاَتۡبَعَہُمۡ فِرۡعَوۡنُ وَجُنُوۡدُہٗ بَغۡیًا وَّعَدۡوًا ؕ حَتّٰۤی اِذَاۤ اَدۡرَکَہُ الۡغَرَقُ ۙ قَالَ اٰمَنۡتُ اَنَّہٗ لَاۤ اِلٰہَ اِلَّا الَّذِیۡۤ اٰمَنَتۡ بِہٖ بَنُوۡۤا اِسۡرَآءِیۡلَ وَاَنَا مِنَ الۡمُسۡلِمِیۡنَ ﴿۹۱﴾</div>
+    <br/>
+    <div class="urdu">اور ہم بنی اسرائیل کو سمندر پار اُتار لائے تو فرعون اور اس کے لشکروں نے بغاوت اور زیادتی سے کام لیتے ہوئے ان کا تعاقب کیا یہاں تک کہ جب اُسے غرقابی نے آلیا تو اس نے کہا میں ایمان لاتا ہوں کہ کوئی معبود نہیں مگر وہ جس پر بنی اسرائیل ایمان لائے ہیں اور میں (بھی) فرمانبرداروں میں سے ہوں۔</div>
+    <br/>
+    <div class="english">(10-91) And We brought the children of Israel across the sea; and Pharaoh and his hosts pursued them wrongfully and aggressively, till, when <i>the calamity of</i> drowning overtook him, he said, ‘I believe that there is no  God but He in Whom the children of Israel believe, and I am of those who submit <i>to Him</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">آٰلۡـٰٔنَ وَقَدۡ عَصَیۡتَ قَبۡلُ وَکُنۡتَ مِنَ الۡمُفۡسِدِیۡنَ ﴿۹۲﴾</div>
+    <br/>
+    <div class="urdu">کیا اب (ایمان لایا ہے)! جبکہ اس سے پہلے تُو نافرمانی سے کام لیتا رہا اور تُو مفسدوں میں سے تھا۔</div>
+    <br/>
+    <div class="english">(10-92) What! Now! while thou wast disobedient before <i>this</i> and wast of those who create disorder.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَالۡیَوۡمَ نُنَجِّیۡکَ بِبَدَنِکَ لِتَکُوۡنَ لِمَنۡ خَلۡفَکَ اٰیَۃً ؕ وَاِنَّ کَثِیۡرًا مِّنَ النَّاسِ عَنۡ اٰیٰتِنَا لَغٰفِلُوۡنَ ﴿٪۹۳﴾</div>
+    <br/>
+    <div class="urdu">پس آج کے دن ہم تجھے تیرے بدن کے ساتھ نجات بخشیں گے تاکہ تُو اپنے بعد آنے والوں کے لئے ایک عبرت بن جائے۔ حال یہ ہے کہ انسانوں میں سے اکثر یقیناً ہمارے نشانات سے بالکل غافل ہیں۔</div>
+    <br/>
+    <div class="english">(10-93) So this day We will save thee in thy body <i>alone</i> that thou mayest be a Sign to those <i>who come</i> after thee. And surely, many of mankind are heedless of Our Signs.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ بَوَّاۡنَا بَنِیۡۤ اِسۡرَآءِیۡلَ مُبَوَّاَ صِدۡقٍ وَّرَزَقۡنٰہُمۡ مِّنَ الطَّیِّبٰتِ ۚ فَمَا اخۡتَلَفُوۡا حَتّٰی جَآءَہُمُ الۡعِلۡمُ ؕ اِنَّ رَبَّکَ یَقۡضِیۡ بَیۡنَہُمۡ یَوۡمَ الۡقِیٰمَۃِ فِیۡمَا کَانُوۡا فِیۡہِ یَخۡتَلِفُوۡنَ ﴿۹۴﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے بنی اسرائیل کو ایک سچائی کا ٹھکانا عطا کیا اور انہیں پاکیزہ چیزوں میں سے رزق دیا۔ پس انہوں نے اختلاف نہیں کیا یہاں تک کہ علم اُن کے پاس آگیا۔ یقیناً تیرا ربّ قیامت کے دن ان کے درمیان ان باتوں کا فیصلہ کرے گا جن میں وہ اختلاف کیا کرتے تھے۔</div>
+    <br/>
+    <div class="english">(10-94) And We assigned to the children of Israel an excellent abode, and We provided them with good things, and they differed not until there came to them the knowledge. Surely, thy Lord will judge between them on the Day of Resurrection concerning that in which they differed.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاِنۡ کُنۡتَ فِیۡ شَکٍّ مِّمَّاۤ اَنۡزَلۡنَاۤ اِلَیۡکَ فَسۡـَٔلِ الَّذِیۡنَ یَقۡرَءُوۡنَ الۡکِتٰبَ مِنۡ قَبۡلِکَ ۚ لَقَدۡ جَآءَکَ الۡحَقُّ مِنۡ رَّبِّکَ فَلَا تَکُوۡنَنَّ مِنَ الۡمُمۡتَرِیۡنَ ﴿ۙ۹۵﴾</div>
+    <br/>
+    <div class="urdu">پس اگر تُو اس بارہ میں کسی تردّد میں ہو جو ہم نے تیری طرف اتارا ہے تو اُن سے پوچھ لے جو تجھ سے پہلے (بھیجی ہوئی) کتاب پڑھتے ہیں۔ یقیناً حق ہی ہے جو تیرے ربّ کی طرف سے تیرے پاس آیا ہے پس تُو ہرگز شک کرنے والوں میں سے نہ ہو۔</div>
+    <br/>
+    <div class="english">(10-95) And if thou art in doubt concerning that which We have sent down to thee, ask those who have been reading the Book before thee. Indeed the truth has come to thee from thy Lord; be not, therefore, of those who doubt.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَا تَکُوۡنَنَّ مِنَ الَّذِیۡنَ کَذَّبُوۡا بِاٰیٰتِ اللّٰہِ فَتَکُوۡنَ مِنَ الۡخٰسِرِیۡنَ ﴿۹۶﴾</div>
+    <br/>
+    <div class="urdu">اور تُو ہرگز ان لوگوں میں سے نہ ہو جنہوں نے اللہ کے نشانات کو جھٹلا دیا ورنہ تُو نقصان اٹھانے والوں میں سے ہوجائے گا۔</div>
+    <br/>
+    <div class="english">(10-96) And be not thou of those who reject the Signs of Allah, or thou shalt be of the losers.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ الَّذِیۡنَ حَقَّتۡ عَلَیۡہِمۡ کَلِمَتُ رَبِّکَ لَا یُؤۡمِنُوۡنَ ﴿ۙ۹۷﴾</div>
+    <br/>
+    <div class="urdu">یقیناً وہ لوگ جن پر تیرے ربّ کا فرمان صادر ہوچکا ہے ایمان نہیں لائیں گے۔</div>
+    <br/>
+    <div class="english">(10-97) Surely, those against whom the word of thy Lord has taken effect will not believe,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَوۡ جَآءَتۡہُمۡ کُلُّ اٰیَۃٍ حَتّٰی یَرَوُا الۡعَذَابَ الۡاَلِیۡمَ ﴿۹۸﴾</div>
+    <br/>
+    <div class="urdu">اگرچہ اُن کے پاس ہر نشان آچکا ہو یہاں تک کہ وہ درد ناک عذاب دیکھ لیں۔</div>
+    <br/>
+    <div class="english">(10-98) Even if there come to them every Sign, till they see the grievous punishment.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَوۡلَا کَانَتۡ قَرۡیَۃٌ اٰمَنَتۡ فَنَفَعَہَاۤ اِیۡمَانُہَاۤ اِلَّا قَوۡمَ یُوۡنُسَ ؕ لَمَّاۤ اٰمَنُوۡا کَشَفۡنَا عَنۡہُمۡ عَذَابَ الۡخِزۡیِ فِی الۡحَیٰوۃِ الدُّنۡیَا وَمَتَّعۡنٰہُمۡ اِلٰی حِیۡنٍ ﴿۹۹﴾</div>
+    <br/>
+    <div class="urdu">پس کیوں یونس کی قوم کے سوا ایسی کوئی بستی والے نہیں ہوئے جو ایمان لائے ہوں اور جن کو اُن کے ایمان نے فائدہ پہنچایا ہو۔ جب وہ ایمان لائے تو ہم نے ان سے اس دنیوی زندگی میں ذلّت کا عذاب دور کردیا اور انہیں ایک مدت تک سامانِ معیشت عطا کئے۔</div>
+    <br/>
+    <div class="english">(10-99) Why was there no <i>other</i> people, save the people of Jonah, who should have believed so that their belief would have profited them? When they believed, We removed from them the punishment of disgrace in the present life, and We gave them provision for a while.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَوۡ شَآءَ رَبُّکَ لَاٰمَنَ مَنۡ فِی الۡاَرۡضِ کُلُّہُمۡ جَمِیۡعًا ؕ اَفَاَنۡتَ تُکۡرِہُ النَّاسَ حَتّٰی یَکُوۡنُوۡا مُؤۡمِنِیۡنَ ﴿۱۰۰﴾</div>
+    <br/>
+    <div class="urdu">اور اگر تیرا ربّ چاہتا تو جو بھی زمین میں بستے ہیں اکٹھے سب کے سب ایمان لے آتے۔ تو کیا تُو لوگوں کو مجبور کرسکتا ہے۔ حتی کہ وہ ایمان لانے والے ہو جائیں۔</div>
+    <br/>
+    <div class="english">(10-100) And if thy Lord had <i>enforced</i> His will, surely, all who are on the earth would have believed together. Wilt thou, then, force men to become believers?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا کَانَ لِنَفۡسٍ اَنۡ تُؤۡمِنَ اِلَّا بِاِذۡنِ اللّٰہِ ؕ وَیَجۡعَلُ الرِّجۡسَ عَلَی الَّذِیۡنَ لَا یَعۡقِلُوۡنَ ﴿۱۰۱﴾</div>
+    <br/>
+    <div class="urdu">اور کسی نفس کو اختیار نہیں کہ وہ ایمان لائے مگر اللہ کے اِذن کے ساتھ۔ اور وہ ان (کے چہروں) پر جو عقل سے کام نہیں لیتے (ان کے دل کی) پلیدی تھوپ دیتا ہے۔</div>
+    <br/>
+    <div class="english">(10-101) And no soul can believe except by the permission of Allah. And He makes <i>His</i> wrath <i>descend</i> on those who will not use their reason.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلِ انۡظُرُوۡا مَاذَا فِی السَّمٰوٰتِ وَالۡاَرۡضِ ؕ وَمَا تُغۡنِی الۡاٰیٰتُ وَالنُّذُرُ عَنۡ قَوۡمٍ لَّا یُؤۡمِنُوۡنَ ﴿۱۰۲﴾</div>
+    <br/>
+    <div class="urdu">تو کہہ دے کہ اس پر غور سے نظر ڈالو جو کچھ بھی آسمانوں اورزمین میں ہے۔ اور آیات اور اِنذار کی باتیں ان لوگوں کے کچھ کام نہیں آتیں جو ایمان نہیں لاتے۔</div>
+    <br/>
+    <div class="english">(10-102) Say, ‘Consider what is <i>happening</i> in the heavens and the earth.’ But Signs and Warners avail not a people who will not believe.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَہَلۡ یَنۡتَظِرُوۡنَ اِلَّا مِثۡلَ اَیَّامِ الَّذِیۡنَ خَلَوۡا مِنۡ قَبۡلِہِمۡ ؕ قُلۡ فَانۡتَظِرُوۡۤا اِنِّیۡ مَعَکُمۡ مِّنَ الۡمُنۡتَظِرِیۡنَ ﴿۱۰۳﴾</div>
+    <br/>
+    <div class="urdu">پس کیا وہ انتظار کر رہے ہیں مگر اسی قسم کے دَور کا جیسا ان لوگوں پر آیا جو اُن سے پہلے گزرے۔ تُو کہہ دے کہ انتظار کرتے رہو یقیناً میں بھی تمہارے ساتھ انتظار کرنے والوں میں سے ہوں۔</div>
+    <br/>
+    <div class="english">(10-103) What then do they expect save the like of the days of <i>punishment suffered by</i> those who passed away before them? Say, ‘Wait then, <i>and</i> I am with you among those who wait.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ثُمَّ نُنَجِّیۡ رُسُلَنَا وَالَّذِیۡنَ اٰمَنُوۡا  کَذٰلِکَ ۚ حَقًّا عَلَیۡنَا نُنۡجِ الۡمُؤۡمِنِیۡنَ ﴿۱۰۴﴾٪</div>
+    <br/>
+    <div class="urdu">پھر (عذاب کے وقت) ہم اپنے رسولوں کو اور ان کو جو ایمان لائے اسی طرح نجات بخش دیتے ہیں۔ ہم پر لازم ہے کہ ہم ایمان لانے والوں کو نجات دیں۔</div>
+    <br/>
+    <div class="english">(10-104) Then shall We save Our Messengers and those who believe. Thus <i>does it always happen</i>; it is incumbent on Us to save believers.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ یٰۤاَیُّہَا النَّاسُ اِنۡ کُنۡتُمۡ فِیۡ شَکٍّ مِّنۡ دِیۡنِیۡ فَلَاۤ اَعۡبُدُ الَّذِیۡنَ تَعۡبُدُوۡنَ مِنۡ دُوۡنِ اللّٰہِ وَلٰکِنۡ اَعۡبُدُ اللّٰہَ الَّذِیۡ یَتَوَفّٰٮکُمۡ ۚۖ وَاُمِرۡتُ اَنۡ اَکُوۡنَ مِنَ الۡمُؤۡمِنِیۡنَ ﴿۱۰۵﴾ۙ</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ اے لوگو! اگر تم میرے دین کے متعلق کسی شک میں ہو تو میں تو ان کی عبادت نہیں کروں گا جن کی تم اللہ کے سوا عبادت کرتے ہو۔ لیکن میں اُسی اللہ کی عبادت کروں گا جو تمہیں وفات دیتا ہے اور مجھے حکم دیا گیا ہے کہ میں مومنوں میں سے ہوجاؤں۔</div>
+    <br/>
+    <div class="english">(10-105) Say, “O ye men, if you are in doubt as to my religion, then <i>know that</i> I worship not those whom you worship beside Allah, but I worship Allah <i>alone</i> Who causes you to die, and I have been commanded to be of the believers,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاَنۡ اَقِمۡ وَجۡہَکَ لِلدِّیۡنِ حَنِیۡفًا ۚ وَلَا تَکُوۡنَنَّ مِنَ الۡمُشۡرِکِیۡنَ ﴿۱۰۶﴾</div>
+    <br/>
+    <div class="urdu">اور (اللہ کی طرف) ہمیشہ مائل رہتے ہوئے اپنی توجہ دین پر مرکوز رکھ۔ اور تُو ہرگز مشرکوں میں سے نہ بن۔</div>
+    <br/>
+    <div class="english">(10-106) “And <i>I have also been commanded to say</i>: ‘Set thy face toward religion as one ever inclined <i>to God</i>, and be not thou of those who ascribe partners <i>to Him</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَا تَدۡعُ مِنۡ دُوۡنِ اللّٰہِ مَا لَا یَنۡفَعُکَ وَلَا یَضُرُّکَ ۚ فَاِنۡ فَعَلۡتَ فَاِنَّکَ اِذًا مِّنَ الظّٰلِمِیۡنَ ﴿۱۰۷﴾</div>
+    <br/>
+    <div class="urdu">اور اللہ کے سوا اُسے نہ پکار جو نہ تجھے فائدہ دیتا ہے اور نہ نقصان پہنچاتا ہے اور اگر تُو نے ایسا کیا تو یقیناً تُو ظالموں میں سے ہو جائے گا۔</div>
+    <br/>
+    <div class="english">(10-107) ‘And call not, beside Allah, on any other that can neither profit thee nor harm thee. And if thou didst so, thou wouldst then certainly be of the wrongdoers.’”</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنۡ یَّمۡسَسۡکَ اللّٰہُ بِضُرٍّ فَلَا کَاشِفَ لَہٗۤ اِلَّا ہُوَ ۚ وَاِنۡ یُّرِدۡکَ بِخَیۡرٍ فَلَا رَآدَّ لِفَضۡلِہٖ ؕ یُصِیۡبُ بِہٖ مَنۡ یَّشَآءُ مِنۡ عِبَادِہٖ ؕ وَہُوَ الۡغَفُوۡرُ الرَّحِیۡمُ ﴿۱۰۸﴾</div>
+    <br/>
+    <div class="urdu">اور اگر اللہ تجھے کوئی ضرر پہنچائے تو کوئی نہیں جو اُسے دور کرنے والا ہو مگر وہی۔ اور اگر وہ تیرے لئے کسی بھلائی کا ارادہ کرے تو اس کے فضل کو ٹالنے والا کوئی نہیں۔ اپنے بندوں میں سے جسے وہ چاہتا ہے وہ (فضل) عطا کرتا ہے اور وہ بہت بخشنے والا (اور) بار بار رحم کرنے والا ہے۔</div>
+    <br/>
+    <div class="english">(10-108) And if Allah touch thee with harm, there is none who can remove it but He: and if He desire good for thee, there is none who can repel His grace. He causes it to reach whomsoever of His servants He wills. And He is the Most Forgiving, Merciful.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ یٰۤاَیُّہَا النَّاسُ قَدۡ جَآءَکُمُ الۡحَقُّ مِنۡ رَّبِّکُمۡ ۚ فَمَنِ اہۡتَدٰی فَاِنَّمَا یَہۡتَدِیۡ لِنَفۡسِہٖ ۚ وَمَنۡ ضَلَّ فَاِنَّمَا یَضِلُّ عَلَیۡہَا ۚ وَمَاۤ اَنَا عَلَیۡکُمۡ بِوَکِیۡلٍ ﴿۱۰۹﴾ؕ</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ اے انسانو! یقیناً تمہارے پاس تمہارے ربّ کی طرف سے حق آچکا ہے۔ پس جو ہدایت پا گیا وہ اپنے نفس کی خاطر ہی ہدایت پاتا ہے اور جو گمراہ ہوا وہ اپنے نفس کے خلاف ہی گمراہ ہوتا ہے۔ اور میں تم پر نگران نہیں ہوں۔</div>
+    <br/>
+    <div class="english">(10-109) Say, ‘O ye men, now has the truth come to you from your Lord. So whosoever follows the guidance, follows it only for the good of his own soul, and whosoever errs, errs only against it. And I am not a keeper over you.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاتَّبِعۡ مَا یُوۡحٰۤی اِلَیۡکَ وَاصۡبِرۡ حَتّٰی یَحۡکُمَ اللّٰہُ ۚۖ وَہُوَ خَیۡرُ الۡحٰکِمِیۡنَ ﴿۱۱۰﴾٪</div>
+    <br/>
+    <div class="urdu">اور اُس کی پیروی کر جو تیری طرف وحی کیا جاتا ہے اور صبر سے کام لے یہاں تک کہ اللہ فیصلہ صادر کر دے اور وہ فیصلہ کرنے والوں میں سب سے بہترہے۔</div>
+    <br/>
+    <div class="english">(10-110) And follow that which is revealed to thee and be steadfast until Allah give His judgment. And He is the Best of judges.</div>
+    <hr/>
+    
+    </body>

@@ -1,0 +1,955 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+
+
+    html {
+      margin: auto;
+      max-width: 800px;
+      padding: 30px;
+    }
+
+
+    @media screen and (min-width: 900px) {}
+    @font-face {
+        font-family: "noorehuda";
+        src: url(noorehuda-webfont.e3f34e1d.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "nastaleeq";
+        src: url(Urdu-Nastaleeq.ttf) format("truetype");
+    }
+    div.arabic { 
+        font-family: "noorehuda", Verdana, Tahoma;
+        font-size: 35px;
+        direction: rtl;
+        text-align: right;
+        letter-spacing: normal;
+    }
+    div.urdu { 
+        font-family: "nastaleeq", Verdana, Tahoma;
+        font-size: 30px;
+        direction: rtl;
+        text-align: right;
+        letter-spacing: normal;
+    }
+    div.english { 
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 20px;
+        direction: ltr;
+        text-align: left;
+        letter-spacing: normal;
+    }
+    h2 {
+    text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <br/>
+    <div class="english"><h2>17</h2></div>
+    <div class="english"><h2>Bani Isra'il<h2></div>
+    <div class="arabic"><h2>بنی اسرائیل</h2></div>
+    
+    
+    <br/>
+    <div class="arabic">بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ ﴿۱﴾</div>
+    <br/>
+    <div class="urdu">اللہ کے نام کے ساتھ جو بے انتہا رحم کرنے والا، بِن مانگے دینے والا (اور) بار بار رحم کرنے والا ہے۔</div>
+    <br/>
+    <div class="english">(17-1) In the name of Allah, the Gracious, the Merciful.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">سُبۡحٰنَ الَّذِیۡۤ اَسۡرٰی بِعَبۡدِہٖ لَیۡلًا مِّنَ الۡمَسۡجِدِ الۡحَرَامِ اِلَی الۡمَسۡجِدِ الۡاَقۡصَا الَّذِیۡ بٰرَکۡنَا حَوۡلَہٗ لِنُرِیَہٗ مِنۡ اٰیٰتِنَا ؕ اِنَّہٗ ہُوَ السَّمِیۡعُ الۡبَصِیۡرُ ﴿۲﴾</div>
+    <br/>
+    <div class="urdu">پاک ہے وہ جو رات کے وقت اپنے بندے کو مسجدِ حرام سے مسجدِ اقصیٰ کی طرف لے گیا جس کے ماحول کو ہم نے برکت دی ہے۔ تاکہ ہم اسے اپنے نشانات میں سے کچھ دکھائیں۔ یقیناً وہ بہت سننے والا (اور) گہری نظر رکھنے والا ہے۔</div>
+    <br/>
+    <div class="english">(17-2) Glory be to Him Who carried His servant by night from the Sacred Mosque to the Distant Mosque, the environs of which We have blessed, that We might show him <i>some</i> of Our Signs. Surely, He alone is the Hearing, the Seeing.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاٰتَیۡنَا مُوۡسَی الۡکِتٰبَ وَجَعَلۡنٰہُ ہُدًی لِّبَـنِیۡۤ اِسۡرَآءِیۡلَ اَلَّا تَتَّخِذُوۡا مِنۡ دُوۡنِیۡ وَکِیۡلًا ؕ﴿۳﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے موسیٰ کو بھی کتاب دی تھی اور اسے بنی اسرائیل کے لئے ہدایت بنایا تھا کہ تم میرے سوا کسی کو اپنا کارساز نہ بنانا۔</div>
+    <br/>
+    <div class="english">(17-3) And We gave Moses the Book, and We made it a guidance for the children of Israel, <i>saying</i>, ‘Take no guardian beside Me,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ذُرِّیَّۃَ مَنۡ حَمَلۡنَا مَعَ نُوۡحٍ ؕ اِنَّہٗ کَانَ عَبۡدًا شَکُوۡرًا ﴿۴﴾</div>
+    <br/>
+    <div class="urdu">(یہ لوگ) اُن کی ذرّیت تھے جنہیں ہم نے نوح کے ساتھ سوار کیا تھا۔ یقیناً وہ بہت ہی شکرگزار بندہ تھا۔</div>
+    <br/>
+    <div class="english">(17-4) ‘O ye the progeny of those whom We carried <i>in the Ark</i> with Noah.’ He was indeed a grateful servant.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَضَیۡنَاۤ اِلٰی بَنِیۡۤ اِسۡرَآءِیۡلَ فِی الۡکِتٰبِ لَتُفۡسِدُنَّ فِی الۡاَرۡضِ مَرَّتَیۡنِ وَلَتَعۡلُنَّ عُلُوًّا کَبِیۡرًا ﴿۵﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے کتاب میں بنی اسرائیل کو اس قضا سے کھول کر آگاہ کردیا تھا کہ تم ضرور زمین میں دو مرتبہ فساد کرو گے اور یقیناً ایک بڑی سرکشی کرتے ہوئے چھاجاؤگے۔</div>
+    <br/>
+    <div class="english">(17-5) And We revealed to the children of Israel in the Book, <i>saying</i>, ‘You will surely do mischief in the land twice, and you will surely become excessively overbearing.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاِذَا جَآءَ وَعۡدُ اُوۡلٰٮہُمَا بَعَثۡنَا عَلَیۡکُمۡ عِبَادًا لَّنَاۤ اُولِیۡ بَاۡسٍ شَدِیۡدٍ فَجَاسُوۡا خِلٰلَ الدِّیَارِ ؕ وَکَانَ وَعۡدًا مَّفۡعُوۡلًا ﴿۶﴾</div>
+    <br/>
+    <div class="urdu">پس جب ان دونوں میں سے پہلے وعدے کا وقت آپہنچا، ہم نے تمہارے خلاف اپنے ایسے بندوں کو کھڑا کردیا جو سخت جنگجو تھے پس وہ بستیوں کے بیچوں بیچ تباہی مچاتے ہوئے داخل ہوگئے اور یہ پورا ہوکر رہنے والا وعدہ تھا۔</div>
+    <br/>
+    <div class="english">(17-6) So when the time for the first of the two warnings came, We sent against you <i>some</i> servants of Ours possessed of great might in war, and they penetrated the <i>innermost parts of your</i> houses, and it was a warning that was bound to be carried out.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ثُمَّ رَدَدۡنَا لَکُمُ الۡکَرَّۃَ عَلَیۡہِمۡ وَاَمۡدَدۡنٰکُمۡ بِاَمۡوَالٍ وَّبَنِیۡنَ وَجَعَلۡنٰکُمۡ اَکۡثَرَ نَفِیۡرًا ﴿۷﴾</div>
+    <br/>
+    <div class="urdu">پھر ہم نے تمہیں دوبارہ ان پر غلبہ عطا کیا اور ہم نے اموال اور اولاد کے ذریعہ تمہاری مدد کی اور تمہیں ہم نے ایک بہت بڑا جتھا بنا دیا۔</div>
+    <br/>
+    <div class="english">(17-7) Then We gave you back the power against them, and aided you with wealth and children, and made you larger in numbers.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنۡ اَحۡسَنۡتُمۡ اَحۡسَنۡتُمۡ لِاَنۡفُسِکُمۡ ۟ وَاِنۡ اَسَاۡتُمۡ فَلَہَا ؕ فَاِذَا جَآءَ وَعۡدُ الۡاٰخِرَۃِ لِیَسُوۡٓءٗا وُجُوۡہَکُمۡ وَلِیَدۡخُلُوا الۡمَسۡجِدَ کَمَا دَخَلُوۡہُ اَوَّلَ مَرَّۃٍ وَّلِیُتَبِّرُوۡا مَا عَلَوۡا تَتۡبِیۡرًا ﴿۸﴾</div>
+    <br/>
+    <div class="urdu">اگر تم اچھے اعمال بجالاؤ تو اپنی خاطر ہی اچھے اعمال بجالاؤگے۔ اور اگر تم بُرا کرو تو خود اپنے لئے ہی بُرا کروگے۔ پس جب آخرت والا وعدہ آئے گا (تب بھی یہی مقدر ہے) کہ وہ تمہارے چہرے بگاڑ دیں اور وہ مسجد میں اسی طرح داخل ہو جائیں جیسا کہ پہلی مرتبہ داخل ہوئے تھے اور تاکہ وہ جس پر غلبہ پائیں اُسے تہس نہس کردیں۔</div>
+    <br/>
+    <div class="english">(17-8) <i>Now</i>, if you do well, you will do well for your own souls; and if you do evil, it will <i>only go</i> against them.  So when the time for the latter warning came, <i>We raised a people against you</i> to cover your faces with grief, and to enter the Mosque as they entered it the first time, and to destroy all that they conquered with utter destruction.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">عَسٰی رَبُّکُمۡ اَنۡ یَّرۡحَمَکُمۡ ۚ وَاِنۡ عُدۡتُّمۡ عُدۡنَا ۘ وَجَعَلۡنَا جَہَنَّمَ لِلۡکٰفِرِیۡنَ حَصِیۡرًا ﴿۹﴾</div>
+    <br/>
+    <div class="urdu">ہوسکتا ہے کہ تمہارا ربّ تم پر رحم کرے۔ اور اگر تم نے تکرار کی تو ہم بھی تکرار کریں گے۔ اور ہم نے جہنّم کافروں کو گھیر لینے والی بنائی ہے۔</div>
+    <br/>
+    <div class="english">(17-9) It may be that your Lord will <i>now</i> have mercy on you; but if you return <i>to your previous state,</i> We <i>too</i> will return, and We have made Hell a prison for the disbelievers.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ ہٰذَا الۡقُرۡاٰنَ یَہۡدِیۡ لِلَّتِیۡ ہِیَ اَقۡوَمُ وَیُبَشِّرُ الۡمُؤۡمِنِیۡنَ الَّذِیۡنَ یَعۡمَلُوۡنَ الصّٰلِحٰتِ اَنَّ لَہُمۡ اَجۡرًا کَبِیۡرًا ۙ﴿۱۰﴾</div>
+    <br/>
+    <div class="urdu">یقیناً یہ قرآن اس (راہ) کی طرف ہدایت دیتا ہے جو سب سے زیادہ قائم رہنے والی ہے اور اُن مومنوں کو جو نیک کام کرتے ہیں بشارت دیتا ہے کہ اُن کے لئے بہت بڑا اجر (مقدر) ہے۔</div>
+    <br/>
+    <div class="english">(17-10) Surely, this Qur’an guides to what is most right; and gives to the believers who do good deeds the glad tidings that they shall have a great reward.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَّاَنَّ الَّذِیۡنَ لَا یُؤۡمِنُوۡنَ بِالۡاٰخِرَۃِ اَعۡتَدۡنَا لَہُمۡ عَذَابًا اَلِیۡمًا ﴿٪۱۱﴾</div>
+    <br/>
+    <div class="urdu">اور یہ کہ جو لوگ آخرت پر ایمان نہیں لاتے اُن کے لئے ہم نے دردناک عذاب تیار کیا ہے۔</div>
+    <br/>
+    <div class="english">(17-11) And that for those who do not believe in what is to come later We have prepared a grievous punishment.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَیَدۡعُ الۡاِنۡسَانُ بِالشَّرِّ دُعَآءَہٗ بِالۡخَیۡرِ ؕ وَکَانَ الۡاِنۡسَانُ عَجُوۡلًا ﴿۱۲﴾</div>
+    <br/>
+    <div class="urdu">اور انسان شر ّ ایسے مانگتا ہے جیسے خیر مانگ رہا ہو۔ اور انسان بہت جلد باز ہے۔</div>
+    <br/>
+    <div class="english">(17-12) And man asks for evil as he should ask for good; and man is hasty.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَجَعَلۡنَا الَّیۡلَ وَالنَّہَارَ اٰیَتَیۡنِ  فَمَحَوۡنَاۤ اٰیَۃَ الَّیۡلِ وَجَعَلۡنَاۤ اٰیَۃَ النَّہَارِ مُبۡصِرَۃً لِّتَبۡتَغُوۡا فَضۡلًا مِّنۡ رَّبِّکُمۡ وَلِتَعۡلَمُوۡا عَدَدَ السِّنِیۡنَ وَالۡحِسَابَ ؕ وَکُلَّ شَیۡءٍ فَصَّلۡنٰہُ تَفۡصِیۡلًا ﴿۱۳﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے رات اور دن کے دو نشان بنائے ہیں۔ پس ہم رات کے نشان کو مٹا دیتے ہیں اور دن کے نشان کو روشنی عطا کرنے والا بنا دیتے ہیں تاکہ تم اپنے ربّ کے فضل کی تلاش کرو اور تاکہ تم سالوں کی گنتی اور حساب سیکھ سکو۔ اور ہر بات ہم نے خوب کھول کھول کر بیان کردی ہے۔</div>
+    <br/>
+    <div class="english">(17-13) And We have made the night and the day two Signs, and the Sign of night We have made dark, and the Sign of day We have made sightgiving, that you may seek bounty from your Lord, and that you may know the computation of years and <i>the science of</i> reckoning. And everything We have explained with a detailed explanation.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَکُلَّ اِنۡسَانٍ اَلۡزَمۡنٰہُ طٰٓئِرَہٗ فِیۡ عُنُقِہٖ ؕ وَنُخۡرِجُ لَہٗ یَوۡمَ الۡقِیٰمَۃِ کِتٰبًا یَّلۡقٰٮہُ مَنۡشُوۡرًا ﴿۱۴﴾</div>
+    <br/>
+    <div class="urdu">اور ہر انسان کا اعمال نامہ ہم نے اُس کی گردن سے چمٹا دیا ہے اور ہم قیامت کے دن اس کے لئے اُسے ایک ایسی کتاب کی صورت میں نکالیں گے جسے وہ کھلی ہوئی پائے گا۔</div>
+    <br/>
+    <div class="english">(17-14) And every man’s works have We fastened to his neck, and on the Day of Resurrection We shall bring out  for him a book which he will find wide open.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِقۡرَاۡ کِتٰبَکَ ؕ کَفٰی بِنَفۡسِکَ الۡیَوۡمَ عَلَیۡکَ حَسِیۡبًا ﴿ؕ۱۵﴾</div>
+    <br/>
+    <div class="urdu">اپنی کتاب پڑھ! آج کے دن تیرا نفس تیرا حساب لینے کے لئے کافی ہے۔</div>
+    <br/>
+    <div class="english">(17-15) ‘Read thy book. Sufficient is thy own soul this day as reckoner against thee.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">مَنِ اہۡتَدٰی فَاِنَّمَا یَہۡتَدِیۡ لِنَفۡسِہٖ ۚ وَمَنۡ ضَلَّ فَاِنَّمَا یَضِلُّ عَلَیۡہَا ؕ وَلَا تَزِرُ وَازِرَۃٌ وِّزۡرَ اُخۡرٰی ؕ وَمَا کُنَّا مُعَذِّبِیۡنَ حَتّٰی نَبۡعَثَ رَسُوۡلًا ﴿۱۶﴾</div>
+    <br/>
+    <div class="urdu">جو ہدایت پا جائے وہ خود اپنی جان ہی کے لئے ہدایت پاتا ہے اور جو گمراہ ہو تو وہ اسی کے مفاد کے خلاف گمراہ ہوتا ہے۔ اور کوئی بوجھ اٹھانے والی کسی دوسری کا بوجھ نہیں اٹھائے گی۔ اور ہم ہرگز عذاب نہیں دیتے یہاں تک کہ کوئی رسول بھیج دیں (اور حجت تمام کردیں)۔</div>
+    <br/>
+    <div class="english">(17-16) He who follows the right way follows it only for <i>the good of</i> his <i>own</i> soul: and he who goes astray, goes astray only to his <i>own</i> loss. And no bearer of burden shall bear the burden of another. We never punish until We have sent a Messenger.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِذَاۤ اَرَدۡنَاۤ اَنۡ نُّہۡلِکَ قَرۡیَۃً اَمَرۡنَا مُتۡرَفِیۡہَا فَفَسَقُوۡا فِیۡہَا فَحَقَّ عَلَیۡہَا الۡقَوۡلُ فَدَمَّرۡنٰہَا تَدۡمِیۡرًا ﴿۱۷﴾</div>
+    <br/>
+    <div class="urdu">اور جب ہم ارادہ کر لیتے ہیں کہ کسی بستی کو تباہ کردیں تو اُس کے خوشحال لوگوں کو حکم دے دیتے ہیں (کہ من مانی کارروائیاں کرتے پھریں) پھر وہ اس میں فسق و فجور کرتے ہیں تو اس پر فرمان صادق آجاتا ہے سو ہم اس کو ملیامیٹ کر دیتے ہیں۔</div>
+    <br/>
+    <div class="english">(17-17) And when We intend to destroy a township, We address Our commandment to its rebellious people, but they transgress therein; so the sentence <i>of punishment</i> becomes due against it, and We destroy it with utter destruction.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَکَمۡ اَہۡلَکۡنَا مِنَ الۡقُرُوۡنِ مِنۡۢ بَعۡدِ نُوۡحٍ ؕ وَکَفٰی بِرَبِّکَ بِذُنُوۡبِ عِبَادِہٖ خَبِیۡرًۢا بَصِیۡرًا ﴿۱۸﴾</div>
+    <br/>
+    <div class="urdu">اور کتنے ہی زمانوں کے لوگ ہیں جنہیں ہم نے نوح کے بعد ہلاک کیا اور تیرا ربّ اپنے بندوں کے گناہوں کی خبر رکھنے (اور) اُن پر نظر رکھنے کے لحاظ سے بہت کافی ہے۔</div>
+    <br/>
+    <div class="english">(17-18) How many generations have We destroyed after Noah! And thy Lord suffices as the Knower and Seer of the sins of His servants.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">مَنۡ کَانَ یُرِیۡدُ الۡعَاجِلَۃَ عَجَّلۡنَا لَہٗ فِیۡہَا مَا نَشَآءُ لِمَنۡ نُّرِیۡدُ ثُمَّ جَعَلۡنَا لَہٗ جَہَنَّمَ ۚ یَصۡلٰٮہَا مَذۡمُوۡمًا مَّدۡحُوۡرًا ﴿۱۹﴾</div>
+    <br/>
+    <div class="urdu">جو ورلی زندگی کی آرزو رکھتا ہے اسے ہم اسی زندگی میں (وہ) جلد عطا کر دیتے ہیں جو ہم چاہیں اور جس کےلئے ہم ارادہ کریں۔ پھر ہم نے اس کے لئے جہنّم بنا رکھی ہے وہ اس میں مذمّت کیا ہوا (اور) دھتکارا ہوا داخل ہوگا۔</div>
+    <br/>
+    <div class="english">(17-19) Whoso desires the present life, We hasten for him therein what We will — for such <i>of them</i> as We please; then have We appointed Hell for him; he shall burn therein, condemned <i>and</i> rejected.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَنۡ اَرَادَ الۡاٰخِرَۃَ وَسَعٰی لَہَا سَعۡیَہَا وَہُوَ مُؤۡمِنٌ فَاُولٰٓئِکَ کَانَ سَعۡیُہُمۡ مَّشۡکُوۡرًا ﴿۲۰﴾</div>
+    <br/>
+    <div class="urdu">اور وہ جس نے آخرت کا ارادہ کیا ہو اور اس کے لئے جیسا کہ اس کا حق ہے کوشش کی ہو بشرطیکہ وہ مومن ہو تو یہی ہیں وہ لوگ جن کی کوشش مشکور ہوگی۔</div>
+    <br/>
+    <div class="english">(17-20) And whoso desires the Hereafter and strives for it as it should be striven for, and he is a believer —  these are the ones whose striving shall find favour <i>with God</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">کُلًّا نُّمِدُّ ہٰۤؤُلَآءِ وَہٰۤؤُلَآءِ مِنۡ عَطَآءِ رَبِّکَ ؕ وَمَا کَانَ عَطَـآءُ رَبِّکَ مَحۡظُوۡرًا ﴿۲۱﴾</div>
+    <br/>
+    <div class="urdu">ہر ایک کو ہم تیرے ربّ کی عطا سے مدد دیتے ہیں اُن کو بھی اوراِن کو بھی اور تیرے ربّ کی عطا روکی نہیں جاتی۔</div>
+    <br/>
+    <div class="english">(17-21) To all We render aid — both to these and those — a gift from thy Lord. And the gift of thy Lord is not restricted.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اُنۡظُرۡ کَیۡفَ فَضَّلۡنَا بَعۡضَہُمۡ عَلٰی بَعۡضٍ ؕ وَلَلۡاٰخِرَۃُ اَکۡبَرُ دَرَجٰتٍ وَّاَکۡبَرُ تَفۡضِیۡلًا ﴿۲۲﴾</div>
+    <br/>
+    <div class="urdu">دیکھ ہم نے کِس طرح ان میں سے بعض کو بعض پر فضیلت دی اور آخرت درجات کے اعتبار سے بھی بہت بڑی ہے اور فضیلت عطا کرنے کے اعتبار سے بھی بہت بڑی ہے۔</div>
+    <br/>
+    <div class="english">(17-22) Behold, how We have exalted some of them over others <i>in the present life</i>; and surely, the Hereafter shall be greater in degrees <i>of rank</i> and greater in excellence.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَا تَجۡعَلۡ مَعَ اللّٰہِ اِلٰـہًا اٰخَرَ فَتَقۡعُدَ مَذۡمُوۡمًا مَّخۡذُوۡلًا ﴿٪۲۳﴾</div>
+    <br/>
+    <div class="urdu">تُو اللہ کے ساتھ کوئی دوسرا معبود نہ بنا ورنہ تو مذمّت کیا ہوا (اور) بے یار و مددگار بیٹھا رہ جائے گا۔</div>
+    <br/>
+    <div class="english">(17-23) Set not up with Allah another God lest thou sit down disgraced <i>and</i> forsaken.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَضٰی رَبُّکَ اَلَّا تَعۡبُدُوۡۤا اِلَّاۤ اِیَّاہُ وَبِالۡوَالِدَیۡنِ اِحۡسَانًا ؕ اِمَّا یَبۡلُغَنَّ عِنۡدَکَ الۡکِبَرَ اَحَدُہُمَاۤ اَوۡ کِلٰہُمَا فَلَا تَقُلۡ لَّہُمَاۤ اُفٍّ وَّلَا تَنۡہَرۡہُمَا وَقُلۡ لَّہُمَا قَوۡلًا کَرِیۡمًا ﴿۲۴﴾</div>
+    <br/>
+    <div class="urdu">اور تیرے ربّ نے فیصلہ صادر کردیا ہے کہ تم اُس کے سوا کسی کی عبادت نہ کرو اور والدین سے احسان کا سلوک کرو۔ اگر ان دونوں میں سے کوئی ایک تیرے پاس بڑھاپے کی عمر کو پہنچے یا وہ دونوں ہی، تو اُنہیں اُف تک نہ کہہ اور انہیں ڈانٹ نہیں اور انہیں نرمی اور عزت کے ساتھ مخاطب کر۔</div>
+    <br/>
+    <div class="english">(17-24) Thy Lord has commanded, “Worship none but Him, and <i>show</i> kindness to parents. If one of them or both of them attain old age with thee, never say unto them any word expressive of disgust nor reproach them, but address them with excellent speech.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاخۡفِضۡ لَہُمَا جَنَاحَ الذُّلِّ مِنَ الرَّحۡمَۃِ وَقُلۡ رَّبِّ ارۡحَمۡہُمَا کَمَا رَبَّیٰنِیۡ صَغِیۡرًا ﴿ؕ۲۵﴾</div>
+    <br/>
+    <div class="urdu">اور ان دونوں کے لئے رحم سے عجز کا پَرجُھکا دے اور کہہ کہ اے میرے ربّ! ان دونوں پر رحم کر جس طرح ان دونوں نے بچپن میں میری تربیت کی۔</div>
+    <br/>
+    <div class="english">(17-25) “And lower to them the wing of humility out of tenderness. And say, ‘My Lord, have mercy on them even as they nourished me in <i>my</i> childhood.’”</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">رَبُّکُمۡ اَعۡلَمُ بِمَا فِیۡ نُفُوۡسِکُمۡ ؕ اِنۡ تَکُوۡنُوۡا صٰلِحِیۡنَ فَاِنَّہٗ کَانَ لِلۡاَوَّابِیۡنَ غَفُوۡرًا ﴿۲۶﴾</div>
+    <br/>
+    <div class="urdu">تمہارا ربّ سب سے زیادہ جانتا ہے جو تمہارے دلوں میں ہے۔ اگر تم نیک ہو تو وہ یقیناً بکثرت توبہ کرنے والوں کو بہت بخشنے والا ہے۔</div>
+    <br/>
+    <div class="english">(17-26) Your Lord knows best what is in your minds; if you are righteous, then surely, He is Most Forgiving to those who turn <i>to Him</i> again and again.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاٰتِ ذَا الۡقُرۡبٰی حَقَّہٗ وَالۡمِسۡکِیۡنَ وَابۡنَ السَّبِیۡلِ وَلَا تُبَذِّرۡ تَبۡذِیۡرًا ﴿۲۷﴾</div>
+    <br/>
+    <div class="urdu">اور قرابت دار کو اس کا حق دے اور مسکین کو بھی اور مسافر کو بھی مگر فضول خرچی نہ کر۔</div>
+    <br/>
+    <div class="english">(17-27) And give thou to the kinsman his due, and to the poor and the wayfarer, and squander not <i>thy wealth</i> extravagantly.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ الۡمُبَذِّرِیۡنَ کَانُوۡۤا اِخۡوَانَ الشَّیٰطِیۡنِ ؕ وَکَانَ الشَّیۡطٰنُ لِرَبِّہٖ کَفُوۡرًا ﴿۲۸﴾</div>
+    <br/>
+    <div class="urdu">یقیناً فضول خرچ لوگ شیطانوں کے بھائی ہیں اور شیطان اپنے ربّ کا بہت ناشکرا ہے۔</div>
+    <br/>
+    <div class="english">(17-28) Verily, the extravagant are brothers of satans, and Satan is ungrateful to his Lord.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِمَّا تُعۡرِضَنَّ عَنۡہُمُ ابۡتِغَآءَ رَحۡمَۃٍ مِّنۡ رَّبِّکَ تَرۡجُوۡہَا فَقُلۡ لَّہُمۡ قَوۡلًا مَّیۡسُوۡرًا ﴿۲۹﴾</div>
+    <br/>
+    <div class="urdu">اور اگر تجھے ان سے اعراض کرنا ہی پڑے تو اپنے ربّ کی رحمت کے حصول کی خاطر، جس کی تُو امید رکھتا ہے، اُن سے نرم بات کہہ۔</div>
+    <br/>
+    <div class="english">(17-29) And if thou hast to turn away from them while seeking thy Lord’s mercy for which thou hopest, <i>even then</i> speak to them a gentle word.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَا تَجۡعَلۡ یَدَکَ مَغۡلُوۡلَۃً اِلٰی عُنُقِکَ وَلَا تَبۡسُطۡہَا کُلَّ الۡبَسۡطِ فَتَقۡعُدَ مَلُوۡمًا مَّحۡسُوۡرًا ﴿۳۰﴾</div>
+    <br/>
+    <div class="urdu">اور اپنی مُٹھی (بخل کے ساتھ) بھینچتے ہوئے گردن سے نہ لگالے اور نہ ہی اُسے پُورے کا پُورا کھول دے کہ اس کے نتیجہ میں تُو ملامت زدہ (اور) حسرت زدہ ہو کر بیٹھ رہے۔</div>
+    <br/>
+    <div class="english">(17-30) And keep not thy hand chained to thy neck, nor stretch it out an entire stretching, lest thou sit down blamed <i>or</i> exhausted.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ رَبَّکَ یَبۡسُطُ الرِّزۡقَ لِمَنۡ یَّشَآءُ وَیَقۡدِرُ ؕ اِنَّہٗ کَانَ بِعِبَادِہٖ خَبِیۡرًۢا بَصِیۡرًا ﴿٪۳۱﴾</div>
+    <br/>
+    <div class="urdu">تیرا ربّ یقیناً جس کے لئے چاہتا ہے رزق کو وسعت بھی دیتا ہے اور تنگ بھی کرتا ہے۔ یقیناً وہ اپنے بندوں سے بہت باخبر ہے (اور) گہری نظر رکھنے والا ہے۔</div>
+    <br/>
+    <div class="english">(17-31) Surely, thy Lord enlarges <i>His</i> provision for whom He pleases, and straitens <i>it for whom He pleases</i>. Verily, He knows <i>and</i> sees His servants full well.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَا تَقۡتُلُوۡۤا اَوۡلَادَکُمۡ خَشۡیَۃَ اِمۡلَاقٍ ؕ نَحۡنُ نَرۡزُقُہُمۡ وَاِیَّاکُمۡ ؕ اِنَّ قَتۡلَہُمۡ کَانَ خِطۡاً کَبِیۡرًا ﴿۳۲﴾</div>
+    <br/>
+    <div class="urdu">اور اپنی اولاد کو کنگال ہونے کے ڈر سے قتل نہ کرو۔ ہم ہی ہیں جو انہیں رزق دیتے ہیں اور تمہیں بھی۔ ان کو قتل کرنا یقیناً بہت بڑی خطا ہے۔</div>
+    <br/>
+    <div class="english">(17-32) Kill not your children for fear of poverty. It is We Who provide for them and for you. Surely, the killing of them is a great sin.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَا تَقۡرَبُوا الزِّنٰۤی  اِنَّہٗ کَانَ فَاحِشَۃً ؕ وَسَآءَ سَبِیۡلًا ﴿۳۳﴾</div>
+    <br/>
+    <div class="urdu">اور زنا کے قریب نہ جاؤ۔ یقیناً یہ بے حیائی ہے اور بہت بُرا رستہ ہے۔</div>
+    <br/>
+    <div class="english">(17-33) And come not near unto adultery; surely, it is a foul thing and an evil way.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَا تَقۡتُلُوا النَّفۡسَ الَّتِیۡ حَرَّمَ اللّٰہُ اِلَّا بِالۡحَقِّ ؕ وَمَنۡ قُتِلَ مَظۡلُوۡمًا فَقَدۡ جَعَلۡنَا لِوَلِیِّہٖ سُلۡطٰنًا فَلَا یُسۡرِفۡ فِّی الۡقَتۡلِ ؕ اِنَّہٗ کَانَ مَنۡصُوۡرًا ﴿۳۴﴾</div>
+    <br/>
+    <div class="urdu">اور اُس جان کو ناحق قتل نہ کرو جسے اللہ نے حُرمت بخشی ہو۔ اور جو مظلوم ہونے کی حالت میں قتل کیا جائے تو ہم نے اُس کے ولی کو (بدلے کا) قوی حق عطا کیا ہے۔ پس وہ قتل کے معاملہ میں زیادتی نہ کرے۔ یقیناً وہ تائید یافتہ ہے۔</div>
+    <br/>
+    <div class="english">(17-34) And kill not the soul which Allah has forbidden save for just cause. And whoso is killed wrongfully, We have surely given his heir authority <i>to demand retaliation</i>, but let him not exceed the <i>prescribed</i> bounds in slaying; for <i>therein</i> he is helped <i>by law</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَا تَقۡرَبُوۡا مَالَ الۡیَتِیۡمِ اِلَّا بِالَّتِیۡ ہِیَ اَحۡسَنُ حَتّٰی یَبۡلُغَ اَشُدَّہٗ ۪ وَاَوۡفُوۡا بِالۡعَہۡدِ ۚ اِنَّ الۡعَہۡدَ کَانَ مَسۡـُٔوۡلًا ﴿۳۵﴾</div>
+    <br/>
+    <div class="urdu">اور یتیم کے مال کے قریب نہ جاؤ مگر ایسے طریق پر کہ وہ بہترین ہو یہاں تک کہ وہ اپنی بلوغت کی عمر کو پہنچ جائے۔ اور عہد کو پورا کرو یقیناً عہد کے بارہ میں پوچھا جائے گا۔</div>
+    <br/>
+    <div class="english">(17-35) And come not near the property of the orphan, except in the best way, until he attains his maturity, and fulfil the covenant; for the covenant shall be questioned about.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاَوۡفُوا الۡکَیۡلَ اِذَا کِلۡتُمۡ وَزِنُوۡا بِالۡقِسۡطَاسِ الۡمُسۡتَقِیۡمِ ؕ ذٰلِکَ خَیۡرٌ وَّاَحۡسَنُ تَاۡوِیۡلًا ﴿۳۶﴾</div>
+    <br/>
+    <div class="urdu">اور جب تم ماپ کرو تو پورا ماپ کرو اور سیدھی ڈنڈی سے تولو۔ یہ بات بہت بہتر اور انجام کار سب سے اچھی ہے۔</div>
+    <br/>
+    <div class="english">(17-36) And give full measure when you measure, and weigh with a right balance; that is best and most commendable in the end.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَا تَقۡفُ مَا لَیۡسَ لَکَ بِہٖ عِلۡمٌ ؕ اِنَّ السَّمۡعَ وَالۡبَصَرَ وَالۡفُؤَادَ کُلُّ اُولٰٓئِکَ کَانَ عَنۡہُ مَسۡـُٔوۡلًا ﴿۳۷﴾</div>
+    <br/>
+    <div class="urdu">اور وہ موقف اختیار نہ کر جس کا تُجھے علم نہیں۔ یقیناً کان اور آنکھ اور دل میں سے ہر ایک سے متعلق پوچھا جائے گا۔</div>
+    <br/>
+    <div class="english">(17-37) And follow not that of which thou hast no knowledge. Verily, the ear and the eye and the heart — all these shall be called to account.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَا تَمۡشِ فِی الۡاَرۡضِ مَرَحًا ۚ اِنَّکَ لَنۡ تَخۡرِقَ الۡاَرۡضَ وَلَنۡ تَبۡلُغَ الۡجِبَالَ طُوۡلًا ﴿۳۸﴾</div>
+    <br/>
+    <div class="urdu">اور زمین میں اکڑ کر نہ چل۔ تُو یقیناً زمین کو پھاڑ نہیں سکتا اور نہ قامت میں پہاڑوں کی بلندی تک پہنچ سکتا ہے۔</div>
+    <br/>
+    <div class="english">(17-38) And walk not in the earth haughtily, for thou canst not rend the earth, nor canst thou reach the mountains in height.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">کُلُّ ذٰلِکَ کَانَ سَیِّئُہٗ عِنۡدَ رَبِّکَ مَکۡرُوۡہًا ﴿۳۹﴾</div>
+    <br/>
+    <div class="urdu">یہ تمام ایسی باتیں ہیں جن کی برائی تیرے ربّ کے نزدیک سخت ناپسندیدہ ہے۔</div>
+    <br/>
+    <div class="english">(17-39) The evil of all these is hateful in the sight of thy Lord.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ذٰلِکَ مِمَّاۤ اَوۡحٰۤی اِلَیۡکَ رَبُّکَ مِنَ الۡحِکۡمَۃِ ؕ وَلَا تَجۡعَلۡ مَعَ اللّٰہِ اِلٰـہًا اٰخَرَ فَتُلۡقٰی فِیۡ جَہَنَّمَ مَلُوۡمًا مَّدۡحُوۡرًا ﴿۴۰﴾</div>
+    <br/>
+    <div class="urdu">یہ اُن حکمت کی باتوں میں سے ہے جو تیرے ربّ نے تیری طرف وحی کیں۔ اور تُو اللہ کے ساتھ کسی اور کو معبود نہ بنا ورنہ تُو جہنّم میں ملامت زدہ (اور) دھتکارا ہوا پھینک دیا جائے گا۔</div>
+    <br/>
+    <div class="english">(17-40) This is part of that wisdom which thy Lord has revealed to thee. And set not up with Allah any other God, lest thou be cast into Hell, condemned <i>and</i> rejected.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَفَاَصۡفٰٮکُمۡ رَبُّکُمۡ بِالۡبَنِیۡنَ وَاتَّخَذَ مِنَ الۡمَلٰٓئِکَۃِ اِنَاثًا ؕ اِنَّکُمۡ لَتَقُوۡلُوۡنَ قَوۡلًا عَظِیۡمًا ﴿٪۴۱﴾</div>
+    <br/>
+    <div class="urdu">کیا تمہیں تو تمہارے ربّ نے بیٹوں کے لئے چُن لیا اور خود فرشتوں میں سے بیٹیاں بنا بیٹھا؟ تم یقیناً بہت بڑی بات کر رہے ہو۔</div>
+    <br/>
+    <div class="english">(17-41) Has, then, your Lord honoured you with sons, and taken for Himself females from among the angels? Surely, you say a grievous saying.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ صَرَّفۡنَا فِیۡ ہٰذَا الۡقُرۡاٰنِ لِیَذَّکَّرُوۡا ؕ وَمَا یَزِیۡدُہُمۡ اِلَّا نُفُوۡرًا ﴿۴۲﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً ہم نے اس قرآن میں (آیات کو) بار بار بیان کیا ہے تاکہ وہ نصیحت پکڑیں بایں ہمہ یہ اُنہیں نفرت سے دور بھاگنے کے سوا کسی اور چیز میں نہیں بڑھاتا۔</div>
+    <br/>
+    <div class="english">(17-42) We have explained <i>the truth</i> in this Qur’an in the various ways that they may be admonished, but it only increases them in aversion.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ لَّوۡ کَانَ مَعَہٗۤ اٰلِـہَۃٌ کَمَا یَقُوۡلُوۡنَ اِذًا لَّابۡتَغَوۡا اِلٰی ذِی الۡعَرۡشِ سَبِیۡلًا ﴿۴۳﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ اگر اُس کے ساتھ کچھ اور معبود ہوتے جیسا یہ کہتے ہیں تو وہ بھی ضرور صاحبِ عرش تک پہنچنے کی راہ بڑی خواہش سے ڈھونڈتے۔</div>
+    <br/>
+    <div class="english">(17-43) Say, had there been other gods with Him, as they say, then they (idolaters) would have surely sought out a way to the Owner of the Throne.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">سُبۡحٰنَہٗ وَتَعٰلٰی عَمَّا یَقُوۡلُوۡنَ عُلُوًّا کَبِیۡرًا ﴿۴۴﴾</div>
+    <br/>
+    <div class="urdu">پاک ہے وہ اور بہت بلند ہے ان باتوں سے جو وہ کہتے ہیں۔</div>
+    <br/>
+    <div class="english">(17-44) Holy is He, and exalted far above that which they say.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">تُسَبِّحُ لَہُ السَّمٰوٰتُ السَّبۡعُ وَالۡاَرۡضُ وَمَنۡ فِیۡہِنَّ ؕ وَاِنۡ مِّنۡ شَیۡءٍ اِلَّا یُسَبِّحُ بِحَمۡدِہٖ وَلٰکِنۡ لَّا تَفۡقَہُوۡنَ تَسۡبِیۡحَہُمۡ ؕ اِنَّہٗ کَانَ حَلِیۡمًا غَفُوۡرًا ﴿۴۵﴾</div>
+    <br/>
+    <div class="urdu">اُسی کی تسبیح کر رہے ہیں سات آسمان اور زمین اور جو بھی ان میں ہے۔ اور کوئی چیز نہیں مگر وہ اُس کی حمد کے ساتھ تسبیح کر رہی ہے لیکن حال یہ ہے کہ تم ان کی تسبیح کو سمجھتے نہیں۔ وہ یقیناً بہت بُردبار (اور) بہت بخشنے والا ہے۔</div>
+    <br/>
+    <div class="english">(17-45) The seven heavens and the earth and those that are therein extol His glory; and there is not a thing but glorifies Him with His praise; but you understand not their glorification. Verily, He is Forbearing, Most Forgiving.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِذَا قَرَاۡتَ الۡقُرۡاٰنَ جَعَلۡنَا بَیۡنَکَ وَبَیۡنَ الَّذِیۡنَ لَا یُؤۡمِنُوۡنَ بِالۡاٰخِرَۃِ حِجَابًا مَّسۡتُوۡرًا ﴿ۙ۴۶﴾</div>
+    <br/>
+    <div class="urdu">اور جب تُو قرآن کی تلاوت کرتا ہے تو ہم تیرے درمیان اور اُن لوگوں کے درمیان جو آخرت پر ایمان نہیں لاتے ایک مخفی پردہ ڈال دیتے ہیں۔</div>
+    <br/>
+    <div class="english">(17-46) And when thou recitest the Qur’an, We put between thee and those who believe not in the Hereafter a hidden veil;</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَّجَعَلۡنَا عَلٰی قُلُوۡبِہِمۡ اَکِنَّۃً اَنۡ یَّفۡقَہُوۡہُ وَفِیۡۤ اٰذَانِہِمۡ وَقۡرًا ؕ وَاِذَا ذَکَرۡتَ رَبَّکَ فِی الۡقُرۡاٰنِ وَحۡدَہٗ وَلَّوۡا عَلٰۤی اَدۡبَارِہِمۡ نُفُوۡرًا ﴿۴۷﴾</div>
+    <br/>
+    <div class="urdu">اور ہم اُن کے دلوں پر پردے ڈال دیتے ہیں کہ وہ اُسے سمجھ نہ سکیں اور اُن کے کانوں میں بوجھ۔ اور جب تُو قرآن میں اپنے ربّ ِ یگانہ کا ذکر کرتا ہے تو وہ نفرت سے پیٹھ پھیرتے ہوئے پلٹ جاتے ہیں۔</div>
+    <br/>
+    <div class="english">(17-47) And We put coverings over their hearts lest they should understand it, and in their ears a deafness. And when thou makest mention in the Qur’an of thy Lord alone, they turn their backs in aversion.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">نَحۡنُ اَعۡلَمُ بِمَا یَسۡتَمِعُوۡنَ بِہٖۤ اِذۡ یَسۡتَمِعُوۡنَ اِلَیۡکَ وَاِذۡ ہُمۡ نَجۡوٰۤی اِذۡ یَقُوۡلُ الظّٰلِمُوۡنَ اِنۡ تَتَّبِعُوۡنَ اِلَّا رَجُلًا مَّسۡحُوۡرًا ﴿۴۸﴾</div>
+    <br/>
+    <div class="urdu">ہم سب سے زیادہ جانتے ہیں کہ وہ کیا بات سُننا چاہتے ہیں جب وہ تیری طرف کان دھرتے ہیں اور جب وہ خفیہ مشوروں میں مصروف ہوتے ہیں۔ جب ظالم لوگ کہتے ہیں کہ تم محض ایک ایسے شخص کی پیروی کر رہے ہو جو سحر زدہ ہے۔</div>
+    <br/>
+    <div class="english">(17-48) We know best what they listen for, when they listen to thee, and when they confer in private, when the wrongdoers say, ‘You follow none but a man who is a victim of deception.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اُنۡظُرۡ کَیۡفَ ضَرَبُوۡا لَکَ الۡاَمۡثَالَ فَضَلُّوۡا فَلَا یَسۡتَطِیۡعُوۡنَ سَبِیۡلًا ﴿۴۹﴾</div>
+    <br/>
+    <div class="urdu">دیکھ تیرے بارہ میں وہ کیسی کیسی مثالیں بیان کرتے ہیں۔ پس وہ رستہ سے بھٹک گئے ہیں اور سیدھی راہ تک نہیں پہنچ سکتے۔</div>
+    <br/>
+    <div class="english">(17-49) See, how they coin similitudes for thee, and have thus gone astray so that they cannot find a way.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالُوۡۤاءَ اِذَا کُنَّا عِظَامًا وَّرُفَاتًاءَ اِنَّا لَمَبۡعُوۡثُوۡنَ خَلۡقًا جَدِیۡدًا ﴿۵۰﴾</div>
+    <br/>
+    <div class="urdu">اور وہ کہتے ہیں کہ جب ہم محض ہڈیاں رہ جائیں گے اور ریزہ ریزہ ہو جائیں گے تو کیا ہم ضرور ایک نئی تخلیق کی صورت میں اُٹھائے جائیں گے؟</div>
+    <br/>
+    <div class="english">(17-50) And they say, ‘When we shall have become bones and broken particles, shall we be really raised up as a new creation?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ کُوۡنُوۡا حِجَارَۃً اَوۡ حَدِیۡدًا ﴿ۙ۵۱﴾</div>
+    <br/>
+    <div class="urdu">تو کہہ دے تم پتھر بن جاؤ یا لوہا،</div>
+    <br/>
+    <div class="english">(17-51) Say, ‘Be ye stones or iron,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَوۡ خَلۡقًا مِّمَّا یَکۡبُرُ فِیۡ صُدُوۡرِکُمۡ ۚ فَسَیَقُوۡلُوۡنَ مَنۡ یُّعِیۡدُنَا ؕ قُلِ الَّذِیۡ فَطَرَکُمۡ اَوَّلَ مَرَّۃٍ ۚ فَسَیُنۡغِضُوۡنَ اِلَیۡکَ رُءُوۡسَہُمۡ وَیَقُوۡلُوۡنَ مَتٰی ہُوَ ؕ قُلۡ عَسٰۤی اَنۡ یَّکُوۡنَ قَرِیۡبًا ﴿۵۲﴾</div>
+    <br/>
+    <div class="urdu">یا ایسی مخلوق جو تمہاری دانست میں (سختی میں) اس سے بھی بڑھ کر ہو۔ تواس پر وہ ضرور کہیں گے کہ کون (ہے جو) ہمیں لوٹائے گا؟ تُو کہہ دے وہی جس نے تمہیں پہلی مرتبہ پیداکیا تھا۔ تو وہ تیری طرف (منہ کرکے) اپنے سر مٹکائیں گے اور کہیں گے ایسا کب ہوگا؟ تُو کہہ دے ہو سکتا ہے کہ جلد ایسا ہو۔</div>
+    <br/>
+    <div class="english">(17-52) ‘Or created matter of <i>any kind</i> which appears hardest in your minds, <i>even then shall you be raised up</i>.’ Then will they ask, ‘Who shall restore us to life?’ Say, ‘He Who created you the first time.’ They will then shake their heads at thee and say, ‘When will it be?’ Say, ‘Maybe it is nigh,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">یَوۡمَ یَدۡعُوۡکُمۡ فَتَسۡتَجِیۡبُوۡنَ بِحَمۡدِہٖ وَتَظُنُّوۡنَ اِنۡ لَّبِثۡتُمۡ اِلَّا قَلِیۡلًا ﴿٪۵۳﴾</div>
+    <br/>
+    <div class="urdu">جس دن وہ تمہیں بُلائے گا اور تم اس کی حمد کے ساتھ لبیک کہو گے اور تم گمان کروگے کہ تم تھوڑی سی مدت کے سوا نہیں رہے۔</div>
+    <br/>
+    <div class="english">(17-53) ‘<i>It will be</i> on the day when He will call you; then will you respond praising Him and you will think that you have tarried but a little while.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقُلۡ لِّعِبَادِیۡ یَقُوۡلُوا الَّتِیۡ ہِیَ اَحۡسَنُ ؕ اِنَّ الشَّیۡطٰنَ یَنۡزَغُ بَیۡنَہُمۡ ؕ اِنَّ الشَّیۡطٰنَ کَانَ لِلۡاِنۡسَانِ عَدُوًّا مُّبِیۡنًا ﴿۵۴﴾</div>
+    <br/>
+    <div class="urdu">اور تُو میرے بندوں سے کہہ دے کہ ایسی بات کیا کریں جو سب سے اچھی ہو۔ یقیناً شیطان اُن کے درمیان فساد ڈالتا ہے۔ شیطان بے شک انسان کا کھلا کھلا دشمن ہے۔</div>
+    <br/>
+    <div class="english">(17-54) And say to My servants that they should speak that which is best. Surely, Satan stirs up discord among them. Surely, Satan is an open enemy to man.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">رَبُّکُمۡ اَعۡلَمُ بِکُمۡ ؕ اِنۡ یَّشَاۡ یَرۡحَمۡکُمۡ اَوۡ اِنۡ یَّشَاۡ یُعَذِّبۡکُمۡ ؕ وَمَاۤ اَرۡسَلۡنٰکَ عَلَیۡہِمۡ وَکِیۡلًا ﴿۵۵﴾</div>
+    <br/>
+    <div class="urdu">تمہارا ربّ تمہیں سب سے زیادہ جانتا ہے۔ اگر وہ چاہے تو تم پر رحم کرے اور اگر چاہے تو تمہیں عذاب دے۔ اور ہم نے تجھے ان پر داروغہ بنا کر نہیں بھیجا۔</div>
+    <br/>
+    <div class="english">(17-55) Your Lord knows you best. If He please, He will have mercy on you; or if He please, He will punish you. And We have not sent thee to be a keeper over them.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَرَبُّکَ اَعۡلَمُ بِمَنۡ فِی السَّمٰوٰتِ وَالۡاَرۡضِ ؕ وَلَقَدۡ فَضَّلۡنَا بَعۡضَ النَّبِیّٖنَ عَلٰی بَعۡضٍ  وَّاٰتَیۡنَا دَاوٗدَ زَبُوۡرًا ﴿۵۶﴾</div>
+    <br/>
+    <div class="urdu">اور تیرا ربّ سب سے زیادہ اُسے جانتا ہے جو آسمانوں اور زمین میں ہے۔ اور یقیناً ہم نے نبیوں میں سے بعض کو بعض پر فضیلت دی اور دا ؤد کو ہم نے زبور عطا کی۔</div>
+    <br/>
+    <div class="english">(17-56) And thy Lord knows best those that are in the heavens and the earth. And We exalted some of the Prophets over the others, and to David We gave a Book.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلِ ادۡعُوا الَّذِیۡنَ زَعَمۡتُمۡ مِّنۡ دُوۡنِہٖ فَلَا یَمۡلِکُوۡنَ کَشۡفَ الضُّرِّ عَنۡکُمۡ وَلَا تَحۡوِیۡلًا ﴿۵۷﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے پکارو اُن لوگوں کو جنہیں تم اُس کے سوا گمان کیا کرتے تھے۔ پس وہ تم سے تکلیف دور کرنے کی کوئی طاقت نہیں رکھتے اور نہ اسے تبدیل کرنے کی۔</div>
+    <br/>
+    <div class="english">(17-57) Say, ‘Call on those whom you think <i>to be gods</i> beside Him; then <i>you will know that</i> they have no power to remove affliction from you or to avert <i>it</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اُولٰٓئِکَ الَّذِیۡنَ یَدۡعُوۡنَ یَبۡتَغُوۡنَ اِلٰی رَبِّہِمُ الۡوَسِیۡلَۃَ اَیُّہُمۡ اَقۡرَبُ وَیَرۡجُوۡنَ رَحۡمَتَہٗ وَیَخَافُوۡنَ عَذَابَہٗ ؕ اِنَّ عَذَابَ رَبِّکَ کَانَ مَحۡذُوۡرًا ﴿۵۸﴾</div>
+    <br/>
+    <div class="urdu">یہی لوگ جنہیں یہ پکارتے ہیں وہ تو خود اپنے ربّ کی طرف جانے کا وسیلہ ڈھونڈیں گے کہ کون ہے ان میں سے جو (وسیلہ بننے کا) زیادہ حقدار ہے اور وہ اُس کی رحمت کی توقع رکھیں گے اور اُس کے عذاب سے ڈریں گے۔ یقیناً تیرے ربّ کا عذاب اس لائق ہے کہ اس سے بچا جائے۔</div>
+    <br/>
+    <div class="english">(17-58) Those whom they call on <i>themselves</i> seek nearness to their Lord — <i>even</i> those of them who are nearest — and hope for His mercy, and fear His punishment. Surely, the punishment of thy Lord is a thing to be feared.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنۡ مِّنۡ قَرۡیَۃٍ اِلَّا نَحۡنُ مُہۡلِکُوۡہَا قَبۡلَ یَوۡمِ الۡقِیٰمَۃِ اَوۡ مُعَذِّبُوۡہَا عَذَابًا شَدِیۡدًا ؕ کَانَ ذٰلِکَ فِی الۡکِتٰبِ مَسۡطُوۡرًا ﴿۵۹﴾</div>
+    <br/>
+    <div class="urdu">اور کوئی بستی نہیں مگر اسے ہم قیامت کے دن سے پہلے ہلاک کرنے والے یا اُسے بہت سخت عذاب دینے والے ہیں۔ یہ بات کتاب میں لکھی ہوئی ہے۔</div>
+    <br/>
+    <div class="english">(17-59) There is not a township but We shall destroy it before the Day of Resurrection, or punish it with a severe punishment. That is written down in the Book.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا مَنَعَنَاۤ اَنۡ نُّرۡسِلَ بِالۡاٰیٰتِ اِلَّاۤ اَنۡ کَذَّبَ بِہَا الۡاَوَّلُوۡنَ ؕ وَاٰتَیۡنَا ثَمُوۡدَ النَّاقَۃَ مُبۡصِرَۃً فَظَلَمُوۡا بِہَا ؕ وَمَا نُرۡسِلُ بِالۡاٰیٰتِ اِلَّا تَخۡوِیۡفًا ﴿۶۰﴾</div>
+    <br/>
+    <div class="urdu">اور کسی بات نے ہمیں نہیں روکا کہ ہم اپنی آیات بھیجیں سوائے اس کے کہ پہلوں نے ان کا انکار کردیا تھا۔ اور ہم نے ثمود کو بھی ایک بصیرت افروز نشان کے طور پر اُونٹنی عطا کی تھی۔ پس وہ اس سے ظلم کے ساتھ پیش آئے۔ اور ہم نشانات نہیں بھیجتے مگر تدریجاً ڈرانے کی خاطر۔</div>
+    <br/>
+    <div class="english">(17-60) And nothing could hinder Us from sending Signs, except that the former people rejected them, <i>but this is no hindrance</i>. And We gave Thamud the she-camel as a clear Sign, but they unjustly rejected it. And We send not Signs but to warn.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِذۡ قُلۡنَا لَکَ اِنَّ رَبَّکَ اَحَاطَ بِالنَّاسِ ؕ وَمَا جَعَلۡنَا الرُّءۡیَا الَّتِیۡۤ اَرَیۡنٰکَ اِلَّا فِتۡنَۃً لِّلنَّاسِ وَالشَّجَرَۃَ الۡمَلۡعُوۡنَۃَ فِی الۡقُرۡاٰنِ ؕ وَنُخَوِّفُہُمۡ ۙ فَمَا یَزِیۡدُہُمۡ اِلَّا طُغۡیَانًا کَبِیۡرًا ﴿٪۶۱﴾</div>
+    <br/>
+    <div class="urdu">اور (یاد کر) جب ہم نے تجھے کہا یقیناً تیرے ربّ نے انسانوں کو گھیر لیا ہے۔ اور وہ خواب جو ہم نے تجھے دکھایا اُسے ہم نے نہیں بنایا مگر لوگوں کے لئے آزمائش اور اس درخت کو بھی جو قرآن میں ملعون قرار دیا گیا۔ اور ہم انہیں تدریجاً ڈراتے ہیں مگر وہ اُنہیں سوائے بڑی سرکشی کے اور کسی چیز میں نہیں بڑھاتا۔</div>
+    <br/>
+    <div class="english">(17-61) And <i>remember the time</i> when We said to thee: ‘Surely, thy Lord has encompassed the people.’ And We made not the vision which We showed thee but as a trial for men, as also the tree cursed in the Qur’an. And We warn them, but it only increases them in great transgression.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِذۡ قُلۡنَا لِلۡمَلٰٓئِکَۃِ اسۡجُدُوۡا لِاٰدَمَ فَسَجَدُوۡۤا اِلَّاۤ اِبۡلِیۡسَ ؕ قَالَ ءَاَسۡجُدُ لِمَنۡ خَلَقۡتَ طِیۡنًا ﴿ۚ۶۲﴾</div>
+    <br/>
+    <div class="urdu">اور جب ہم نے فرشتوں سے کہا آدم کے لئے سجدہ ریز ہو جاؤ تو اُنہوں نے سجدہ کیا سوائے ابلیس کے۔ اُس نے کہا کیا میں اس کے لئے سجدہ کروں جسے تُو نے گیلی مٹی سے پیدا کیا ہے؟</div>
+    <br/>
+    <div class="english">(17-62) And <i>remember the time</i> when We said to the angels, ‘Submit to Adam,’ and they <i>all</i> submitted, except Iblis. He said, ‘Shall I submit to one whom Thou hast created of clay?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ اَرَءَیۡتَکَ ہٰذَا الَّذِیۡ کَرَّمۡتَ عَلَیَّ ۫ لَئِنۡ اَخَّرۡتَنِ اِلٰی یَوۡمِ الۡقِیٰمَۃِ لَاَحۡتَنِکَنَّ ذُرِّیَّتَہٗۤ اِلَّا قَلِیۡلًا ﴿۶۳﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا مجھے بتا تو سہی کہ کیا یہ وہ (چیز) ہے جسے تُو نے مجھ پر فضیلت دی ہے؟ اگر تُو مجھے قیامت کے دن تک مہلت دے دے تو میں ضرور اس کی نسلوں کو ہلاک کردوں گا سوائے چند ایک کے۔</div>
+    <br/>
+    <div class="english">(17-63) <i>And</i> he said, ‘What thinkest Thou? <i>Can</i> this whom Thou hast honoured above me <i>be my superior</i>? If Thou wilt grant me respite till the Day of Resurrection, I will most surely bring his descendants under my sway except a few.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ اذۡہَبۡ فَمَنۡ تَبِعَکَ مِنۡہُمۡ فَاِنَّ جَہَنَّمَ جَزَآؤُکُمۡ جَزَآءً مَّوۡفُوۡرًا ﴿۶۴﴾</div>
+    <br/>
+    <div class="urdu">اُس نے کہا جا! پس جو بھی ان میں سے تیری پیروی کرے گا تو یقیناً جہنّم تم سب کا پُورا پُورا بدلہ ہوگی۔</div>
+    <br/>
+    <div class="english">(17-64) He said, ‘Begone! and whoso shall follow thee from among them, Hell shall surely be the recompense of you all —  an ample recompense.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاسۡتَفۡزِزۡ مَنِ اسۡتَطَعۡتَ مِنۡہُمۡ بِصَوۡتِکَ وَاَجۡلِبۡ عَلَیۡہِمۡ بِخَیۡلِکَ وَرَجِلِکَ وَشَارِکۡہُمۡ فِی الۡاَمۡوَالِ وَالۡاَوۡلَادِ وَعِدۡہُمۡ ؕ وَمَا یَعِدُہُمُ الشَّیۡطٰنُ اِلَّا غُرُوۡرًا ﴿۶۵﴾</div>
+    <br/>
+    <div class="urdu">پس اپنی آواز سے ان میں سے جسے چاہے بہکا اور ان پر اپنے سوار اور پیادے چڑھا لا اور اموال میں اور اولاد میں ان کا شریک بن جا اور ان سے وعدے کر۔ اور شیطان دھوکے کے سوا ان سے کوئی وعدہ نہیں کرتا۔</div>
+    <br/>
+    <div class="english">(17-65) ‘And entice whomsoever of them thou canst, with thy voice, and urge against them thy horsemen and thy footmen and be their partner in wealth, and children, and make promises to them.’ And Satan promises them naught but deceit.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّ عِبَادِیۡ لَیۡسَ لَکَ عَلَیۡہِمۡ سُلۡطٰنٌ ؕ وَکَفٰی بِرَبِّکَ وَکِیۡلًا ﴿۶۶﴾</div>
+    <br/>
+    <div class="urdu">یقیناً (جو) میرے بندے (ہیں) ان پر تجھے کوئی غلبہ نصیب نہ ہوگا اور تیرا ربّ ہی کارساز کے طور پر کافی ہے۔</div>
+    <br/>
+    <div class="english">(17-66) <i>As to</i> My servants, thou shalt certainly have no power over them, and sufficient is thy Lord as a Guardian.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">رَبُّکُمُ الَّذِیۡ یُزۡجِیۡ لَکُمُ الۡفُلۡکَ فِی الۡبَحۡرِ لِتَبۡتَغُوۡا مِنۡ فَضۡلِہٖ ؕ اِنَّہٗ کَانَ بِکُمۡ رَحِیۡمًا ﴿۶۷﴾</div>
+    <br/>
+    <div class="urdu">تمہارا ربّ وہ ہے جو تمہارے لئے سمندر میں کشتیاں چلاتا ہے تاکہ تم اُس کے فضلوں کی تلاش کرو۔ یقیناً وہ تمہارے حق میں بار بار رحم کرنے والا ہے۔</div>
+    <br/>
+    <div class="english">(17-67) Your Lord is He Who drives for you the ships in the sea, that you may seek of His bounty. Surely, He is merciful toward you.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِذَا مَسَّکُمُ الضُّرُّ فِی الۡبَحۡرِ ضَلَّ مَنۡ تَدۡعُوۡنَ اِلَّاۤ اِیَّاہُ ۚ فَلَمَّا نَجّٰٮکُمۡ اِلَی الۡبَرِّ اَعۡرَضۡتُمۡ ؕ وَکَانَ الۡاِنۡسَانُ کَفُوۡرًا ﴿۶۸﴾</div>
+    <br/>
+    <div class="urdu">اور جب تمہیں سمندر میں کوئی تکلیف پہنچتی ہے تو اُس کے سوا ہر وہ ذات جسے تم بلاتے ہو ساتھ چھوڑ جاتی ہے۔ پھر جب وہ تمہیں خشکی کی طرف بچا کر لے جاتا ہے تو تم (اُس سے) اِعراض کرتے ہو۔ اور انسان بہت ہی ناشکرا ہے۔</div>
+    <br/>
+    <div class="english">(17-68) And when harm touches you on the sea, <i>all</i> those whom you call upon, except Him, become lost <i>to you</i>. But when He brings you safe to land, you turn aside; and man is very ungrateful.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَفَاَمِنۡتُمۡ اَنۡ یَّخۡسِفَ بِکُمۡ جَانِبَ الۡبَرِّ اَوۡ یُرۡسِلَ عَلَیۡکُمۡ حَاصِبًا ثُمَّ لَا تَجِدُوۡا لَکُمۡ وَکِیۡلًا ﴿ۙ۶۹﴾</div>
+    <br/>
+    <div class="urdu">پس کیا تم اس بات سے امن میں ہو کہ وہ تمہیں خشکی کے کنارے لے جاکر دھنسا دے یا تم پر تیز جھکّڑ چلائے پھر تم اپنے لئے کوئی کارساز نہ پاؤ۔</div>
+    <br/>
+    <div class="english">(17-69) Do you then feel secure that He will <i>not</i> cause you to sink in the side of the land or send against you a violent sandstorm <i>and</i> then you will find no guardian for yourselves?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَمۡ اَمِنۡتُمۡ اَنۡ یُّعِیۡدَکُمۡ فِیۡہِ تَارَۃً اُخۡرٰی فَیُرۡسِلَ عَلَیۡکُمۡ قَاصِفًا مِّنَ الرِّیۡحِ فَیُغۡرِقَکُمۡ بِمَا کَفَرۡتُمۡ ۙ ثُمَّ لَا تَجِدُوۡا لَکُمۡ عَلَیۡنَا بِہٖ تَبِیۡعًا ﴿۷۰﴾</div>
+    <br/>
+    <div class="urdu">یا کیا تم امن میں ہو کہ وہ تمہیں اسی میں دوبارہ لَوٹا دے اور پھر تم پر تند و تیز ہوائیں چلائے اور تمہیں تمہاری ناشکریوں کی وجہ سے غرق کردے۔ پھر تم ہمارے خلاف اپنی خاطر اس کا کوئی بدلہ لینے والا نہ پاؤ۔</div>
+    <br/>
+    <div class="english">(17-70) Or, do you feel secure that He will <i>not</i> send you back therein a second time, <i>and</i> then send against you as a storm-blast, and drown you because of your disbelief? You will then find therein no helper for yourselves against Us.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ کَرَّمۡنَا بَنِیۡۤ اٰدَمَ وَحَمَلۡنٰہُمۡ فِی الۡبَرِّ وَالۡبَحۡرِ وَرَزَقۡنٰہُمۡ مِّنَ الطَّیِّبٰتِ وَفَضَّلۡنٰہُمۡ عَلٰی کَثِیۡرٍ مِّمَّنۡ خَلَقۡنَا تَفۡضِیۡلًا ﴿٪۷۱﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً ہم نے ابنائے آدم کو عزت دی اور انہیں خشکی اورتری میں سواری عطا کی اور انہیں پاکیزہ چیزوں میں سے رزق دیا اور اکثر چیزوں پر جو ہم نے پیدا کیں انہیں بہت فضیلت بخشی۔</div>
+    <br/>
+    <div class="english">(17-71) Indeed, We have honoured the children of Adam, and carried them by land and sea, and given them of good things and exalted them far above many of those whom We have created.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">یَوۡمَ نَدۡعُوۡا کُلَّ اُنَاسٍۭ بِاِمَامِہِمۡ ۚ فَمَنۡ اُوۡتِیَ کِتٰبَہٗ بِیَمِیۡنِہٖ فَاُولٰٓئِکَ یَقۡرَءُوۡنَ کِتٰبَہُمۡ وَلَا یُظۡلَمُوۡنَ فَتِیۡلًا ﴿۷۲﴾</div>
+    <br/>
+    <div class="urdu">وہ دن (یاد کرو) جب ہم ہر قوم کو اُس کے امام کے حوالے سے بلائیں گے۔ پس جس کو اُس کا اعمال نامہ اُس کے دائیں ہاتھ میں دیا جائے گا تو یہی وہ لوگ ہوں گے جو اپنا اعمال نامہ پڑھیں گے اور وہ ایک تاگے کے برابر بھی ظلم نہیں کئے جائیں گے۔</div>
+    <br/>
+    <div class="english">(17-72) <i>Remember</i> the day when We shall summon every people with their Leader. Then whoso shall be given his book in his right hand —  such will read their book, and they will not be wronged a whit.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَنۡ کَانَ فِیۡ ہٰذِہٖۤ اَعۡمٰی فَہُوَ فِی الۡاٰخِرَۃِ اَعۡمٰی وَاَضَلُّ سَبِیۡلًا ﴿۷۳﴾</div>
+    <br/>
+    <div class="urdu">اور جو اِسی دنیا میں اندھا ہو وہ آخرت میں بھی اندھا ہوگا اور راہ کے اعتبار سے سب سے زیادہ بھٹکاہوا۔</div>
+    <br/>
+    <div class="english">(17-73) But whoso is blind in this world will be blind in the Hereafter, and even more astray from the way.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنۡ کَادُوۡا لَیَفۡتِنُوۡنَکَ عَنِ الَّذِیۡۤ اَوۡحَیۡنَاۤ اِلَیۡکَ لِتَفۡتَرِیَ عَلَیۡنَا غَیۡرَہٗ ٭ۖ وَاِذًا لَّاتَّخَذُوۡکَ خَلِیۡلًا ﴿۷۴﴾</div>
+    <br/>
+    <div class="urdu">اور قریب تھا کہ وہ تجھے اس کے بارہ میں جو ہم نے تیری طرف وحی کی ہے فتنہ میں مبتلا کر دیتے تاکہ تو اس کے سوا کچھ اَور ہمارے خلاف گھڑ لیتا تب وہ ضرور بلاتاخیر تجھے دوست بنا لیتے۔</div>
+    <br/>
+    <div class="english">(17-74) And they had well-nigh caused thee <i>severest</i> affliction on account of what We have revealed to thee,  that thou mightest invent against Us something other than that; and then they would have certainly taken thee for a <i>special</i> friend.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَوۡلَاۤ اَنۡ ثَبَّتۡنٰکَ لَقَدۡ کِدۡتَّ تَرۡکَنُ اِلَیۡہِمۡ شَیۡئًا قَلِیۡلًا ﴿٭ۙ۷۵﴾</div>
+    <br/>
+    <div class="urdu">اور اگر ہم نے تجھے اِستقامت نہ عطا کی ہوتی تو ہوسکتا تھا کہ تُو ان کی طرف کچھ نہ کچھ جُھک جاتا۔</div>
+    <br/>
+    <div class="english">(17-75) And if We had not strengthened thee <i>with the Qur</i>’<i>an</i>, thou mightest have inclined to them a little.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِذًا لَّاَذَقۡنٰکَ ضِعۡفَ الۡحَیٰوۃِ وَضِعۡفَ الۡمَمَاتِ ثُمَّ لَا تَجِدُ لَکَ عَلَیۡنَا نَصِیۡرًا ﴿۷۶﴾</div>
+    <br/>
+    <div class="urdu">پھر ہم ضرور تجھے زندگی کا بھی دُہرا عذاب چکھاتے اور موت کا بھی دُہرا عذاب۔ تب تُو ہمارے خلاف اپنے لئے کوئی مددگار نہ پاتا۔</div>
+    <br/>
+    <div class="english">(17-76) In that case We would have made thee taste similar <i>afflictions</i> of life and similar <i>afflictions</i> of death, <i>and</i> then thou wouldst not have found for thyself any helper against Us.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنۡ کَادُوۡا لَیَسۡتَفِزُّوۡنَکَ مِنَ الۡاَرۡضِ لِیُخۡرِجُوۡکَ مِنۡہَا  وَاِذًا لَّا یَلۡبَثُوۡنَ خِلٰفَکَ اِلَّا قَلِیۡلًا ﴿۷۷﴾</div>
+    <br/>
+    <div class="urdu">اور ان سے بعید نہیں تھا کہ وطن سے تیرے پاؤں اُکھاڑ دیتے تاکہ تجھے اُس سے باہر نکال دیں۔ ایسی صورت میں وہ بھی تیرے بعد زیادہ دیر نہ رہ سکتے۔</div>
+    <br/>
+    <div class="english">(17-77) And indeed they are near to unsettling thee from the land that they might expel thee therefrom; but in that case they <i>themselves</i> would not have stayed after thee save a little.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">سُنَّۃَ مَنۡ قَدۡ اَرۡسَلۡنَا قَبۡلَکَ مِنۡ رُّسُلِنَا  وَلَا تَجِدُ لِسُنَّتِنَا تَحۡوِیۡلًا ﴿٪۷۸﴾</div>
+    <br/>
+    <div class="urdu">یہ سنّت ہمارے اُن رسولوں کے متعلق تھی جو ہم نے تجھ سے پہلے بھیجے اور تُو ہماری سنّت میں کوئی تبدیلی نہیں پائے گا۔</div>
+    <br/>
+    <div class="english">(17-78) <i>This has been Our</i> way with Our Messengers whom We sent before thee; and thou wilt not find any change in Our way.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَقِمِ الصَّلٰوۃَ لِدُلُوۡکِ الشَّمۡسِ اِلٰی غَسَقِ الَّیۡلِ وَقُرۡاٰنَ الۡفَجۡرِ ؕ اِنَّ قُرۡاٰنَ الۡفَجۡرِ کَانَ مَشۡہُوۡدًا ﴿۷۹﴾</div>
+    <br/>
+    <div class="urdu">سورج کے ڈھلنے سے شروع ہوکر رات کے چھا جانے تک نماز کو قائم کر اور فجر کی تلاوت کو اہمیت دے۔ یقیناً فجر کو قرآن پڑھنا ایسا ہے کہ اُس کی گواہی دی جاتی ہے۔</div>
+    <br/>
+    <div class="english">(17-79) Observe Prayer at the declining and paling of the sun on to the darkness of the night, and the recitation <i>of the Qur</i>’<i>an in Prayer</i> at dawn. Verily, the recitation <i>of the Qur</i>’<i>an</i> at dawn is <i>specially</i> acceptable <i>to God.</i></div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمِنَ الَّیۡلِ فَتَہَجَّدۡ بِہٖ نَافِلَۃً لَّکَ ٭ۖ عَسٰۤی اَنۡ یَّبۡعَثَکَ رَبُّکَ مَقَامًا مَّحۡمُوۡدًا ﴿۸۰﴾</div>
+    <br/>
+    <div class="urdu">اور رات کے ایک حصہ میں بھی اس (قرآن) کے ساتھ تہجّد پڑھا کر۔ یہ تیرے لئے نفل کے طور پر ہوگا۔ قریب ہے کہ تیرا ربّ تجھے مقامِ محمود پر فائز کردے۔</div>
+    <br/>
+    <div class="english">(17-80) And wake up for it (the Qur’an) in <i>the latter part of</i> the night as a supererogatory service for thee. It may be that thy Lord will raise thee to an exalted station.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقُلۡ رَّبِّ اَدۡخِلۡنِیۡ مُدۡخَلَ صِدۡقٍ وَّاَخۡرِجۡنِیۡ مُخۡرَجَ صِدۡقٍ وَّاجۡعَلۡ لِّیۡ مِنۡ لَّدُنۡکَ سُلۡطٰنًا نَّصِیۡرًا ﴿۸۱﴾</div>
+    <br/>
+    <div class="urdu">اور تُو کہہ اے میرے ربّ! مجھے اس طرح داخل کر کہ میرا داخل ہونا سچائی کے ساتھ ہو اور مجھے اس طرح نکال کہ میرا نکلنا سچائی کے ساتھ ہو اور اپنی جناب سے میرے لئے طاقتور مددگار عطا کر۔</div>
+    <br/>
+    <div class="english">(17-81) And say, ‘O my Lord, make my entry a good entry and <i>then</i> make me come forth with a good forthcoming. And grant me from Thyself a helping power.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقُلۡ جَآءَ الۡحَقُّ وَزَہَقَ الۡبَاطِلُ ؕ اِنَّ الۡبَاطِلَ کَانَ زَہُوۡقًا ﴿۸۲﴾</div>
+    <br/>
+    <div class="urdu">اور کہہ دے حق آگیا اور باطل بھاگ گیا۔ یقیناً باطل بھاگ جانے والا ہی ہے۔</div>
+    <br/>
+    <div class="english">(17-82) And say, ‘Truth has come and falsehood has vanished away. Falsehood does indeed vanish away <i>fast</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَنُنَزِّلُ مِنَ الۡقُرۡاٰنِ مَا ہُوَ شِفَآءٌ وَّرَحۡمَۃٌ لِّلۡمُؤۡمِنِیۡنَ ۙ وَلَا یَزِیۡدُ الظّٰلِمِیۡنَ اِلَّا خَسَارًا ﴿۸۳﴾</div>
+    <br/>
+    <div class="urdu">اور ہم قرآن میں سے وہ نازل کرتے ہیں جو شفاءہے اور مومنوں کے لئے رحمت ہے اور وہ ظالموں کو گھاٹے کے سوا کسی اور چیز میں نہیں بڑھاتا۔</div>
+    <br/>
+    <div class="english">(17-83) And We are <i>gradually</i> revealing of the Qur’an that which is a healing and a mercy to the believers; but it only adds to the loss of the wrongdoers.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِذَاۤ اَنۡعَمۡنَا عَلَی الۡاِنۡسَانِ اَعۡرَضَ وَنَاٰ بِجَانِبِہٖ ۚ وَاِذَا مَسَّہُ الشَّرُّ کَانَ یَــُٔوۡسًا ﴿۸۴﴾</div>
+    <br/>
+    <div class="urdu">اور جب ہم انسان پر انعام کرتے ہیں تو وہ اعراض کرتا ہے اور اپنا پہلو کتراتے ہوئے پرے ہٹ جاتا ہے اور جب اسے کوئی شر پہنچے تو سخت مایوس ہوجاتاہے۔</div>
+    <br/>
+    <div class="english">(17-84) And when We bestow favour on man, he turns away and goes aside; and when evil touches him, he gives <i>himself</i> up to despair.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ کُلٌّ یَّعۡمَلُ عَلٰی شَاکِلَتِہٖ ؕ فَرَبُّکُمۡ اَعۡلَمُ بِمَنۡ ہُوَ اَہۡدٰی سَبِیۡلًا ﴿٪۸۵﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ ہر ایک اپنی جِبِلّت کے مطابق عمل کرتا ہے۔ پس تمہارا ربّ اسے سب سے زیادہ جاننے والا ہے جو رستے کے اعتبار سے سب سے زیادہ صحیح ہے۔</div>
+    <br/>
+    <div class="english">(17-85) Say, ‘Everyone acts according to his own way, and your Lord knows full well who is best guided.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَیَسۡـَٔلُوۡنَکَ عَنِ الرُّوۡحِ ؕ قُلِ الرُّوۡحُ مِنۡ اَمۡرِ رَبِّیۡ وَمَاۤ اُوۡتِیۡتُمۡ مِّنَ الۡعِلۡمِ اِلَّا قَلِیۡلًا ﴿۸۶﴾</div>
+    <br/>
+    <div class="urdu">اور وہ تجھ سے روح کے متعلق سوال کرتے ہیں۔ تُو کہہ دے کہ روح میرے ربّ کے حکم سے ہے اور تمہیں معمولی علم کے سوا کچھ نہیں دیا گیا۔</div>
+    <br/>
+    <div class="english">(17-86) And they ask thee concerning the soul. Say, ‘The soul is by the command of my Lord; and of the knowledge <i>thereof</i> you have been given but a little.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَئِنۡ شِئۡنَا لَنَذۡہَبَنَّ بِالَّذِیۡۤ اَوۡحَیۡنَاۤ اِلَیۡکَ ثُمَّ لَا تَجِدُ لَکَ بِہٖ عَلَیۡنَا وَکِیۡلًا ﴿ۙ۸۷﴾</div>
+    <br/>
+    <div class="urdu">اور اگر ہم چاہتے تو یقیناً اُسے واپس لے جاتے جو ہم نے تیری طرف وحی کیا ہے پھر تُو اپنے لئے ہمارے خلاف اس پر کوئی کارساز نہ پاتا۔</div>
+    <br/>
+    <div class="english">(17-87) And if We pleased, We could certainly take away that which We have revealed to thee <i>and</i> then thou wouldst find in <i>the matter</i> no guardian for thee against Us,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِلَّا رَحۡمَۃً مِّنۡ رَّبِّکَ ؕ اِنَّ فَضۡلَہٗ کَانَ عَلَیۡکَ کَبِیۡرًا ﴿۸۸﴾</div>
+    <br/>
+    <div class="urdu">مگر محض اپنے ربّ کی رحمت کے ساتھ (تُو بچایا گیا)۔ یقیناً تجھ پر اُس کا فضل بہت بڑا ہے۔</div>
+    <br/>
+    <div class="english">(17-88) Except mercy from thy Lord. Surely, His grace towards thee is great.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ لَّئِنِ اجۡتَمَعَتِ الۡاِنۡسُ وَالۡجِنُّ عَلٰۤی اَنۡ یَّاۡتُوۡا بِمِثۡلِ ہٰذَا الۡقُرۡاٰنِ لَا یَاۡتُوۡنَ بِمِثۡلِہٖ وَلَوۡ کَانَ بَعۡضُہُمۡ لِبَعۡضٍ ظَہِیۡرًا ﴿۸۹﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ اگر جِنّ و انس سب اکٹھے ہو جائیں کہ اس قرآن کی مثل لے آئیں تو وہ اس کی مثل نہیں لاسکیں گے خواہ ان میں سے بعض بعض کے مددگار ہوں۔</div>
+    <br/>
+    <div class="english">(17-89) Say, ‘If mankind and the Jinn gathered together to produce the like of this Qur’an, they could not produce the like thereof, even though they should help one another.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ صَرَّفۡنَا لِلنَّاسِ فِیۡ ہٰذَا الۡقُرۡاٰنِ مِنۡ کُلِّ مَثَلٍ ۫ فَاَبٰۤی اَکۡثَرُ النَّاسِ اِلَّا کُفُوۡرًا ﴿۹۰﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے یقیناً اس قرآن میں لوگوں کی خاطر ہر قسم کی مثالیں خوب پھیر پھیر کر بیان کی ہیں۔  پس اکثر انسانوں نے انکار کردیا محض ناشکری کرتے ہوئے۔</div>
+    <br/>
+    <div class="english">(17-90) And surely, We have set forth for mankind in various ways all kinds of similitudes in this Qur’an, but most men would reject everything but disbelief.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالُوۡا لَنۡ نُّؤۡمِنَ لَکَ حَتّٰی تَفۡجُرَ لَنَا مِنَ الۡاَرۡضِ یَنۡۢبُوۡعًا ﴿ۙ۹۱﴾</div>
+    <br/>
+    <div class="urdu">اور وہ کہتے ہیں کہ ہم ہرگز تجھ پر ایمان نہیں لائیں گے یہاں تک کہ تُو ہمارے لئے زمین سے کوئی چشمہ پھاڑ لائے۔</div>
+    <br/>
+    <div class="english">(17-91) And they say, ‘We will never believe thee until thou cause a spring to gush forth for us from the earth;</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَوۡ تَکُوۡنَ لَکَ جَنَّۃٌ مِّنۡ نَّخِیۡلٍ وَّعِنَبٍ فَتُفَجِّرَ الۡاَنۡہٰرَ خِلٰلَہَا تَفۡجِیۡرًا ﴿ۙ۹۲﴾</div>
+    <br/>
+    <div class="urdu">یا تیرے لئے کھجوروں اور انگوروں کا کوئی باغ ہو پھر تُو اس کے بیچوں بیچ خوب نہریں کھود ڈالے۔</div>
+    <br/>
+    <div class="english">(17-92) ‘Or thou have a garden of datepalms and vines, and cause streams to gush forth in the midst thereof in abundance;</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَوۡ تُسۡقِطَ السَّمَآءَ کَمَا زَعَمۡتَ عَلَیۡنَا کِسَفًا اَوۡ تَاۡتِیَ بِاللّٰہِ وَالۡمَلٰٓئِکَۃِ قَبِیۡلًا ﴿ۙ۹۳﴾</div>
+    <br/>
+    <div class="urdu">یا جیسا کہ تُو گمان کرتا ہے ہم پر آسمان کو ٹکڑوں کی صورت گِرا دے یا اللہ اور فرشتوں کو سامنے لے آئے۔</div>
+    <br/>
+    <div class="english">(17-93) ‘Or thou cause the heaven to fall upon us in pieces, as thou hast claimed, or thou bring Allah and the angels before us face to face;</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَوۡ یَکُوۡنَ لَکَ بَیۡتٌ مِّنۡ زُخۡرُفٍ اَوۡ تَرۡقٰی فِی السَّمَآءِ ؕ وَلَنۡ نُّؤۡمِنَ لِرُقِیِّکَ حَتّٰی تُنَزِّلَ عَلَیۡنَا کِتٰبًا نَّقۡرَؤُہٗ ؕ قُلۡ سُبۡحَانَ رَبِّیۡ ہَلۡ کُنۡتُ اِلَّا بَشَرًا رَّسُوۡلًا ﴿٪۹۴﴾</div>
+    <br/>
+    <div class="urdu">یا تیرے لئے سونے کا کوئی گھر ہو یا تُو آسمان میں چڑھ جائے۔ مگر ہم تیرے چڑھنے پر بھی ہرگز ایمان نہیں لائیں گے یہاں تک کہ تُو ہم پر ایسی کتاب اتارے جسے ہم پڑھ سکیں۔ تُو کہہ دے کہ میرا ربّ (ان باتوں سے) پاک ہے (اور) میں تو ایک بشر رسول کے سوا کچھ نہیں۔</div>
+    <br/>
+    <div class="english">(17-94) ‘Or thou have a house of gold or thou ascend up into heaven; and we will not believe in thy ascension until thou send down to us a book that we can read.’ Say, ‘Holy is my Lord! I am not but a man <i>sent as a</i> Messenger.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا مَنَعَ النَّاسَ اَنۡ یُّؤۡمِنُوۡۤا اِذۡ جَآءَہُمُ الۡہُدٰۤی اِلَّاۤ اَنۡ قَالُوۡۤا اَبَعَثَ اللّٰہُ بَشَرًا رَّسُوۡلًا ﴿۹۵﴾</div>
+    <br/>
+    <div class="urdu">اور لوگوں کو جب ان کے پاس ہدایت آئی اس کے سوا کسی چیز نے ایمان لانے سے نہیں روکا کہ انہوں نے کہا کیا اللہ نے ایک بشر کو رسول بناکر بھیجا ہے؟</div>
+    <br/>
+    <div class="english">(17-95) And nothing has prevented men from believing when the guidance came to them save that they said, ‘Has Allah sent a man <i>as a</i> Messenger?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ لَّوۡ کَانَ فِی الۡاَرۡضِ مَلٰٓئِکَۃٌ یَّمۡشُوۡنَ مُطۡمَئِنِّیۡنَ لَنَزَّلۡنَا عَلَیۡہِمۡ مِّنَ السَّمَآءِ مَلَکًا رَّسُوۡلًا ﴿۹۶﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ اگر زمین میں اطمینان سے چلنے پھرنے والے فرشتے ہوتے تو یقیناً ہم ان پر آسمان سے فرشتہ ہی بطور رسول اُتارتے۔</div>
+    <br/>
+    <div class="english">(17-96) Say, ‘Had there been in the earth angels walking about in peace and quiet, We should have certainly sent down to them from heaven an angel <i>as a</i> Messenger.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ کَفٰی بِاللّٰہِ شَہِیۡدًۢا بَیۡنِیۡ وَبَیۡنَکُمۡ ؕ اِنَّہٗ کَانَ بِعِبَادِہٖ خَبِیۡرًۢا بَصِیۡرًا ﴿۹۷﴾</div>
+    <br/>
+    <div class="urdu">تو کہہ دے کہ اللہ میرے اور تمہارے درمیان گواہ کے طور پر کافی ہے۔ یقیناً وہ اپنے بندوں سے ہمیشہ باخبر (اور ان پر) گہری نظر رکھنے والا ہے۔</div>
+    <br/>
+    <div class="english">(17-97) Say, ‘Sufficient is Allah for a Witness between me and you; surely, He knows and sees His servants full well.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَنۡ یَّہۡدِ اللّٰہُ فَہُوَ الۡمُہۡتَدِ ۚ وَمَنۡ یُّضۡلِلۡ فَلَنۡ تَجِدَ لَہُمۡ اَوۡلِیَآءَ مِنۡ دُوۡنِہٖ ؕ وَنَحۡشُرُہُمۡ یَوۡمَ الۡقِیٰمَۃِ عَلٰی وُجُوۡہِہِمۡ عُمۡیًا وَّبُکۡمًا وَّصُمًّا ؕ مَاۡوٰٮہُمۡ جَہَنَّمُ ؕ کُلَّمَا خَبَتۡ زِدۡنٰہُمۡ سَعِیۡرًا ﴿۹۸﴾</div>
+    <br/>
+    <div class="urdu">اور جسے اللہ ہدایت دے تو وہی ہدایت پانے والا ہے اور جسے وہ گُمراہ ٹھہرا دے تو ایسوں کے لئے تُو اس کے بالمقابل کوئی ساتھی نہ پائے گا اور قیامت کے دن ہم انہیں ان کے چہروں کے بَل اوندھے اکٹھا کریں گے، اندھے اور گونگے اور بہرے۔ ان کا ٹھکانا جہنّم ہوگا۔ جب کبھی وہ (ان پر) دھیمی پڑنے لگے گی ہم انہیں جلن میں بڑھادیں گے۔</div>
+    <br/>
+    <div class="english">(17-98) And he whom Allah guides, is the <i>only</i> one rightly guided; but <i>as for</i> those whom He allows to perish, thou wilt find for them no helpers beside Him. And on the Day of Resurrection We shall gather them together on their faces, blind, dumb and deaf. Their abode will be Hell; every time it abates, We shall increase for them the flame.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ذٰلِکَ جَزَآؤُہُمۡ بِاَنَّہُمۡ کَفَرُوۡا بِاٰیٰتِنَا وَقَالُوۡۤاءَ اِذَا کُنَّا عِظَامًا وَّرُفَاتًاءَ اِنَّا لَمَبۡعُوۡثُوۡنَ خَلۡقًا جَدِیۡدًا ﴿۹۹﴾</div>
+    <br/>
+    <div class="urdu">یہ ان کی جزا ہے کیونکہ انہوں نے ہماری آیات کا انکار کیا اور کہا جب ہم ہڈیاں ہو جائیں گے اور ریزہ ریزہ ہو جائیں گے تو کیا پھر بھی ہم ضرور ایک نئی تخلیق کی صورت میں اُٹھائے جائیں گے؟</div>
+    <br/>
+    <div class="english">(17-99) That is their recompense, because they rejected Our Signs and said, ‘What! when we are reduced to bones and broken particles, shall we really be raised up as a new creation?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَوَلَمۡ یَرَوۡا اَنَّ اللّٰہَ الَّذِیۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ قَادِرٌ عَلٰۤی اَنۡ یَّخۡلُقَ مِثۡلَہُمۡ وَجَعَلَ لَہُمۡ اَجَلًا لَّا رَیۡبَ فِیۡہِ ؕ فَاَبَی الظّٰلِمُوۡنَ اِلَّا کُفُوۡرًا ﴿۱۰۰﴾</div>
+    <br/>
+    <div class="urdu">کیا وہ نہیں جانتے کہ اللہ جس نے آسمانوں اور زمین کو پیدا کیا اس بات پر قادر ہے کہ ان جیسے پیدا کردے اور اس نے ان کے لئے ایک ایسی مدت مقرر کی ہے جس میں کوئی شک نہیں۔ پس ظالموں نے انکار کردیا محض ناشکری کرتے ہوئے۔</div>
+    <br/>
+    <div class="english">(17-100) Have they not seen that Allah Who created the heavens and the earth has the power to create the like  of them? And He has appointed for them a term; there is no doubt about it. But the wrongdoers would reject everything but disbelief.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ لَّوۡ اَنۡتُمۡ تَمۡلِکُوۡنَ خَزَآئِنَ رَحۡمَۃِ رَبِّیۡۤ اِذًا لَّاَمۡسَکۡتُمۡ خَشۡیَۃَ الۡاِنۡفَاقِ ؕ وَکَانَ الۡاِنۡسَانُ قَتُوۡرًا ﴿۱۰۱﴾٪</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ اگر تم میرے ربّ کی رحمت کے خزانوں کے مالک ہوتے تب بھی تم ان کے خرچ ہو جانے کے ڈر سے انہیں روک رکھتے۔ اور انسان یقیناً بہت کنجوس واقع ہوا ہے۔</div>
+    <br/>
+    <div class="english">(17-101) Say, ‘Even if you possessed the treasures of the mercy of my Lord, you would surely hold them back for fear of spending, for man is niggardly.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ اٰتَیۡنَا مُوۡسٰی تِسۡعَ اٰیٰتٍۭ بَیِّنٰتٍ  فَسۡـَٔلۡ بَنِیۡۤ اِسۡرَآءِیۡلَ اِذۡ جَآءَہُمۡ فَقَالَ لَہٗ فِرۡعَوۡنُ اِنِّیۡ لَاَظُنُّکَ یٰمُوۡسٰی مَسۡحُوۡرًا ﴿۱۰۲﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً ہم نے موسیٰ کو نو کھلے کھلے نشانات عطا کئے تھے۔ پس بنی اسرائیل سے پوچھ (کر دیکھ لے) کہ جب وہ اُن کے پاس آیا تو فرعون نے اُسے کہا کہ اے موسیٰ! میں تو تجھے محض سحر زدہ سمجھتا ہوں۔</div>
+    <br/>
+    <div class="english">(17-102) And of a truth We gave Moses nine manifest Signs. So ask <i>then</i> the children of Israel. When he came to them, Pharaoh said to him, ‘I do think thee, O Moses, to be a victim of deception.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ لَقَدۡ عَلِمۡتَ مَاۤ اَنۡزَلَ ہٰۤؤُلَآءِ اِلَّا رَبُّ السَّمٰوٰتِ وَالۡاَرۡضِ بَصَآئِرَ ۚ وَاِنِّیۡ لَاَظُنُّکَ یٰفِرۡعَوۡنُ مَثۡبُوۡرًا ﴿۱۰۳﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا تُو جان چکا ہے کہ یہ نشانات جو بصیرت افروز ہیں آسمانوں اور زمین کے ربّ کے سوا کسی نے نہیں اُتارے اور اے فرعون! میں تجھے یقیناً ہلاک شدہ سمجھتا ہوں۔</div>
+    <br/>
+    <div class="english">(17-103) He said, ‘Thou knowest well <i>that</i> none has sent down these <i>Signs</i> but the Lord of the heavens and the earth as <i>so many</i> evidences; and I certainly think thee, O Pharaoh, to be <i>a</i> ruined <i>man</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاَرَادَ اَنۡ یَّسۡتَفِزَّہُمۡ مِّنَ الۡاَرۡضِ فَاَغۡرَقۡنٰہُ وَمَنۡ مَّعَہٗ جَمِیۡعًا ﴿۱۰۴﴾ۙ</div>
+    <br/>
+    <div class="urdu">پس اُس نے ارادہ کیا کہ انہیں زمین سے اُکھاڑ ڈالے تو ہم نے اُسے اور جو اُس کے ساتھ تھے سب کے سب کو غرق کردیا۔</div>
+    <br/>
+    <div class="english">(17-104) So he resolved to remove them from the land; but We drowned him and those who were with him, all together.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَّقُلۡنَا مِنۡۢ بَعۡدِہٖ لِبَنِیۡۤ اِسۡرَآءِیۡلَ اسۡکُنُوا الۡاَرۡضَ فَاِذَا جَآءَ وَعۡدُ الۡاٰخِرَۃِ جِئۡنَا بِکُمۡ لَفِیۡفًا ﴿۱۰۵﴾ؕ</div>
+    <br/>
+    <div class="urdu">اور اس کے بعد ہم نے بنی اسرائیل سے کہا کہ موعودہ سرزمین میں سکونت اختیار کرو۔ پس جب آخرت کا وعدہ آئے گا تو ہم تمہیں پھر اکٹھا کرکے لے آئیں گے۔</div>
+    <br/>
+    <div class="english">(17-105) And after him We said to the children of Israel, ‘Dwell ye in the land; and when <i>the time of</i> the promise of the latter days comes, We shall bring you together <i>out of various peoples.</i>’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَبِالۡحَقِّ اَنۡزَلۡنٰہُ وَبِالۡحَقِّ نَزَلَ ؕ وَمَاۤ اَرۡسَلۡنٰکَ اِلَّا مُبَشِّرًا وَّنَذِیۡرًا ﴿۱۰۶﴾ۘ</div>
+    <br/>
+    <div class="urdu">اور ہم نے حق کے ساتھ اِسے اُتارا ہے اور ضرورتِ حقہ کے ساتھ یہ اُترا ہے۔ اور ہم نے تجھے نہیں بھیجا مگر ایک مبشر اور ایک نذیر کے طور پر۔</div>
+    <br/>
+    <div class="english">(17-106) And in truth have We sent it down and with truth has it descended. And We have sent thee only as a bearer of good tidings and a Warner.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقُرۡاٰنًا فَرَقۡنٰہُ لِتَقۡرَاَہٗ عَلَی النَّاسِ عَلٰی مُکۡثٍ وَّنَزَّلۡنٰہُ تَنۡزِیۡلًا ﴿۱۰۷﴾</div>
+    <br/>
+    <div class="urdu">اور قرآن وہ ہے کہ اسے ہم نے ٹکڑوں میں تقسیم کیا ہے تاکہ تُو اسے لوگوں کے سامنے ٹھہر ٹھہر کر پڑھے اور ہم نے اسے بڑی قوّت اور تدریج کے ساتھ اتارا ہے۔</div>
+    <br/>
+    <div class="english">(17-107) And the Qur’an We have revealed in pieces that thou mayest read it to mankind at intervals, and We have sent it down piecemeal.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ اٰمِنُوۡا بِہٖۤ اَوۡ لَا تُؤۡمِنُوۡا ؕ اِنَّ الَّذِیۡنَ اُوۡتُوا الۡعِلۡمَ مِنۡ قَبۡلِہٖۤ اِذَا یُتۡلٰی عَلَیۡہِمۡ یَخِرُّوۡنَ لِلۡاَذۡقَانِ سُجَّدًا ﴿۱۰۸﴾ۙ</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ تم اس پر ایمان لاؤ یا نہ ایمان لاؤ۔ یقیناً وہ لوگ جو اس سے پہلے علم دیئے گئے تھے جب اُن پر اس کی تلاوت کی جاتی تھی تو وہ ٹھوڑیوں کے بَل سجدہ ریز ہوتے ہوئے گِر جاتے تھے۔</div>
+    <br/>
+    <div class="english">(17-108) Say, “Whether you believe therein or believe not, those to whom knowledge has been given before it, do fall down prostrate on their faces when it is recited to them,</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَّیَقُوۡلُوۡنَ سُبۡحٰنَ رَبِّنَاۤ اِنۡ کَانَ وَعۡدُ رَبِّنَا لَمَفۡعُوۡلًا ﴿۱۰۹﴾</div>
+    <br/>
+    <div class="urdu">اور وہ کہتے تھے ہمارا ربّ پاک ہے یقیناً ہمارے ربّ کا وعدہ تو بہرحال پورا ہوکر رہنے والا ہے۔</div>
+    <br/>
+    <div class="english">(17-109) “And say, ‘Holy is our Lord. Surely, the promise of our Lord is bound to be fulfilled.’”</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَیَخِرُّوۡنَ لِلۡاَذۡقَانِ یَبۡکُوۡنَ وَیَزِیۡدُہُمۡ خُشُوۡعًا ﴿۱۱۰﴾ٛ</div>
+    <br/>
+    <div class="urdu">وہ ٹھوڑیوں کے بَل روتے ہوئے گِر جاتے تھے اور یہ اُنہیں انکساری میں بڑھا دیتا تھا۔</div>
+    <br/>
+    <div class="english">(17-110) They fall down on their faces weeping, and it increases humility in them.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلِ ادۡعُوا اللّٰہَ اَوِ ادۡعُوا الرَّحۡمٰنَ ؕ اَیًّا مَّا تَدۡعُوۡا فَلَہُ الۡاَسۡمَآءُ الۡحُسۡنٰی ۚ وَلَا تَجۡہَرۡ بِصَلَاتِکَ وَلَا تُخَافِتۡ بِہَا وَابۡتَغِ بَیۡنَ ذٰلِکَ سَبِیۡلًا ﴿۱۱۱﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ خواہ اللہ کو پکارو خواہ رحمان کو۔ جس نام سے بھی تُم پکارو سب اچھے نام اُسی کے ہیں۔ اور اپنی نماز نہ بہت اُونچی آواز میں پڑھ اور نہ اُسے بہت دھیما کر اور اِن کے درمیان کی راہ اختیار کر۔</div>
+    <br/>
+    <div class="english">(17-111) Say, ‘Call upon Allah or call upon Rahman; <i>by</i> whichever name you call <i>Him</i>, His are the most beautiful names.’ And utter not thy prayer aloud, nor utter it <i>too</i> low, but seek a way between.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقُلِ الۡحَمۡدُ لِلّٰہِ الَّذِیۡ لَمۡ یَتَّخِذۡ وَلَدًا وَّلَمۡ یَکُنۡ لَّہٗ شَرِیۡکٌ فِی الۡمُلۡکِ وَلَمۡ یَکُنۡ لَّہٗ وَلِیٌّ مِّنَ الذُّلِّ  وَکَبِّرۡہُ تَکۡبِیۡرًا ﴿۱۱۲﴾٪</div>
+    <br/>
+    <div class="urdu">اور کہہ کہ تمام تعریف اللہ ہی کے لئے ہے جس نے کبھی کوئی بیٹا اختیار نہیں کیا اور جس کی بادشاہت میں کبھی کوئی شریک نہیں ہوا اور کبھی اُسے ایسے ساتھی کی ضرورت نہیں پڑی جو (گویا) کمزوری کی حالت میں اُس کا مددگار بنتا۔ اور تُو بڑے زور سے اُس کی بڑائی بیان کیا کر۔</div>
+    <br/>
+    <div class="english">(17-112) And say, ‘All praise belongs to Allah Who has taken unto Himself no son, and Who has no partner in <i>His</i> Kingdom, nor has He anyone to help <i>Him</i> on account of weakness.’ And extol His glory with all glorification.</div>
+    <hr/>
+    
+    </body>

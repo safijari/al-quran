@@ -1,0 +1,955 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+
+
+    html {
+      margin: auto;
+      max-width: 800px;
+      padding: 30px;
+    }
+
+
+    @media screen and (min-width: 900px) {}
+    @font-face {
+        font-family: "noorehuda";
+        src: url(noorehuda-webfont.e3f34e1d.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: "nastaleeq";
+        src: url(Urdu-Nastaleeq.ttf) format("truetype");
+    }
+    div.arabic { 
+        font-family: "noorehuda", Verdana, Tahoma;
+        font-size: 35px;
+        direction: rtl;
+        text-align: right;
+        letter-spacing: normal;
+    }
+    div.urdu { 
+        font-family: "nastaleeq", Verdana, Tahoma;
+        font-size: 30px;
+        direction: rtl;
+        text-align: right;
+        letter-spacing: normal;
+    }
+    div.english { 
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 20px;
+        direction: ltr;
+        text-align: left;
+        letter-spacing: normal;
+    }
+    h2 {
+    text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <br/>
+    <div class="english"><h2>12</h2></div>
+    <div class="english"><h2>Yusuf<h2></div>
+    <div class="arabic"><h2>یوسف</h2></div>
+    
+    
+    <br/>
+    <div class="arabic">بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ ﴿۱﴾</div>
+    <br/>
+    <div class="urdu">اللہ کے نام کے ساتھ جو بے انتہا رحم کرنے والا، بِن مانگے دینے والا (اور) بار بار رحم کرنے والا ہے۔</div>
+    <br/>
+    <div class="english">(12-1) In the name of Allah, the Gracious, the Merciful.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">الٓرٰ ۟ تِلۡکَ اٰیٰتُ الۡکِتٰبِ الۡمُبِیۡنِ ۟﴿۲﴾</div>
+    <br/>
+    <div class="urdu">اَنَا اللّٰہُ اَرٰی: میں اللہ ہوں۔ میں دیکھتا ہوں۔ یہ ایک کھلی کھلی کتاب کی آیات ہیں۔</div>
+    <br/>
+    <div class="english">(12-2) Alif Lam Ra. These are verses of the clear Book.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِنَّاۤ اَنۡزَلۡنٰہُ قُرۡءٰنًا عَرَبِیًّا لَّعَلَّکُمۡ تَعۡقِلُوۡنَ ﴿۳﴾</div>
+    <br/>
+    <div class="urdu">یقیناً ہم نے اسے عربی قرآن کے طور پر نازل کیا تاکہ تم عقل کرو۔</div>
+    <br/>
+    <div class="english">(12-3) We have revealed it — the Qur’an in Arabic — that you may understand.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">نَحۡنُ نَقُصُّ عَلَیۡکَ اَحۡسَنَ الۡقَصَصِ بِمَاۤ اَوۡحَیۡنَاۤ اِلَیۡکَ ہٰذَا الۡقُرۡاٰنَ ٭ۖ وَاِنۡ کُنۡتَ مِنۡ قَبۡلِہٖ لَمِنَ الۡغٰفِلِیۡنَ ﴿۴﴾</div>
+    <br/>
+    <div class="urdu">ہم نے جو یہ قرآن تجھ پر وحی کیا اس کے ذریعہ ہم تیرے سامنے ثابت شدہ تاریخی حقائق میں سے بہترین بیان کرتے ہیں جبکہ اس سے پہلے (اس بارہ میں) تُو غافلوں میں سے تھا۔</div>
+    <br/>
+    <div class="english">(12-4) We narrate unto thee the most beautiful narration by revealing to thee this Qur’an, though thou wast, before this, of those not possessed of <i>requisite</i> knowledge.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِذۡ قَالَ یُوۡسُفُ لِاَبِیۡہِ یٰۤاَبَتِ اِنِّیۡ رَاَیۡتُ اَحَدَ عَشَرَ کَوۡکَبًا وَّالشَّمۡسَ وَالۡقَمَرَ رَاَیۡتُہُمۡ لِیۡ سٰجِدِیۡنَ ﴿۵﴾</div>
+    <br/>
+    <div class="urdu">(یاد کرو) جب یوسف نے اپنے باپ سے کہا اے میرے باپ! یقیناً میں نے (رؤیا میں) گیارہ ستارے اور سورج اور چاند دیکھے ہیں۔ (اور) میں نے انہیں اپنے لئے سجدہ ریز دیکھا۔</div>
+    <br/>
+    <div class="english">(12-5) <i>Remember the time</i> when Joseph said to his father, ‘O my father, I saw <i>in a dream</i> eleven stars and the sun and the moon, I saw them making obeisance to me.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ یٰبُنَیَّ لَا تَقۡصُصۡ رُءۡیَاکَ عَلٰۤی اِخۡوَتِکَ فَیَکِیۡدُوۡا لَکَ کَیۡدًا ؕ اِنَّ الشَّیۡطٰنَ لِلۡاِنۡسَانِ عَدُوٌّ مُّبِیۡنٌ ﴿۶﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا اے میرے پیارے بیٹے! اپنی رؤیا اپنے بھائیوں کے سامنے بیان نہ کرنا ورنہ وہ تیرے خلاف کوئی چال چلیں گے۔ یقیناً شیطان انسان کا کھلاکھلا دشمن ہے۔</div>
+    <br/>
+    <div class="english">(12-6) He said, ‘O my darling son, relate not thy dream to thy brothers, lest they contrive a plot against thee; for Satan is to man an open enemy.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَکَذٰلِکَ یَجۡتَبِیۡکَ رَبُّکَ وَیُعَلِّمُکَ مِنۡ تَاۡوِیۡلِ الۡاَحَادِیۡثِ وَیُتِمُّ نِعۡمَتَہٗ عَلَیۡکَ وَعَلٰۤی اٰلِ یَعۡقُوۡبَ کَمَاۤ اَتَمَّہَا عَلٰۤی اَبَوَیۡکَ مِنۡ قَبۡلُ اِبۡرٰہِیۡمَ وَاِسۡحٰقَ ؕ اِنَّ رَبَّکَ عَلِیۡمٌ حَکِیۡمٌ ٪﴿۷﴾</div>
+    <br/>
+    <div class="urdu">اور اسی طرح تیرا ربّ تجھے (اپنے لئے) چُن لے گا اور تجھے معاملات کی تہ تک پہنچنے کا علم سکھادے گا اور اپنی نعمت تجھ پر تمام کرے گا اور آلِ یعقوب پر بھی جیسا کہ اس نے اُسے تیرے باپ دادا اِبراہیم اور اسحاق پر پہلے تمام کیا تھا۔ یقیناً تیرا ربّ دائمی علم رکھنے والا (اور) حکمت والا ہے۔</div>
+    <br/>
+    <div class="english">(12-7) ‘And thus <i>shall it be as thou hast seen</i>, thy Lord will choose thee and teach thee the interpretation of things and perfect His favour upon thee and upon the family of Jacob as He perfected it upon two of thy forefathers — Abraham and Isaac. Verily, thy Lord is All-Knowing, Wise.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَقَدۡ کَانَ فِیۡ یُوۡسُفَ وَاِخۡوَتِہٖۤ اٰیٰتٌ لِّلسَّآئِلِیۡنَ ﴿۸﴾</div>
+    <br/>
+    <div class="urdu">یقیناً یوسف اور اس کے بھائیوں (کے واقعہ) میں پوچھنے والوں کے لئے کئی نشانات ہیں۔</div>
+    <br/>
+    <div class="english">(12-8) Surely, in Joseph and his brethren there are Signs for the inquirers.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِذۡ قَالُوۡا لَیُوۡسُفُ وَاَخُوۡہُ اَحَبُّ اِلٰۤی اَبِیۡنَا مِنَّا وَنَحۡنُ عُصۡبَۃٌ ؕ اِنَّ اَبَانَا لَفِیۡ ضَلٰلٍ مُّبِیۡنِ ۣ ۚ﴿ۖ۹﴾</div>
+    <br/>
+    <div class="urdu">(یاد کرو) جب انہوں نے کہا کہ یقیناً یوسف اور اس کا بھائی ہمارے باپ کو ہم سے زیادہ پیارے ہیں حالانکہ ہم ایک مضبوط ٹولی ہیں۔ یقیناً ہمارا باپ ایک ظاہر و باہر غلطی میں مبتلا ہے۔</div>
+    <br/>
+    <div class="english">(12-9) When they said, ‘Verily, Joseph and his brother are dearer to our father than we are, although we are a strong party. Surely, our father is in manifest error.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اقۡتُلُوۡا یُوۡسُفَ اَوِ اطۡرَحُوۡہُ اَرۡضًا یَّخۡلُ لَکُمۡ وَجۡہُ اَبِیۡکُمۡ وَتَکُوۡنُوۡا مِنۡۢ بَعۡدِہٖ قَوۡمًا صٰلِحِیۡنَ ﴿۱۰﴾</div>
+    <br/>
+    <div class="urdu">یوسف کو قتل کر ڈالو یا اُسے کسی جگہ پھینک آؤ تو تمہارے باپ کی توجہ صرف تمہارے لئے رہ جائے گی اور تم اس کے بعد نیک لوگ بن جانا۔</div>
+    <br/>
+    <div class="english">(12-10) ‘Kill Joseph or cast him out to some <i>distant</i> land, so that your father’s favour may become exclusively yours and you can thereafter become a righteous people.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ قَآئِلٌ مِّنۡہُمۡ لَا تَقۡتُلُوۡا یُوۡسُفَ وَاَلۡقُوۡہُ فِیۡ غَیٰبَتِ الۡجُبِّ یَلۡتَقِطۡہُ بَعۡضُ السَّیَّارَۃِ اِنۡ کُنۡتُمۡ فٰعِلِیۡنَ ﴿۱۱﴾</div>
+    <br/>
+    <div class="urdu">ان میں سے ایک کہنے والے نے کہا یوسف کو قتل نہ کرو بلکہ اُسے کسی کنویں کی اوجھل تہوں میں پھینک دو جو چراگاہ کے پاس واقع ہو۔ اسے کوئی قافلہ اٹھا لے جائے گا۔ (یہی کرو) اگر تم کچھ کرنے والے ہو۔</div>
+    <br/>
+    <div class="english">(12-11) One of them said, ‘Kill not Joseph, but if you must do something, cast him into the bottom of a deep well; some of the travellers will pick him up.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا یٰۤاَبَانَا مَا لَکَ لَا تَاۡمَنَّا عَلٰی یُوۡسُفَ وَاِنَّا لَہٗ لَنٰصِحُوۡنَ ﴿۱۲﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا اے ہمارے باپ! تجھے کیا ہوا ہے کہ تو یوسف کے بارہ میں ہم پر اعتماد نہیں کرتا جبکہ ہم تو یقیناً اس کے خیر خواہ ہیں۔</div>
+    <br/>
+    <div class="english">(12-12) They said, ‘O our father, why dost thou not trust us with respect to Joseph, when we are certainly his sincere well-wishers?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَرۡسِلۡہُ مَعَنَا غَدًا یَّرۡتَعۡ وَیَلۡعَبۡ وَاِنَّا لَہٗ لَحٰفِظُوۡنَ ﴿۱۳﴾</div>
+    <br/>
+    <div class="urdu">اسے کل ہمارے ساتھ بھیج دے تا وہ کھاتا پھرے اور کھیلے جبکہ ہم اس کے یقیناً محافظ ہوں گے۔</div>
+    <br/>
+    <div class="english">(12-13) ‘Send him with us tomorrow that he may enjoy himself and play, and we shall surely keep guard over him.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ اِنِّیۡ لَیَحۡزُنُنِیۡۤ اَنۡ تَذۡہَبُوۡا بِہٖ وَاَخَافُ اَنۡ یَّاۡکُلَہُ الذِّئۡبُ وَاَنۡتُمۡ عَنۡہُ غٰفِلُوۡنَ ﴿۱۴﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا یقیناً مجھے یہ بات فکر میں ڈالتی ہے کہ تم اسے لے جاؤ اور میں ڈرتا ہوں کہ کہیں اسے بھیڑیا نہ کھا جائے جبکہ تم اس سے غافل ہو۔</div>
+    <br/>
+    <div class="english">(12-14) He said, ‘It grieves me that you should take him away, and I fear lest the wolf should devour him while you are heedless of him.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا لَئِنۡ اَکَلَہُ الذِّئۡبُ وَنَحۡنُ عُصۡبَۃٌ اِنَّاۤ اِذًا لَّخٰسِرُوۡنَ ﴿۱۵﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا اگر اسے بھیڑیا کھا جائے جبکہ ہم ایک مضبوط ٹولی ہیں تب تو ہم یقیناً بہت نقصان اٹھانے والے ہوں گے۔</div>
+    <br/>
+    <div class="english">(12-15) They said, ‘Surely, if the wolf devour him while we are a strong party, then we shall indeed be <i>great</i> losers.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا ذَہَبُوۡا بِہٖ وَاَجۡمَعُوۡۤا اَنۡ یَّجۡعَلُوۡہُ فِیۡ غَیٰبَتِ الۡجُبِّ ۚ وَاَوۡحَیۡنَاۤ اِلَیۡہِ لَتُنَبِّئَنَّہُمۡ بِاَمۡرِہِمۡ ہٰذَا وَہُمۡ لَا یَشۡعُرُوۡنَ ﴿۱۶﴾</div>
+    <br/>
+    <div class="urdu">پس جب وہ اسے لے گئے اور اس بات پر متفق ہوگئے کہ اسے ایسے کنویں کی اوجھل تہوں میں پھینک دیں جو چراہ گاہ کے پاس واقع تھا تو ہم نے اس کی طرف وحی کی کہ تُو (ایک دن) یقیناً انہیں ان کی اس کارستانی سے  آگاہ کرے گا اور انہیں کچھ پتہ نہ ہو گا (کہ تُو کون ہے)۔</div>
+    <br/>
+    <div class="english">(12-16) So, when they took him away, and agreed to put him into the bottom of a deep well, <i>they had their malicious design carried out</i>; and We sent a revelation to him, <i>saying</i>, ‘Thou shalt surely <i>one day</i> tell them of this affair of theirs and they shall not know.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَجَآءُوۡۤ اَبَاہُمۡ عِشَآءً یَّبۡکُوۡنَ ؕ﴿۱۷﴾</div>
+    <br/>
+    <div class="urdu">اور رات کے وقت وہ اپنے باپ کے پاس روتے ہوئے آئے۔</div>
+    <br/>
+    <div class="english">(12-17) And they came to their father in the evening, weeping.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا یٰۤاَبَانَاۤ اِنَّا ذَہَبۡنَا نَسۡتَبِقُ وَتَرَکۡنَا یُوۡسُفَ عِنۡدَ مَتَاعِنَا فَاَکَلَہُ الذِّئۡبُ ۚ وَمَاۤ اَنۡتَ بِمُؤۡمِنٍ لَّنَا وَلَوۡ کُنَّا صٰدِقِیۡنَ ﴿۱۸﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا اے ہمارے باپ! یقیناً ہم ایک دوسرے سے دوڑ لگاتے ہوئے (دُور) چلے گئے اور یوسف کو ہم نے اپنے سامان کے پاس چھوڑ دیا پس اسے بھیڑیا کھا گیااور توُکبھی ہماری ماننے والا نہیں خواہ ہم سچے ہی ہوں۔</div>
+    <br/>
+    <div class="english">(12-18) They said, ‘O our father, we sent forth racing with one another, and left Joseph with our things, and the wolf devoured him, but thou wilt not believe us even if we speak the truth.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَجَآءُوۡ عَلٰی قَمِیۡصِہٖ بِدَمٍ کَذِبٍ ؕ قَالَ بَلۡ سَوَّلَتۡ لَکُمۡ اَنۡفُسُکُمۡ اَمۡرًا ؕ فَصَبۡرٌ جَمِیۡلٌ ؕ وَاللّٰہُ الۡمُسۡتَعَانُ عَلٰی مَا تَصِفُوۡنَ ﴿۱۹﴾</div>
+    <br/>
+    <div class="urdu">اور وہ اس کی قمیص پر جھوٹا خون لگا لائے۔ اس نے کہا بلکہ تمہارے نفوس نے ایک بہت سنگین بات تمہارے لئے معمولی اور آسان بنا دی ہے۔ پس صبرجمیل(کے سوا میں کیا کر سکتا ہوں) اور اللہ ہی ہے جس سے اس (بات) پر مدد مانگی جائے جو تم بیان کرتے ہو۔</div>
+    <br/>
+    <div class="english">(12-19) And they came with false blood on his shirt. He said, ‘Nay, but your souls have made a <i>great</i> thing appear light in your eyes. So <i>now</i> comely patience <i>is good for me</i>. And it is Allah <i>alone</i> Whose help is to be sought against what you assert.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَجَآءَتۡ سَیَّارَۃٌ فَاَرۡسَلُوۡا وَارِدَہُمۡ فَاَدۡلٰی دَلۡوَہٗ ؕ قَالَ یٰبُشۡرٰی ہٰذَا غُلٰمٌ ؕ وَاَسَرُّوۡہُ بِضَاعَۃً ؕ وَاللّٰہُ عَلِیۡمٌۢ بِمَا یَعۡمَلُوۡنَ ﴿۲۰﴾</div>
+    <br/>
+    <div class="urdu">اور ایک قافلہ آیا اور انہوں نے اپنا پانی نکالنے والا بھیجا تو اس نے اپنا ڈول ڈال دیا۔ اس نے کہا اے (قافلہ والو) خوشخبری! یہ تو ایک لڑکا ہے۔ اور انہوں نے اسے ایک پونجی کے طور پر چھپا لیا اور اللہ اسے خوب جانتا تھا جو وہ کرتے تھے۔</div>
+    <br/>
+    <div class="english">(12-20) And there came a caravan of travellers and they sent their waterdrawer. And he let down his bucket <i>into the well</i>. ‘Oh, good news!’ said he, ‘Here is a youth!’ And they concealed him as a piece of merchandise, and Allah knew full well what they did.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَشَرَوۡہُ بِثَمَنٍۭ بَخۡسٍ دَرَاہِمَ مَعۡدُوۡدَۃٍ ۚ وَکَانُوۡا فِیۡہِ مِنَ الزَّاہِدِیۡنَ ﴿٪۲۱﴾</div>
+    <br/>
+    <div class="urdu">اور انہوں نے اسے معمولی قیمت چند دراہم کے عوض فروخت کر دیا اور وہ اس کے بارہ میں بالکل بے رغبت تھے۔</div>
+    <br/>
+    <div class="english">(12-21) And they sold him for a paltry price, a few dirhems, and they were not desirous of it.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ الَّذِی اشۡتَرٰٮہُ مِنۡ مِّصۡرَ لِامۡرَاَتِہٖۤ اَکۡرِمِیۡ مَثۡوٰٮہُ عَسٰۤی اَنۡ یَّنۡفَعَنَاۤ اَوۡ نَتَّخِذَہٗ وَلَدًا ؕ وَکَذٰلِکَ مَکَّنَّا لِیُوۡسُفَ فِی الۡاَرۡضِ ۫ وَلِنُعَلِّمَہٗ مِنۡ تَاۡوِیۡلِ الۡاَحَادِیۡثِ ؕ وَاللّٰہُ غَالِبٌ عَلٰۤی اَمۡرِہٖ وَلٰکِنَّ اَکۡثَرَ النَّاسِ لَا یَعۡلَمُوۡنَ ﴿۲۲﴾</div>
+    <br/>
+    <div class="urdu">اور جس نے اُسے مصرسے خریدا اپنی بیوی سے کہا اسے عزت کے ساتھ ٹھہراؤ۔ ہو سکتا ہے کہ یہ ہمیں فائدہ پہنچائے یا ہم اسے اپنا بیٹا بنا لیں۔ اور اس طریقہ سے ہم نے یوسف کے لئے زمین میں جگہ بنادی اور (یہ خاص انتظام اس لئے کیا) تاکہ ہم اسے معاملات کی تہہ تک پہنچنے کا علم سکھا دیں اور اللہ اپنے فیصلہ پر غالب رہتا ہے لیکن اکثر لوگ نہیں جانتے۔</div>
+    <br/>
+    <div class="english">(12-22) And the man from Egypt who bought him said to his wife, ‘Make his stay honourable. Maybe he will be of benefit to us; or we shall adopt him as a son.’ And thus did We establish Joseph in the land, and <i>We did so</i> that We might <i>also</i> teach him the interpretation of things. And Allah has full power over His decree, but most men know <i>it</i> not.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَمَّا بَلَغَ اَشُدَّہٗۤ اٰتَیۡنٰہُ حُکۡمًا وَّعِلۡمًا ؕ وَکَذٰلِکَ نَجۡزِی الۡمُحۡسِنِیۡنَ ﴿۲۳﴾</div>
+    <br/>
+    <div class="urdu">اور جب وہ اپنی مضبوطی کی عمر کو پہنچا تو اسے ہم نے حکمت اور علم عطا کئے اور اسی طرح ہم احسان کرنے والوں کو جزا دیا کرتے ہیں۔</div>
+    <br/>
+    <div class="english">(12-23) And when he attained his <i>age of</i> full strength, We granted him judgment and knowledge. And thus do We reward the doers of good.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَرَاوَدَتۡہُ الَّتِیۡ ہُوَ فِیۡ بَیۡتِہَا عَنۡ نَّفۡسِہٖ وَغَلَّقَتِ الۡاَبۡوَابَ وَقَالَتۡ ہَیۡتَ لَکَ ؕ قَالَ مَعَاذَ اللّٰہِ  اِنَّہٗ رَبِّیۡۤ اَحۡسَنَ مَثۡوَایَ ؕ اِنَّہٗ لَا یُفۡلِحُ الظّٰلِمُوۡنَ ﴿۲۴﴾</div>
+    <br/>
+    <div class="urdu">اور اُس عورت نے جس کے گھر میں وہ تھا اسے اس کے نفس کے بارہ میں پھسلانے کی کوشش کی اور دروازے بند کر دیئے اور کہا تم میری طرف آؤ۔ اس (یوسف) نے کہا خدا کی پناہ! یقیناً میرا ربّ وہ ہے جس نے میرا ٹھکانا بہت اچھا بنایا۔ یقیناً ظالم کامیاب نہیں ہوا کرتے۔</div>
+    <br/>
+    <div class="english">(12-24) And she, in whose house he was, sought to seduce him against his will. And she bolted the doors, and said, ‘Now come.’ He said, ‘I seek refuge with Allah. He is my Lord. He has made my stay <i>with you</i> honourable. Verily, the wrongdoers never prosper.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَقَدۡ ہَمَّتۡ بِہٖ ۚ وَہَمَّ بِہَا لَوۡلَاۤ اَنۡ رَّاٰ بُرۡہَانَ رَبِّہٖ ؕ کَذٰلِکَ لِنَصۡرِفَ عَنۡہُ السُّوۡٓءَ وَالۡفَحۡشَآءَ ؕ اِنَّہٗ مِنۡ عِبَادِنَا الۡمُخۡلَصِیۡنَ ﴿۲۵﴾</div>
+    <br/>
+    <div class="urdu">اور یقیناً وہ اس کا پختہ ارادہ کرچکی تھی اور وہ (یعنی یوسف) بھی اس کا ارادہ کرلیتا اگر اپنے ربّ کی ایک عظیم بُرہان نہ دیکھ چکا ہوتا۔ یہ طریق اس لئے اختیار کیا تا کہ ہم اس سے بدی اور فحشاءکو دور رکھیں۔ یقیناً وہ ہمارے خالص کئے گئے بندوں میں سے تھا۔</div>
+    <br/>
+    <div class="english">(12-25) And she made up her mind with regard to him, and he made up his mind with regard to her. If he had not seen a manifest Sign of his Lord, <i>he could not have shown such determination</i>. Thus was it, that We might turn away from him evil and indecency. Surely, he was <i>one</i> of Our chosen servants.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاسۡتَبَقَا الۡبَابَ وَقَدَّتۡ قَمِیۡصَہٗ مِنۡ دُبُرٍ وَّاَلۡفَیَا سَیِّدَہَا لَدَا الۡبَابِ ؕ قَالَتۡ مَا جَزَآءُ مَنۡ اَرَادَ بِاَہۡلِکَ سُوۡٓءًا اِلَّاۤ اَنۡ یُّسۡجَنَ اَوۡ عَذَابٌ اَلِیۡمٌ ﴿۲۶﴾</div>
+    <br/>
+    <div class="urdu">اور وہ دونوں دروازے کی طرف لپکے اور اس (عورت) نے پیچھے سے (اُسے کھینچتے ہوئے) اس کی قمیص پھاڑ دی اور ان دونوں نے اس کے سرتاج کو دروازے کے پاس پایا۔اُس (عورت) نے کہا جو تیرے گھر والی سے بدی کا ارادہ کرے اس کی جزا قید کئے جانے یا درد ناک عذاب کے سوا اور کیا ہو سکتی ہے۔</div>
+    <br/>
+    <div class="english">(12-26) And they both raced to the door, and she tore his shirt from behind, and they found her lord at the door. She said, ‘What shall be the punishment of one who intended evil to thy wife, save imprisonment or a grievous chastisement?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ ہِیَ رَاوَدَتۡنِیۡ عَنۡ نَّفۡسِیۡ  وَشَہِدَ شَاہِدٌ مِّنۡ اَہۡلِہَا ۚ اِنۡ کَانَ قَمِیۡصُہٗ قُدَّ مِنۡ قُبُلٍ فَصَدَقَتۡ وَہُوَ مِنَ الۡکٰذِبِیۡنَ ﴿۲۷﴾</div>
+    <br/>
+    <div class="urdu">اس (یعنی یوسف) نے کہا اِسی نے مجھے میرے نفس کے بارہ میں پھسلانے کی کوشش کی تھی۔ اور اس کے گھر والوں ہی میں سے ایک گواہ نے گواہی دی کہ اگر اُس کی قمیص سامنے سے پھٹی ہوئی ہے تو یہی سچ کہتی ہے اور وہ جھوٹوں میں سے ہے۔</div>
+    <br/>
+    <div class="english">(12-27) He said, ‘She it was who sought to seduce me against my will.’ And a witness of her household bore witness <i>saying</i>, ‘If his shirt is torn from the front, then she has spoken the truth and he is of the liars.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاِنۡ کَانَ قَمِیۡصُہٗ قُدَّ مِنۡ دُبُرٍ فَکَذَبَتۡ وَہُوَ مِنَ الصّٰدِقِیۡنَ ﴿۲۸﴾</div>
+    <br/>
+    <div class="urdu">اور اگر اُس کی قمیص پیچھے سے پھٹی ہوئی ہے تو یہ جھوٹ بول رہی ہے اوروہ سچوں میں سے ہے۔</div>
+    <br/>
+    <div class="english">(12-28) ‘But if his shirt is torn from behind, then she has lied and he is of the truthful.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا رَاٰ قَمِیۡصَہٗ قُدَّ مِنۡ دُبُرٍ قَالَ اِنَّہٗ مِنۡ کَیۡدِکُنَّ ؕ اِنَّ کَیۡدَکُنَّ عَظِیۡمٌ ﴿۲۹﴾</div>
+    <br/>
+    <div class="urdu">پس جب اس نے اس کی قمیص پیچھے سے پھٹی ہوئی دیکھی تو (بیوی سے) کہا یقیناً یہ (واقعہ) تمہاری چالبازی سے ہوا۔ یقیناً تمہاری چالبازی (اے عورتو!) بہت بڑی ہوتی ہے۔</div>
+    <br/>
+    <div class="english">(12-29) So when he saw his shirt torn from behind, he said, ‘Surely, this is a device of you women. Your device is indeed mighty.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">یُوۡسُفُ اَعۡرِضۡ عَنۡ ہٰذَا ٜ وَاسۡتَغۡفِرِیۡ لِذَنۡۢبِکِ ۚۖ اِنَّکِ کُنۡتِ مِنَ الۡخٰطِئِیۡنَ ﴿٪۳۰﴾</div>
+    <br/>
+    <div class="urdu">اے یوسف! اس سے اِعراض کر اور تُو (اے عورت!) اپنے گناہ کی وجہ سے استغفار کر۔ یقیناً تُو ہی ہے جو خطاکاروں میں سے تھی۔</div>
+    <br/>
+    <div class="english">(12-30) ‘O Joseph, turn away from this and thou, <i>O woman</i>, ask forgiveness for thy sin. Certainly, thou art of the guilty.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ نِسۡوَۃٌ فِی الۡمَدِیۡنَۃِ امۡرَاَتُ الۡعَزِیۡزِ تُرَاوِدُ فَتٰٮہَا عَنۡ نَّفۡسِہٖ ۚ قَدۡ شَغَفَہَا حُبًّا ؕ اِنَّا لَنَرٰٮہَا فِیۡ ضَلٰلٍ مُّبِیۡنٍ ﴿۳۱﴾</div>
+    <br/>
+    <div class="urdu">اور شہر کی عورتوں نے کہا کہ سردار کی بیوی اپنے غلام کو اس کے نفس کے بارہ میں پھسلاتی ہے۔ اس نے محبت کے اعتبار سے اس کے دل میں گھر کر لیا ہے۔ یقیناً ہم اسے ضرور ایک کھلی کھلی گمراہی میں پاتی ہیں۔</div>
+    <br/>
+    <div class="english">(12-31) And women in the city said, ‘The wife of the ‘Aziz seeks to seduce her slave-boy against his will. He has infatuated her with love. Indeed, we see her in manifest error.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا سَمِعَتۡ بِمَکۡرِہِنَّ اَرۡسَلَتۡ اِلَیۡہِنَّ وَاَعۡتَدَتۡ لَہُنَّ مُتَّکَاً وَّاٰتَتۡ کُلَّ وَاحِدَۃٍ مِّنۡہُنَّ سِکِّیۡنًا وَّقَالَتِ اخۡرُجۡ عَلَیۡہِنَّ ۚ فَلَمَّا رَاَیۡنَہٗۤ اَکۡبَرۡنَہٗ وَقَطَّعۡنَ اَیۡدِیَہُنَّ وَقُلۡنَ حَاشَ لِلّٰہِ مَا ہٰذَا بَشَرًا ؕ اِنۡ ہٰذَاۤ اِلَّا مَلَکٌ کَرِیۡمٌ ﴿۳۲﴾</div>
+    <br/>
+    <div class="urdu">پس جب اُس نے اُن کی مکّاری کی بات سنی تو اُنہیں بُلا بھیجا اور اُن کے لئے ایک ٹیک لگاکر بیٹھنے کی جگہ تیار کی اور ان میں سے ہر ایک کو ایک ایک چھری پکڑا دی اور اس(یعنی یوسف) سے کہا کہ ان کے سامنے جا۔ پس جب انہوں نے اسے دیکھا اسے بہت عالی مرتبہ پایا اور اپنے ہاتھ کاٹ لئے اور کہا پاک ہے اللہ۔ یہ انسان نہیں۔ یہ تو ایک معزز فرشتہ کے سوا کچھ نہیں۔</div>
+    <br/>
+    <div class="english">(12-32) And when she heard of their <i>crafty</i> design, she sent for them and prepared for them a repast, and gave every one of them a knife and <i>then</i> said <i>to Joseph</i>, ‘Come forth to them.’ And when they saw him they thought much of him and cut their hands, and said, ‘Allah be glorified! This is not a human being; this is but a noble angel.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَتۡ فَذٰلِکُنَّ الَّذِیۡ لُمۡتُنَّنِیۡ فِیۡہِ ؕ وَلَقَدۡ رَاوَدۡتُّہٗ عَنۡ نَّفۡسِہٖ فَاسۡتَعۡصَمَ ؕ وَلَئِنۡ لَّمۡ یَفۡعَلۡ مَاۤ اٰمُرُہٗ لَیُسۡجَنَنَّ وَلَیَکُوۡنًا مِّنَ الصّٰغِرِیۡنَ ﴿۳۳﴾</div>
+    <br/>
+    <div class="urdu">وہ بولی یہی وہ شخص ہے جس کے بارہ میں تم مجھے ملامت کرتی تھیں اور یقیناً میں نے اسے اس کے نفس کے بارہ میں پھسلانے کی کوشش کی تو وہ بچ گیا اور اگر اس نے وہ نہ کیا جو مَیں اسے حکم دیتی ہوں تو وہ ضرور قید کیا جائے گا اور ضرور ذلیل لوگوں میں سے ہو جائے گا۔</div>
+    <br/>
+    <div class="english">(12-33) She said, ‘And this is he about whom you blamed me. I did seek to seduce him against his will, but he preserved himself <i>from sin</i>. And now if he do not what I bid him, he shall certainly be imprisoned and become <i>one</i> of the humbled.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ رَبِّ السِّجۡنُ اَحَبُّ اِلَیَّ مِمَّا یَدۡعُوۡنَنِیۡۤ اِلَیۡہِ ۚ وَاِلَّا تَصۡرِفۡ عَنِّیۡ کَیۡدَہُنَّ اَصۡبُ اِلَیۡہِنَّ وَاَکُنۡ مِّنَ الۡجٰہِلِیۡنَ ﴿۳۴﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا اے میرے ربّ! قید خانہ مجھے زیادہ پیارا ہے اس سے جس کی طرف وہ مجھے بلاتی ہیں۔ اور اگر تُو مجھ سے اُن کی تدبیر (کا مُنہ) نہ پھیر دے تو میں ان کی طرف جھک جاؤں گا اور میں جاہلوں میں سے ہوجاؤں گا۔</div>
+    <br/>
+    <div class="english">(12-34) He said, ‘O my Lord, I would prefer prison to that to which they invite me; and unless Thou turn away their guile from me I shall incline towards them and be of the ignorant.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاسۡتَجَابَ لَہٗ رَبُّہٗ فَصَرَفَ عَنۡہُ کَیۡدَہُنَّ ؕ اِنَّہٗ ہُوَ السَّمِیۡعُ الۡعَلِیۡمُ ﴿۳۵﴾</div>
+    <br/>
+    <div class="urdu">پس اس کے ربّ نے اُس کی دعا کو سنا اور اس سے ان کی چال کو پھیر دیا۔ یقیناً وہی بہت سننے والا (اور) دائمی علم رکھنے والا ہے۔</div>
+    <br/>
+    <div class="english">(12-35) So his Lord heard his prayer, and turned away their guile from him. Verily, He is the All-Hearing, the All-Knowing.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ثُمَّ بَدَا لَہُمۡ مِّنۡۢ بَعۡدِ مَا رَاَوُا الۡاٰیٰتِ لَیَسۡجُنُنَّہٗ حَتّٰی حِیۡنٍ ﴿٪۳۶﴾</div>
+    <br/>
+    <div class="urdu">پھر بعد اُس کے جو آثار انہوں نے دیکھے اُن پر ظاہر ہوا کہ کچھ عرصہ کے لئے اسے ضرور قیدخانہ میں ڈال دیں۔</div>
+    <br/>
+    <div class="english">(12-36) Then it occurred to them (the men) after they had seen the signs <i>of his innocence</i> that, <i>to preserve their good name</i>, they should imprison him for a time.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَدَخَلَ مَعَہُ السِّجۡنَ فَتَیٰنِ ؕ قَالَ اَحَدُہُمَاۤ اِنِّیۡۤ اَرٰٮنِیۡۤ اَعۡصِرُ خَمۡرًا ۚ وَقَالَ الۡاٰخَرُ اِنِّیۡۤ اَرٰٮنِیۡۤ اَحۡمِلُ فَوۡقَ رَاۡسِیۡ خُبۡزًا تَاۡکُلُ الطَّیۡرُ مِنۡہُ ؕ نَبِّئۡنَا بِتَاۡوِیۡلِہٖ ۚ اِنَّا نَرٰٮکَ مِنَ الۡمُحۡسِنِیۡنَ ﴿۳۷﴾</div>
+    <br/>
+    <div class="urdu">اور اس کے ساتھ قید خانہ میں دو نوجوان بھی داخل ہوئے۔ ان میں سے ایک نے کہا کہ یقیناً میں (رؤیا میں) اپنے آپ کو دیکھتا ہوں کہ میں شراب بنانے کی خاطر رَس نچوڑ رہا ہوں اور دوسرے نے کہا کہ میں (رؤیا میں) اپنے آپ کو دیکھتا ہوں کہ اپنے سر پر روٹیاں اٹھائے ہوئے ہوں جس میں سے پرندے کھا رہے ہیں۔ ہمیں ان کی تعبیر سے مطلع کر۔ یقیناً ہم تجھے احسان کرنے والے لوگوں میں سے دیکھ رہے ہیں۔</div>
+    <br/>
+    <div class="english">(12-37) And with him there entered the prison two young men. One of them said, ‘I saw myself <i>in a dream</i> pressing wine.’ And the other said, ‘I saw myself <i>in a dream</i> carrying upon my head bread of which the birds are eating. Inform us of the interpretation thereof; for we see thee to be of the righteous.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ لَا یَاۡتِیۡکُمَا طَعَامٌ تُرۡزَقٰنِہٖۤ اِلَّا نَبَّاۡتُکُمَا بِتَاۡوِیۡلِہٖ قَبۡلَ اَنۡ یَّاۡتِیَکُمَا ؕ ذٰلِکُمَا مِمَّا عَلَّمَنِیۡ رَبِّیۡ ؕ اِنِّیۡ تَرَکۡتُ مِلَّۃَ قَوۡمٍ لَّا یُؤۡمِنُوۡنَ بِاللّٰہِ وَہُمۡ بِالۡاٰخِرَۃِ ہُمۡ کٰفِرُوۡنَ ﴿۳۸﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا کہ تم دونوں تک وہ کھانا نہیں آئے گا جو تمہیں دیا جاتا ہے مگر میں تمہارے پاس اُس کے آنے سے پہلے ہی اِن (خوابوں) کی تعبیر سے تم دونوں کو مطلع کر چکا ہوں گا۔ یہ (تعبیر) اس (علم) میں سے ہے جو میرے ربّ نے مجھے سکھایا۔ یقیناً میں اس قوم کے مسلک کو چھوڑ بیٹھا ہوں جو اللہ پر ایمان نہیں لاتے تھے اور وہ آخرت کا انکار کرتے تھے۔</div>
+    <br/>
+    <div class="english">(12-38) He replied, ‘The food which you are given shall not come to you but I shall inform you of the interpretation thereof before it comes to you. This is on account of what my Lord has taught me. I have renounced the religion of the people who do not believe in Allah and who are disbelievers in the Hereafter.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَاتَّبَعۡتُ مِلَّۃَ اٰبَآءِیۡۤ اِبۡرٰہِیۡمَ وَاِسۡحٰقَ وَیَعۡقُوۡبَ ؕ مَا کَانَ لَنَاۤ اَنۡ نُّشۡرِکَ بِاللّٰہِ مِنۡ شَیۡءٍ ؕ ذٰلِکَ مِنۡ فَضۡلِ اللّٰہِ عَلَیۡنَا وَعَلَی النَّاسِ وَلٰکِنَّ اَکۡثَرَ النَّاسِ لَا یَشۡکُرُوۡنَ ﴿۳۹﴾</div>
+    <br/>
+    <div class="urdu">اور میں نے اپنے آباءو اجداد ابراہیم اور اسحاق اور یعقوب کے دین کی پیروی کی۔ ہمارے لئے ممکن نہ تھا کہ اللہ کے ساتھ کسی چیزکو شریک ٹھہراتے۔ یہ اللہ کے فضل ہی سے تھا جو اس نے ہم پر اور (مومن) انسانوں پر کیا لیکن اکثر انسان شکر نہیں کرتے۔</div>
+    <br/>
+    <div class="english">(12-39) ‘And I have followed the religion of my fathers, Abraham and Isaac and Jacob. We cannot indeed associate anything as partner with Allah. This is of Allah’s grace upon us and upon mankind, but most men are ungrateful.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">یٰصَاحِبَیِ السِّجۡنِ ءَاَرۡبَابٌ مُّتَفَرِّقُوۡنَ خَیۡرٌ اَمِ اللّٰہُ الۡوَاحِدُ الۡقَہَّارُ ﴿ؕ۴۰﴾</div>
+    <br/>
+    <div class="urdu">اے قید خانہ کے دونوں ساتھیو! کیا کئی مختلف ربّ بہتر ہیں یا ایک صاحبِ جبروت اللہ ؟</div>
+    <br/>
+    <div class="english">(12-40) ‘O my two companions of the prison, are diverse lords better or Allah, the One, the Most Supreme?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">مَا تَعۡبُدُوۡنَ مِنۡ دُوۡنِہٖۤ اِلَّاۤ اَسۡمَآءً سَمَّیۡتُمُوۡہَاۤ اَنۡتُمۡ وَاٰبَآؤُکُمۡ مَّاۤ اَنۡزَلَ اللّٰہُ بِہَا مِنۡ سُلۡطٰنٍ ؕ اِنِ الۡحُکۡمُ اِلَّا لِلّٰہِ ؕ اَمَرَ اَلَّا تَعۡبُدُوۡۤا اِلَّاۤ اِیَّاہُ ؕ ذٰلِکَ الدِّیۡنُ الۡقَیِّمُ وَلٰکِنَّ اَکۡثَرَ النَّاسِ لَا یَعۡلَمُوۡنَ ﴿۴۱﴾</div>
+    <br/>
+    <div class="urdu">تم اُس کے سوا عبادت نہیں کرتے مگر ایسے ناموں کی جو تم نے اور تمہارے آباءو اجداد نے خود ہی اُن (فرضی خداؤں) کو دے رکھے ہیں جن کی تائید میں اللہ نے کوئی غالب آنے والی برہان نہیں اتاری۔ فیصلے کا اختیار اللہ کے سوا کسی کو نہیں۔ اس نے حکم دیا ہے کہ اس کے سوا تم کسی کی عبادت نہ کرو۔ یہ قائم رہنے والا اور قائم رکھنے والا دین ہے لیکن اکثر انسان نہیں جانتے۔</div>
+    <br/>
+    <div class="english">(12-41) ‘You worship nothing beside Allah, but <i>mere</i> names that you have named, you and your fathers; Allah has sent down no authority for that. The decision rests with Allah alone. He has commanded that you shall not worship anything save Him. That is the right religion, but most men know <i>it</i> not.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">یٰصَاحِبَیِ السِّجۡنِ اَمَّاۤ اَحَدُکُمَا فَیَسۡقِیۡ رَبَّہٗ خَمۡرًا ۚ وَاَمَّا الۡاٰخَرُ فَیُصۡلَبُ فَتَاۡکُلُ الطَّیۡرُ مِنۡ رَّاۡسِہٖ ؕ قُضِیَ الۡاَمۡرُ الَّذِیۡ فِیۡہِ تَسۡتَفۡتِیٰنِ ﴿ؕ۴۲﴾</div>
+    <br/>
+    <div class="urdu">اے قید خانہ کے دونوں ساتھیو! جہاں تک تم دونوں میں سے ایک کا تعلّق ہے تو وہ اپنے آقا کو شراب پلائے گا اور جہاں تک دوسرے کا تعلق ہے تو وہ سُولی پر چڑھایا جائے گا پس پرندے اس کے سر میں سے کچھ (نوچ نوچ کر) کھائیں گے۔ اُس بات کا فیصلہ سنا دیا گیا ہے جس کے بارہ میں تم دونوں استفسار کر رہے تھے۔</div>
+    <br/>
+    <div class="english">(12-42) ‘O my two companions of the prison, as for one of you, he will pour out wine, for his lord to drink; and as for the other, he will be crucified so that the birds will eat  from off his head. The matter about which you inquired has been decreed.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ لِلَّذِیۡ ظَنَّ اَنَّہٗ نَاجٍ مِّنۡہُمَا اذۡکُرۡنِیۡ عِنۡدَ رَبِّکَ ۫ فَاَنۡسٰہُ الشَّیۡطٰنُ ذِکۡرَ رَبِّہٖ فَلَبِثَ فِی السِّجۡنِ بِضۡعَ سِنِیۡنَ ﴿ؕ٪۴۳﴾</div>
+    <br/>
+    <div class="urdu">اور اس نے اُس شخص سے جس کے متعلق خیال کیا تھا کہ ان دونوں میں سے وہ بچ جائے گا کہا کہ اپنے آقا کے پاس میرا ذکر کرنا مگر شیطان نے اُسے بھلا دیا کہ اپنے آقا کے پاس (یہ) ذکر کرے۔ پس وہ چند سال تک قید خانہ میں پڑا رہا۔</div>
+    <br/>
+    <div class="english">(12-43) And of the two, he said to him whom he thought to be the one who would escape: ‘Mention me to thy lord.’ But Satan caused him to forget mentioning <i>it</i> to his lord, so he remained in prison for some years.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ الۡمَلِکُ اِنِّیۡۤ اَرٰی سَبۡعَ بَقَرٰتٍ سِمَانٍ یَّاۡکُلُہُنَّ سَبۡعٌ عِجَافٌ وَّسَبۡعَ سُنۡۢبُلٰتٍ خُضۡرٍ وَّاُخَرَ یٰبِسٰتٍ ؕ یٰۤاَیُّہَا الۡمَلَاُ اَفۡتُوۡنِیۡ فِیۡ رُءۡیَایَ اِنۡ کُنۡتُمۡ لِلرُّءۡیَا تَعۡبُرُوۡنَ ﴿۴۴﴾</div>
+    <br/>
+    <div class="urdu">اور بادشاہ نے (دربار میں) بیان کیا کہ میں سات موٹی گائیں دیکھتا ہوں جنہیں سات دُبلی پتلی گائیں کھا رہی ہیں اور سات سرسبز بالیاں اور کچھ دوسری سوکھی ہوئی بھی (دیکھتا ہوں)۔ اے سردارو! مجھے میری رؤیا کے بارہ میں تعبیر سمجھاؤ اگر تم خوابوں کی تعبیر کرسکتے ہو۔</div>
+    <br/>
+    <div class="english">(12-44) And the King said, ‘I see <i>in a dream</i> seven fat kine which seven lean ones eat up, and seven green ears of corn and <i>seven</i> others withered. O ye chiefs, explain to me the meaning of my dream if you can interpret a dream.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡۤا اَضۡغَاثُ اَحۡلَامٍ ۚ وَمَا نَحۡنُ بِتَاۡوِیۡلِ الۡاَحۡلَامِ بِعٰلِمِیۡنَ ﴿۴۵﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا یہ پراگندہ خیالات پر مشتمل نفسانی خوابیں ہیں اور ہم نفسانی خوابوں کی تعبیر کا علم نہیں رکھتے۔</div>
+    <br/>
+    <div class="english">(12-45) They replied, ‘They are confused dreams, and we do not know the interpretation of such confused dreams.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ الَّذِیۡ نَجَا مِنۡہُمَا وَادَّکَرَ بَعۡدَ اُمَّۃٍ اَنَا اُنَبِّئُکُمۡ بِتَاۡوِیۡلِہٖ فَاَرۡسِلُوۡنِ ﴿۴۶﴾</div>
+    <br/>
+    <div class="urdu">اور اس شخص نے جو اُن دونوں (قیدیوں) میں سے بچ گیا تھا اور ایک طویل مدت کے بعد اس نے (یوسف کو) یاد کیا، یہ کہا کہ میں تمہیں اس کی تعبیر بتاؤں گا پس مجھے (یوسف کی طرف) بھیج دو۔</div>
+    <br/>
+    <div class="english">(12-46) And he of the two who had escaped, and who <i>now</i> remembered after a time, said, ‘I will let you know its interpretation, therefore send ye me.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">یُوۡسُفُ اَیُّہَا الصِّدِّیۡقُ اَفۡتِنَا فِیۡ سَبۡعِ بَقَرٰتٍ سِمَانٍ یَّاۡکُلُہُنَّ سَبۡعٌ عِجَافٌ وَّسَبۡعِ سُنۡۢبُلٰتٍ خُضۡرٍ وَّاُخَرَ یٰبِسٰتٍ ۙ لَّعَلِّیۡۤ اَرۡجِعُ اِلَی النَّاسِ لَعَلَّہُمۡ یَعۡلَمُوۡنَ ﴿۴۷﴾</div>
+    <br/>
+    <div class="urdu">یوسف اے راستباز! ہمیں سات موٹی گائیوں کا جنہیں سات دُبلی گائیں کھا رہی ہوں اور سات سبز و شاداب بالیوں اور دوسری سوکھی ہوئی بالیوں کے بارہ میں مسئلہ سمجھا تاکہ میں لوگوں کی طرف واپس جاؤں شاید کہ وہ (اس کی تعبیر) معلوم کرلیں۔</div>
+    <br/>
+    <div class="english">(12-47) ‘Joseph! O thou man of truth, explain to us the meaning of seven fat kine which seven lean ones devour, and of seven green ears of corn and <i>seven</i> others withered; that I may return to the people so that they may know.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ تَزۡرَعُوۡنَ سَبۡعَ سِنِیۡنَ دَاَبًا ۚ فَمَا حَصَدۡتُّمۡ فَذَرُوۡہُ فِیۡ سُنۡۢبُلِہٖۤ اِلَّا قَلِیۡلًا مِّمَّا تَاۡکُلُوۡنَ ﴿۴۸﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا کہ تم مسلسل سات سال تک کاشت کرو گے۔ پس جو تم کاٹو اسے اس کی بالیوں میں رہنے دو سوائے تھوڑی مقدار کے جو تم اس میں سے کھاؤ گے۔</div>
+    <br/>
+    <div class="english">(12-48) He replied, ‘You shall sow for seven years, working hard and continuously, and leave what you reap in its ear, except a little which you shall eat.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ثُمَّ یَاۡتِیۡ مِنۡۢ بَعۡدِ ذٰلِکَ سَبۡعٌ شِدَادٌ یَّاۡکُلۡنَ مَا قَدَّمۡتُمۡ لَہُنَّ اِلَّا قَلِیۡلًا مِّمَّا تُحۡصِنُوۡنَ ﴿۴۹﴾</div>
+    <br/>
+    <div class="urdu">پھر اس کے بعد سات بہت سخت (سال) آئیں گے جو وہ کھا جائیں گے جو تم نے ان کے لئے آگے بھیجا ہوگا سوائے اس میں سے تھوڑے سے حصہ کے جو تم (آئندہ کاشت کے لئے) سنبھال رکھو گے۔</div>
+    <br/>
+    <div class="english">(12-49) ‘Then there shall come after that seven hard years which shall consume all that you shall have laid by in advance for them except a little which you may preserve.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ثُمَّ یَاۡتِیۡ مِنۡۢ بَعۡدِ ذٰلِکَ عَامٌ فِیۡہِ یُغَاثُ النَّاسُ وَفِیۡہِ یَعۡصِرُوۡنَ ﴿٪۵۰﴾</div>
+    <br/>
+    <div class="urdu">پھر اس کے بعد ایک سال آئے گا جس میں لوگ خوب سیراب کئے جائیں گے اور اس میں وہ رس نچوڑیں گے۔</div>
+    <br/>
+    <div class="english">(12-50) ‘Then there shall come after that a year in which people shall be relieved and in which they shall give presents <i>to each other</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ الۡمَلِکُ ائۡتُوۡنِیۡ بِہٖ ۚ فَلَمَّا جَآءَہُ الرَّسُوۡلُ قَالَ ارۡجِعۡ اِلٰی رَبِّکَ فَسۡـَٔلۡہُ مَا بَالُ النِّسۡوَۃِ الّٰتِیۡ قَطَّعۡنَ اَیۡدِیَہُنَّ ؕ اِنَّ رَبِّیۡ بِکَیۡدِہِنَّ عَلِیۡمٌ ﴿۵۱﴾</div>
+    <br/>
+    <div class="urdu">بادشاہ نے کہا اسے میرے پاس لاؤ۔ پس جب ایلچی اس (یعنی یوسف) کے پاس پہنچا تو اس نے کہا اپنے آقا کی طرف لوٹ جاؤ اور اس سے پوچھو اُن عورتوں کا کیا قصہ ہے جو اپنے ہاتھ کاٹ بیٹھی تھیں۔ یقیناً میرا ربّ ان کی چال کو خوب جانتا ہے۔</div>
+    <br/>
+    <div class="english">(12-51) And the King said, ‘Bring him to me.’ But when the messenger came to him, he said, ‘Go back to thy lord and ask him how fare the women who cut their hands: for, my Lord well knows their crafty design.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ مَا خَطۡبُکُنَّ اِذۡ رَاوَدۡتُّنَّ یُوۡسُفَ عَنۡ نَّفۡسِہٖ ؕ قُلۡنَ حَاشَ لِلّٰہِ مَا عَلِمۡنَا عَلَیۡہِ مِنۡ سُوۡٓءٍ ؕ قَالَتِ امۡرَاَتُ الۡعَزِیۡزِ الۡـٰٔنَ حَصۡحَصَ الۡحَقُّ ۫ اَنَا رَاوَدۡتُّہٗ عَنۡ نَّفۡسِہٖ وَاِنَّہٗ لَمِنَ الصّٰدِقِیۡنَ ﴿۵۲﴾</div>
+    <br/>
+    <div class="urdu">اس (بادشاہ) نے پوچھا (اے عورتو!) بتاؤ تمہارا کیا معاملہ تھا جب تم نے یوسف کو اس کے نفس کے بارہ میں پھسلانا چاہا تھا۔ انہوں نے کہا پاک ہے اللہ۔ ہمیں تو اس کے خلاف کسی بُرائی کا علم نہیں۔ سردار کی بیوی نے کہا اب سچائی ظاہر ہو چکی ہے۔ میں نے ہی اسے اس کے نفس کے بارہ میں پھسلانا چاہا تھا اور یقیناً وہ صادقوں میں سے ہے۔</div>
+    <br/>
+    <div class="english">(12-52) He (the King) said <i>to the women</i>, ‘What was the matter with you when you sought to seduce Joseph against his will?’ They said, ‘He kept away <i>from sin</i> for fear of Allah — we have known no evil against him.’ The wife of the ‘Aziz said, ‘Now has the truth come to light. It was I who sought to seduce him against his will, and surely, he is the truthful.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ذٰلِکَ لِیَعۡلَمَ اَنِّیۡ لَمۡ اَخُنۡہُ بِالۡغَیۡبِ وَاَنَّ اللّٰہَ لَا یَہۡدِیۡ کَیۡدَ الۡخَآئِنِیۡنَ ﴿۵۳﴾</div>
+    <br/>
+    <div class="urdu">یہ اس لئے ہوا تاکہ وہ (عزیزِ مصر) جان لے کہ میں (یعنی یوسف) نے اس کی عدم موجودگی میں اس کی کوئی خیانت نہیں کی اور یقیناً اللہ خیانت کرنے والوں کی چال کو سرے نہیں چڑھاتا۔</div>
+    <br/>
+    <div class="english">(12-53) <i>Joseph said</i>, ‘<i>I asked for that enquiry to be made</i> so that he (the ‘Aziz) might know that I was not unfaithful to him in <i>his</i> absence and that Allah suffers not the device of the unfaithful to succeed.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَاۤ اُبَرِّیٴُ نَفۡسِیۡ ۚ اِنَّ النَّفۡسَ لَاَمَّارَۃٌۢ بِالسُّوۡٓءِ اِلَّا مَا رَحِمَ رَبِّیۡ ؕ اِنَّ رَبِّیۡ غَفُوۡرٌ رَّحِیۡمٌ ﴿۵۴﴾</div>
+    <br/>
+    <div class="urdu">اور میں اپنے نفس کو بَری قرار نہیں دیتا یقیناً نفس تو بدی کا بہت حکم دینے والا ہے سوائے اس کے جس پر میرا ربّ رحم کرے۔ یقیناً میرا ربّ بہت بخشنے والا (اور) بار بار رحم کرنے والا ہے۔</div>
+    <br/>
+    <div class="english">(12-54) ‘And I do not hold my own self to be free from weakness; for, the soul is surely prone to enjoin evil, save that whereon my Lord has mercy. Surely, my Lord is Most Forgiving, Merciful.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ الۡمَلِکُ ائۡتُوۡنِیۡ بِہٖۤ اَسۡتَخۡلِصۡہُ لِنَفۡسِیۡ ۚ فَلَمَّا کَلَّمَہٗ قَالَ اِنَّکَ الۡیَوۡمَ لَدَیۡنَا مَکِیۡنٌ اَمِیۡنٌ ﴿۵۵﴾</div>
+    <br/>
+    <div class="urdu">اور بادشاہ نے کہا اسے میرے پاس لے آؤ میں اسے اپنے لئے چُن لوں۔ پھر جب وہ اس سے ہم کلام ہوا تو کہا یقیناً آج (سے) تُو ہمارے حضور بہت تمکنت والا (اور) قابلِ اعتماد ہے۔</div>
+    <br/>
+    <div class="english">(12-55) And the King said, ‘Bring him to me that I may take him specially for myself.’ And when he had spoken to  him, he said, ‘Thou art this day <i>a man</i> of established position <i>and</i> trust with us.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ اجۡعَلۡنِیۡ عَلٰی خَزَآئِنِ الۡاَرۡضِ ۚ اِنِّیۡ حَفِیۡظٌ عَلِیۡمٌ ﴿۵۶﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا مجھے ملک کے خزانوں پر مقرر کردے۔ میں یقیناً بہت حفاظت کرنے والا (اور) صاحبِ علم ہوں۔</div>
+    <br/>
+    <div class="english">(12-56) He said, ‘Appoint me over the treasures of the land, for I am a good keeper, <i>and</i> possessed of knowledge.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَکَذٰلِکَ مَکَّنَّا لِیُوۡسُفَ فِی الۡاَرۡضِ ۚ یَتَبَوَّاُ مِنۡہَا حَیۡثُ یَشَآءُ ؕ نُصِیۡبُ بِرَحۡمَتِنَا مَنۡ نَّشَآءُ  وَلَا نُضِیۡعُ اَجۡرَ الۡمُحۡسِنِیۡنَ ﴿۵۷﴾</div>
+    <br/>
+    <div class="urdu">اور اس طرح ہم نے یوسف کو ملک میں تمکنت دی۔ وہ اس میں جہاں چاہتا ٹھہرتا۔ ہم اپنی رحمت جسے چاہیں پہنچاتے ہیں۔ اور ہم احسان کرنے والوں کے اجر کو ضائع نہیں کیا کرتے۔</div>
+    <br/>
+    <div class="english">(12-57) And thus did We establish Joseph in the land. He dwelt therein wherever he pleased. We bestow Our mercy on whomsoever We please, and We suffer not the reward of the righteous to perish.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَاَجۡرُ الۡاٰخِرَۃِ خَیۡرٌ لِّلَّذِیۡنَ اٰمَنُوۡا وَکَانُوۡا یَتَّقُوۡنَ ﴿٪۵۸﴾</div>
+    <br/>
+    <div class="urdu">اور آخرت کا اجر یقیناً ان لوگوں کے لئے بہتر ہے جو ایمان لے آئے اور تقویٰ سے کام لیتے رہے۔</div>
+    <br/>
+    <div class="english">(12-58) And surely, the reward of the Hereafter is better for those who believe and fear God.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَجَآءَ اِخۡوَۃُ یُوۡسُفَ فَدَخَلُوۡا عَلَیۡہِ فَعَرَفَہُمۡ وَہُمۡ لَہٗ مُنۡکِرُوۡنَ ﴿۵۹﴾</div>
+    <br/>
+    <div class="urdu">اور یوسف کے بھائی آئے تو اس کے حضور پیش ہوئے۔ پس اُس نے انہیں پہچان لیا جبکہ وہ اس سے ناواقف رہے۔</div>
+    <br/>
+    <div class="english">(12-59) And Joseph’s brethren came and entered in unto him; and he knew them, but they knew him not.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَمَّا جَہَّزَہُمۡ بِجَہَازِہِمۡ قَالَ ائۡتُوۡنِیۡ بِاَخٍ لَّکُمۡ مِّنۡ اَبِیۡکُمۡ ۚ اَلَا تَرَوۡنَ اَنِّیۡۤ اُوۡفِی الۡکَیۡلَ وَاَنَا خَیۡرُ الۡمُنۡزِلِیۡنَ ﴿۶۰﴾</div>
+    <br/>
+    <div class="urdu">اور جب اُس نے اُنہیں اُن کے سامان کے ساتھ (رخصت کے لئے) تیار کیا تو کہا تمہارے باپ کی طرف سے جو تمہارا بھائی ہے اُسے بھی میرے پاس لاؤ۔ کیا تم دیکھتے نہیں کہ میں بھرپور ماپ دیتا ہوں اور میں بہترین میزبان ہوں۔</div>
+    <br/>
+    <div class="english">(12-60) And when he had provided them with their provision, he said, ‘Bring me your brother on your father’s side. Do you not see that I give you full measure <i>of corn</i> and that I am the best of hosts?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَاِنۡ لَّمۡ تَاۡتُوۡنِیۡ بِہٖ فَلَا کَیۡلَ لَکُمۡ عِنۡدِیۡ وَلَا تَقۡرَبُوۡنِ ﴿۶۱﴾</div>
+    <br/>
+    <div class="urdu">پس اگر تم اسے میرے پاس نہ لائے تو پھر تمہارے لئے میرے پاس کچھ ماپ نہیں ہوگا اور تم میرے قریب بھی نہ آنا۔</div>
+    <br/>
+    <div class="english">(12-61) ‘But if you bring him not to me, then there shall be no measure <i>of corn</i> for you from me, nor shall you come near me.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا سَنُرَاوِدُ عَنۡہُ اَبَاہُ وَاِنَّا لَفٰعِلُوۡنَ ﴿۶۲﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا ہم اس کے بارہ میں اس کے باپ کو ضرور پھسلائیں گے اور ہم یقیناً ضرور کر گزرنے والے ہیں۔</div>
+    <br/>
+    <div class="english">(12-62) They replied, ‘We will try to induce his father to part with him and we will certainly do <i>it</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ لِفِتۡیٰنِہِ اجۡعَلُوۡا بِضَاعَتَہُمۡ فِیۡ رِحَالِہِمۡ لَعَلَّہُمۡ یَعۡرِفُوۡنَہَاۤ اِذَا انۡقَلَبُوۡۤا اِلٰۤی اَہۡلِہِمۡ لَعَلَّہُمۡ یَرۡجِعُوۡنَ ﴿۶۳﴾</div>
+    <br/>
+    <div class="urdu">اور اس نے اپنے کارندوں سے کہا کہ ان کی پونجی ان کے سامان ہی میں رکھ دو تا کہ وہ اس بات کا پاس کریں جب وہ اپنے گھر والوں کی طرف واپس جائیں تاکہ شاید وہ پھر لَوٹ آئیں۔</div>
+    <br/>
+    <div class="english">(12-63) And he said to his servants, ‘Put their money <i>also</i> into their saddlebags that they may recognize it when they return to their family; haply they may come back.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا رَجَعُوۡۤا اِلٰۤی اَبِیۡہِمۡ قَالُوۡا یٰۤاَبَانَا مُنِعَ مِنَّا الۡکَیۡلُ فَاَرۡسِلۡ مَعَنَاۤ اَخَانَا نَکۡتَلۡ وَاِنَّا لَہٗ لَحٰفِظُوۡنَ ﴿۶۴﴾</div>
+    <br/>
+    <div class="urdu">پس جب وہ اپنے باپ کی طرف لَوٹے تو انہوں نے کہا اے ہمارے باپ! ہم سے ماپ روک دیا گیا ہے۔ پس ہمارے بھائی کو ہمارے ساتھ بھیج تاکہ ہم ماپ حاصل کرسکیں اور یقیناً ہم اس کے ضرور محافظ رہیں گے۔</div>
+    <br/>
+    <div class="english">(12-64) And when they returned to their father, they said, ‘O our father, <i>a</i>  <i>further</i> measure <i>of corn</i> has been denied us, so send with us our brother that we may obtain our measure, and we will surely take care of him.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ ہَلۡ اٰمَنُکُمۡ عَلَیۡہِ اِلَّا کَمَاۤ اَمِنۡتُکُمۡ عَلٰۤی اَخِیۡہِ مِنۡ قَبۡلُ ؕ فَاللّٰہُ خَیۡرٌ حٰفِظًا ۪ وَّہُوَ اَرۡحَمُ الرّٰحِمِیۡنَ ﴿۶۵﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا کیا میں اس کے متعلق اس کے سوا بھی تم پر کوئی اعتماد کر سکتا ہوں جیسا کہ میں نے اس کے بھائی کے بارہ میں (اس سے) پہلے تم پر کیا تھا؟ پس اللہ ہی ہے جو بہترین حفاظت کرنے والا اور وہی سب رحم کرنے والوں سے بڑھ کر رحم کرنے والا ہے۔</div>
+    <br/>
+    <div class="english">(12-65) He said, ‘I cannot trust you with him, save as I trusted you with his brother before. But Allah is the best Protector, and He is the Most Merciful of those who show mercy.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَمَّا فَتَحُوۡا مَتَاعَہُمۡ وَجَدُوۡا بِضَاعَتَہُمۡ رُدَّتۡ اِلَیۡہِمۡ ؕ قَالُوۡا یٰۤاَبَانَا مَا نَبۡغِیۡ ؕ ہٰذِہٖ بِضَاعَتُنَا رُدَّتۡ اِلَیۡنَا ۚ وَنَمِیۡرُ اَہۡلَنَا وَنَحۡفَظُ اَخَانَا وَنَزۡدَادُ کَیۡلَ بَعِیۡرٍ ؕ ذٰلِکَ کَیۡلٌ یَّسِیۡرٌ ﴿۶۶﴾</div>
+    <br/>
+    <div class="urdu">پھر جب انہوں نے اپنا سامان کھولا تو اپنی پونجی کو اپنی طرف واپس کیا ہوا پایا۔ انہوں نے کہا اے ہمارے باپ! ہمیں (اور) کیا چاہئے یہ ہے ہماری پونجی (جو) ہمیں واپس لوٹا دی گئی ہے۔ اور ہم اپنے گھر والوں کے لئے غلہ لائیں گے اور اپنے بھائی کی حفاظت کریں گے اور ایک اونٹ کا بوجھ مزید حاصل کر لیں گے۔ یہ تو بہت آسان سودا ہے۔</div>
+    <br/>
+    <div class="english">(12-66) And when they opened their goods, they found their money returned to them. They said, ‘O our father, what more can we desire? Here is our money returned to us. We shall bring provision for our family, and guard our brother and we shall have in addition the measure of a camel-<i>load</i>. That is a measure which is easy <i>to obtain</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ لَنۡ اُرۡسِلَہٗ مَعَکُمۡ حَتّٰی تُؤۡتُوۡنِ مَوۡثِقًا مِّنَ اللّٰہِ لَتَاۡتُنَّنِیۡ بِہٖۤ اِلَّاۤ اَنۡ یُّحَاطَ بِکُمۡ ۚ فَلَمَّاۤ اٰتَوۡہُ مَوۡثِقَہُمۡ قَالَ اللّٰہُ عَلٰی مَا نَقُوۡلُ وَکِیۡلٌ ﴿۶۷﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا میں ہرگز اسے تمہارے ساتھ نہیں بھیجوں گا یہاں تک کہ تم اللہ کے حوالہ سے مجھے پختہ عہد دو کہ تم ضرور اسے میرے پاس (واپس) لے آؤ گے سوائے اس کے کہ تمہیں گھیر لیا جائے۔ پس جب انہوں نے اسے اپنا پختہ عہد دے دیا تو اس نے کہا اللہ اُس پر جو ہم کہہ رہے ہیں نگران ہے۔</div>
+    <br/>
+    <div class="english">(12-67) He said, ‘I will not send him with you until you give me a solemn promise in the name of Allah that you will surely bring him to me, unless you are encompassed.’ And when they gave him their solemn promise, he said, ‘Allah watches over what we say.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَقَالَ یٰبَنِیَّ لَا تَدۡخُلُوۡا مِنۡۢ بَابٍ وَّاحِدٍ وَّادۡخُلُوۡا مِنۡ اَبۡوَابٍ مُّتَفَرِّقَۃٍ ؕ وَمَاۤ اُغۡنِیۡ عَنۡکُمۡ مِّنَ اللّٰہِ مِنۡ شَیۡءٍ ؕ اِنِ الۡحُکۡمُ اِلَّا لِلّٰہِ ؕ عَلَیۡہِ تَوَکَّلۡتُ ۚ وَعَلَیۡہِ فَلۡیَتَوَکَّلِ الۡمُتَوَکِّلُوۡنَ ﴿۶۸﴾</div>
+    <br/>
+    <div class="urdu">اور اس نے کہا اے میرے بیٹو! ایک ہی دروازے سے داخل نہ ہونا بلکہ متفرق دروازوں سے داخل ہونا اور میں تمہیں اللہ (کی تقدیر) سے کچھ بھی بچا نہیں سکتا۔ حکم اللہ ہی کا چلتا ہے۔ اسی پر میں توکل کرتا ہوں اور پھر چاہئے کہ اسی پر سب توکل کرنے والے توکل کریں۔</div>
+    <br/>
+    <div class="english">(12-68) And he said, ‘O my sons, enter not by one gate, but enter by different gates; and I can avail you nothing against Allah. The decision rests only with Allah. In Him do I put my trust and in Him let all who would trust put their trust.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَمَّا دَخَلُوۡا مِنۡ حَیۡثُ اَمَرَہُمۡ اَبُوۡہُمۡ ؕ مَا کَانَ یُغۡنِیۡ عَنۡہُمۡ مِّنَ اللّٰہِ مِنۡ شَیۡءٍ اِلَّا حَاجَۃً فِیۡ نَفۡسِ یَعۡقُوۡبَ قَضٰہَا ؕ وَاِنَّہٗ لَذُوۡ عِلۡمٍ لِّمَا عَلَّمۡنٰہُ وَلٰکِنَّ اَکۡثَرَ النَّاسِ لَا یَعۡلَمُوۡنَ ﴿٪۶۹﴾</div>
+    <br/>
+    <div class="urdu">پس جب وہ جہاں سے ان کے باپ نے حکم دیا تھا داخل ہوئے۔ وہ اللہ کی تقدیر سے تو انہیں قطعاً بچا نہیں سکتا تھا مگر محض یعقوب کے دل کی ایک خواہش تھی جو اس نے پوری کی۔ اور یقیناً وہ صاحبِ علم تھا اس لئے کہ ہم نے اسے اچھی طرح علم سکھایا تھا مگر اکثر لوگ نہیں جانتے۔</div>
+    <br/>
+    <div class="english">(12-69) And when they entered in the manner their father had commanded them, it could not avail them anything against Allah, except that there was a desire in Jacob’s mind which he <i>thus</i> satisfied; and he was surely possessed of <i>great</i> knowledge because We had taught him, but most men know not.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَمَّا دَخَلُوۡا عَلٰی یُوۡسُفَ اٰوٰۤی اِلَیۡہِ اَخَاہُ  قَالَ اِنِّیۡۤ اَنَا اَخُوۡکَ فَلَا تَبۡتَئِسۡ بِمَا کَانُوۡا یَعۡمَلُوۡنَ ﴿۷۰﴾</div>
+    <br/>
+    <div class="urdu">پس جب وہ یوسف کے سامنے پیش ہوئے اس نے اپنے بھائی کو اپنے قریب جگہ دی (اور) کہا یقیناً میں تیرا بھائی ہوں۔ پس جو کچھ وہ کرتے رہے ہیں اس پر غمگین نہ ہو۔</div>
+    <br/>
+    <div class="english">(12-70) And when they visited Joseph, he lodged his brother with himself. <i>And</i> he said, ‘I am thy brother; so <i>now</i> grieve not at what they have been doing.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا جَہَّزَہُمۡ بِجَہَازِہِمۡ جَعَلَ السِّقَایَۃَ فِیۡ رَحۡلِ اَخِیۡہِ ثُمَّ اَذَّنَ مُؤَذِّنٌ اَیَّتُہَا الۡعِیۡرُ اِنَّکُمۡ لَسٰرِقُوۡنَ ﴿۷۱﴾</div>
+    <br/>
+    <div class="urdu">پھر جب اس نے اُنہیں ان کے سامان سمیت (رخصت کے لئے) تیار کیا تو اس نے (بے خیالی میں) اپنے بھائی کے سامان میں پینے کا برتن رکھ دیا۔ پھر ایک اعلان کرنے والے نے اعلان کیا کہ اے قافلہ والو! تم ضرور چور ہو۔</div>
+    <br/>
+    <div class="english">(12-71) And when he had provided them with their provision, he put the drinking-cup in his brother’s saddlebag. Then a crier cried, ‘O ye <i>men of the</i> caravan, you have been guilty of theft.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا وَاَقۡبَلُوۡا عَلَیۡہِمۡ مَّاذَا تَفۡقِدُوۡنَ ﴿۷۲﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے ان کی طرف متوجہ ہوتے ہوئے جواب دیا تم کیا گم پاتے ہو۔</div>
+    <br/>
+    <div class="english">(12-72) They said, turning towards them, ‘What is it that you miss?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا نَفۡقِدُ صُوَاعَ الۡمَلِکِ وَلِمَنۡ جَآءَ بِہٖ حِمۡلُ بَعِیۡرٍ وَّاَنَا بِہٖ زَعِیۡمٌ ﴿۷۳﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا ہم بادشاہ کا مَاپ تول کا پیمانہ گم کیا ہوا پاتے ہیں اور جو بھی اسے لائے گا اسے ایک اونٹ کا بوجھ (انعام میں) دیا جائے گا اور میں اس بات کا ذمہ دار ہوں۔</div>
+    <br/>
+    <div class="english">(12-73) They replied, ‘We miss the King’s measuring-cup, and whoso brings it shall have a camel-load, and I am surety for it.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا تَاللّٰہِ لَقَدۡ عَلِمۡتُمۡ مَّا جِئۡنَا لِنُفۡسِدَ فِی الۡاَرۡضِ وَمَا کُنَّا سٰرِقِیۡنَ ﴿۷۴﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے (جواباً) کہا اللہ کی قسم! تم یقیناً جان چکے ہو کہ ہم اس لئے نہیں آئے کہ زمین میں فساد کریں اور ہم ہرگز چور نہیں ہیں۔</div>
+    <br/>
+    <div class="english">(12-74) They answered, ‘By Allah, you know well that we came not to act corruptly in the land, and we are not thieves.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا فَمَا جَزَآؤُہٗۤ اِنۡ کُنۡتُمۡ کٰذِبِیۡنَ ﴿۷۵﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے پوچھا پھر اس کی کیا جزا ہو گی اگر تم جھوٹے نکلے؟</div>
+    <br/>
+    <div class="english">(12-75) They said, ‘What then shall be the punishment for it, if you <i>are found to</i> have told a lie?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا جَزَآؤُہٗ مَنۡ وُّجِدَ فِیۡ رَحۡلِہٖ فَہُوَ جَزَآؤُہٗ ؕ کَذٰلِکَ نَجۡزِی الظّٰلِمِیۡنَ ﴿۷۶﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے جواب دیا اس کی جزا یہ ہے کہ جس کے سامان میں وہ (پیمانہ) پایا جائے وہی اس کی جزا ہوگا۔ اسی طرح ہم ظالموں کو جزا دیاکرتے ہیں۔</div>
+    <br/>
+    <div class="english">(12-76) They replied, ‘The punishment for it — he in whose saddlebag it is found shall himself be the penalty for it. Thus do we punish the wrongdoers.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَبَدَاَ بِاَوۡعِیَتِہِمۡ قَبۡلَ وِعَآءِ اَخِیۡہِ ثُمَّ اسۡتَخۡرَجَہَا مِنۡ وِّعَآءِ اَخِیۡہِ ؕ کَذٰلِکَ کِدۡنَا لِیُوۡسُفَ ؕ مَا کَانَ لِیَاۡخُذَ اَخَاہُ فِیۡ دِیۡنِ الۡمَلِکِ اِلَّاۤ اَنۡ یَّشَآءَ اللّٰہُ ؕ نَرۡفَعُ دَرَجٰتٍ مَّنۡ نَّشَآءُ ؕ وَفَوۡقَ کُلِّ ذِیۡ عِلۡمٍ عَلِیۡمٌ ﴿۷۷﴾</div>
+    <br/>
+    <div class="urdu">پھر اس (اعلان کرنے والے) نے اس (یعنی یوسف) کے بھائی کے بورے سے پہلے ان کے بوروں سے شروع کیا پھر اس کے بھائی کے بورے میں سے اس (پیمانہ) کو نکال لیا۔ اس طرح ہم نے یوسف کے لئے تدبیر کی۔ اس کے لئے ممکن نہ تھا کہ اپنے بھائی کو بادشاہ کی حکمرانی میں روک لیتا سوائے اس کے کہ اللہ چاہتا۔ ہم جسے چاہیں درجات کے لحاظ سے بلند کرتے ہیں اور ہر علم رکھنے والے سے برتر ایک صاحبِ علم ہے۔</div>
+    <br/>
+    <div class="english">(12-77) Then he began <i>the search</i> with their sacks before the sack of his brother; then he took it out from his brother’s sack. Thus did We plan for Joseph. He could not have taken his brother under the King’s law unless Allah had <i>so</i> willed. We raise in degrees <i>of rank</i> whomsoever We please; and over every possessor of knowledge is One, Most-Knowing.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡۤا اِنۡ یَّسۡرِقۡ فَقَدۡ سَرَقَ اَخٌ لَّہٗ مِنۡ قَبۡلُ ۚ فَاَسَرَّہَا یُوۡسُفُ فِیۡ نَفۡسِہٖ وَلَمۡ یُبۡدِہَا لَہُمۡ ۚ قَالَ اَنۡتُمۡ شَرٌّ مَّکَانًا ۚ وَاللّٰہُ اَعۡلَمُ بِمَا تَصِفُوۡنَ ﴿۷۸﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا اگر اس نے چوری کی ہے تو اس کے ایک بھائی نے بھی اس سے پہلے چوری کی تھی تو یوسف نے اس (الزام کے اثر) کو اپنے دل میں چھپا لیا اور اُسے ان پر ظاہر نہ کیا۔ (ہاں دل ہی دل میں) کہا تم مقام کے لحاظ سے بدترین ہو اور اللہ ہی بہتر جانتا ہے جو تم بیان کرتے ہو۔</div>
+    <br/>
+    <div class="english">(12-78) They said, ‘If he has stolen, a brother of his had <i>also</i> committed theft before.’ But Joseph kept it secret in his heart and did not disclose it to them. He <i>simply</i> said, ‘You seem to be in the worst condition; and Allah knows best what you allege.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا یٰۤاَیُّہَا الۡعَزِیۡزُ اِنَّ لَہٗۤ اَبًا شَیۡخًا کَبِیۡرًا فَخُذۡ اَحَدَنَا مَکَانَہٗ ۚ اِنَّا نَرٰٮکَ مِنَ الۡمُحۡسِنِیۡنَ ﴿۷۹﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا اے صاحبِ اختیار! یقیناً اس کا باپ بہت بوڑھا شخص ہے۔ پس اس کی بجائے ہم میں سے کسی ایک کو رکھ لے۔ یقیناً ہم تجھے احسان کرنے والوں میں سے دیکھتے ہیں۔</div>
+    <br/>
+    <div class="english">(12-79) They said, ‘O exalted one, he has a very aged father, so take one of us in his stead; for we see thee to be of those who do good.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ مَعَاذَ اللّٰہِ اَنۡ نَّاۡخُذَ اِلَّا مَنۡ وَّجَدۡنَا مَتَاعَنَا عِنۡدَہٗۤ ۙ اِنَّاۤ اِذًا لَّظٰلِمُوۡنَ ﴿٪۸۰﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا اللہ کی پناہ! کہ جس کے پاس ہم اپنا سامان پائیں اس کے سوا کسی اور کو پکڑیں۔ تب تو ہم یقیناً ظلم کرنے والے بن جائیں گے۔</div>
+    <br/>
+    <div class="english">(12-80) He replied, ‘Allah forbid that we should take <i>any</i> save him with whom we found our property; for then we should certainly be unjust.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا اسۡتَیۡـَٔسُوۡا مِنۡہُ خَلَصُوۡا نَجِیًّا ؕ قَالَ کَبِیۡرُہُمۡ اَلَمۡ تَعۡلَمُوۡۤا اَنَّ اَبَاکُمۡ قَدۡ اَخَذَ عَلَیۡکُمۡ مَّوۡثِقًا مِّنَ اللّٰہِ وَمِنۡ قَبۡلُ مَا فَرَّطۡتُّمۡ فِیۡ یُوۡسُفَ ۚ فَلَنۡ اَبۡرَحَ الۡاَرۡضَ حَتّٰی یَاۡذَنَ لِیۡۤ اَبِیۡۤ اَوۡ یَحۡکُمَ اللّٰہُ لِیۡ ۚ وَہُوَ خَیۡرُ الۡحٰکِمِیۡنَ ﴿۸۱﴾</div>
+    <br/>
+    <div class="urdu">پس جب وہ اس سے مایوس ہو گئے تو مشورہ کے لئے علیحدہ ہوئے۔ ان کے بڑے نے کہا کہ کیا تم جانتے نہیں کہ تمہارے باپ نے اللہ کے حوالہ سے تم پر واجب پختہ عہد لیا تھا اور (اس سے) پہلے بھی جو تم یوسف کے معاملہ میں زیادتی کر چکے ہو۔ پس میں ہرگز یہ ملک نہیں چھوڑوں گا یہاں تک کہ میرا باپ مجھے اجازت دے یا میرے لئے اللہ کوئی فیصلہ کردے اور وہ فیصلہ کرنے والوں میں سب سے بہتر ہے۔</div>
+    <br/>
+    <div class="english">(12-81) And when they despaired of him, they retired, conferring together in private. Their leader said, “Know ye not that your father has taken from you a solemn promise in the name of Allah and how, before this, you failed in your duty with respect to Joseph? I will, therefore, not leave the land until my father permits me or Allah decides for me. And He is the Best of judges.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِرۡجِعُوۡۤا اِلٰۤی اَبِیۡکُمۡ فَقُوۡلُوۡا یٰۤاَبَانَاۤ اِنَّ ابۡنَکَ سَرَقَ ۚ وَمَا شَہِدۡنَاۤ اِلَّا بِمَا عَلِمۡنَا وَمَا کُنَّا لِلۡغَیۡبِ حٰفِظِیۡنَ ﴿۸۲﴾</div>
+    <br/>
+    <div class="urdu">اپنے باپ کی طرف واپس جاؤ اور اسے کہو کہ اے ہمارے باپ! یقیناً تیرے بیٹے نے چوری کی ہے اور ہم سوائے اس کے جس کا ہمیں علم ہے کوئی گواہی نہیں دے رہے اور ہم یقیناً غیب کے محافظ نہیں۔</div>
+    <br/>
+    <div class="english">(12-82) “Return ye to your father and say, ‘O our father, thy son has stolen and we have stated only what we know and we could not be guardians over the unseen.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَسۡـَٔلِ الۡقَرۡیَۃَ الَّتِیۡ کُنَّا فِیۡہَا وَالۡعِیۡرَ الَّتِیۡۤ اَقۡبَلۡنَا فِیۡہَا ؕ وَاِنَّا لَصٰدِقُوۡنَ ﴿۸۳﴾</div>
+    <br/>
+    <div class="urdu">پس اس بستی (والوں) سے پوچھ جس میں ہم تھے اور اس قافلہ سے بھی جس میں شامل ہو کر ہم آئے ہیں اور یقیناً ہم سچے ہیں۔</div>
+    <br/>
+    <div class="english">(12-83) ‘And inquire of <i>the people of</i> the city wherein we were, and of the caravan with which we came, and certainly we are speaking the truth.’”</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ بَلۡ سَوَّلَتۡ لَکُمۡ اَنۡفُسُکُمۡ اَمۡرًا ؕ فَصَبۡرٌ جَمِیۡلٌ ؕ عَسَی اللّٰہُ اَنۡ یَّاۡتِـیَنِیۡ بِہِمۡ جَمِیۡعًا ؕ اِنَّہٗ ہُوَ الۡعَلِیۡمُ الۡحَکِیۡمُ ﴿۸۴﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا (نہیں) بلکہ تمہارے نفسوں نے ایک بہت بڑے معاملہ کو تمہارے لئے ہلکا اور معمولی بنادیا ہے۔ پس صبرجمیل (کے سوا میں کیا کر سکتا ہوں)۔ عین ممکن ہے کہ اللہ ان سب کو میرے پاس لے آئے۔ یقیناً وہی ہے جو دائمی علم رکھنے والا (اور) بہت حکمت والا ہے۔</div>
+    <br/>
+    <div class="english">(12-84) He replied, ‘Nay, but your souls have embellished to you this thing. So <i>now</i> comely patience <i>is good for me</i>. May be Allah will bring them all to me; for He is the All-Knowing, the Wise.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَتَوَلّٰی عَنۡہُمۡ وَقَالَ یٰۤاَسَفٰی عَلٰی یُوۡسُفَ وَابۡیَضَّتۡ عَیۡنٰہُ مِنَ الۡحُزۡنِ فَہُوَ کَظِیۡمٌ ﴿۸۵﴾</div>
+    <br/>
+    <div class="urdu">اور اس نے ان سے توجہ پھیر لی اور کہا وائے افسوس یوسف پر! اور اس کی آنکھیں غم سے ڈبڈبا آئیں اور وہ اپنا غم دبانے والا تھا۔</div>
+    <br/>
+    <div class="english">(12-85) And he turned away from them and said, ‘O my grief for Joseph!’  And his eyes became white because of grief, and he was suppressing <i>his sorrow</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا تَاللّٰہِ تَفۡتَؤُا تَذۡکُرُ یُوۡسُفَ حَتّٰی تَکُوۡنَ حَرَضًا اَوۡ تَکُوۡنَ مِنَ الۡہٰلِکِیۡنَ ﴿۸۶﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا خد اکی قسم! تُو ہمیشہ یوسف ہی کا ذکر کرتا رہے گا یہاں تک کہ تُو (غم سے) نڈھال ہوجائے یا ہلاک ہو جانے والوں میں سے ہو جائے۔</div>
+    <br/>
+    <div class="english">(12-86) They said, ‘By Allah, thou wilt not cease talking of Joseph until thou art wasted away or thou art of those who perish.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ اِنَّمَاۤ اَشۡکُوۡا بَثِّیۡ وَحُزۡنِیۡۤ اِلَی اللّٰہِ وَاَعۡلَمُ مِنَ اللّٰہِ مَا لَا تَعۡلَمُوۡنَ ﴿۸۷﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا میں تو اپنے رنج واَلَم کی صرف اللہ کے حضور فریاد کرتا ہوں اور اللہ کی طرف سے میں وہ کچھ جانتا ہوں جو تم نہیں جانتے۔</div>
+    <br/>
+    <div class="english">(12-87) He replied, ‘I only complain of my sorrow and my grief to Allah, and I know from Allah that which you know not.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">یٰبَنِیَّ اذۡہَبُوۡا فَتَحَسَّسُوۡا مِنۡ یُّوۡسُفَ وَاَخِیۡہِ وَلَا تَایۡـَٔسُوۡا مِنۡ رَّوۡحِ اللّٰہِ ؕ اِنَّہٗ لَا یَایۡـَٔسُ مِنۡ رَّوۡحِ اللّٰہِ اِلَّا الۡقَوۡمُ الۡکٰفِرُوۡنَ ﴿۸۸﴾</div>
+    <br/>
+    <div class="urdu">اے میرے بیٹو! جاؤ اور یوسف اور اس کے بھائی کے متعلق کھوج لگاؤ اور اللہ کی رحمت سے مایوس نہ ہو۔ یقیناً اللہ کی رحمت سے کوئی مایوس نہیں ہوتا مگر کافر لوگ۔</div>
+    <br/>
+    <div class="english">(12-88) ‘O my sons, go ye and search for Joseph and his brother and despair not of the mercy of Allah; for none despairs of Allah’s mercy save the unbelieving people.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا دَخَلُوۡا عَلَیۡہِ قَالُوۡا یٰۤاَیُّہَا الۡعَزِیۡزُ مَسَّنَا وَاَہۡلَنَا الضُّرُّ وَجِئۡنَا بِبِضَاعَۃٍ مُّزۡجٰٮۃٍ فَاَوۡفِ لَنَا الۡکَیۡلَ وَتَصَدَّقۡ عَلَیۡنَا ؕ اِنَّ اللّٰہَ یَجۡزِی الۡمُتَصَدِّقِیۡنَ ﴿۸۹﴾</div>
+    <br/>
+    <div class="urdu">پس جب وہ اس کی جناب میں حاضر ہوئے انہوں نے کہا اے صاحب اختیار! ہمیں اور ہمارے گھر والوں کو بہت تکلیف پہنچی ہے اور ہم تھوڑی سی پونجی لائے ہیں۔ پس ہمیں بھرپور تول عطا کر اور ہم پر صدقہ کر۔ یقیناً اللہ صدقہ خیرات کرنے والوں کو جزا دیتا ہے۔</div>
+    <br/>
+    <div class="english">(12-89) And, when they came before him (Joseph), they said, ‘O exalted one, poverty has smitten us and our family, and we have brought a paltry sum of money, so give us the full measure, and be charitable to us. Surely, Allah rewards the charitable.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ ہَلۡ عَلِمۡتُمۡ مَّا فَعَلۡتُمۡ بِیُوۡسُفَ وَاَخِیۡہِ اِذۡ اَنۡتُمۡ جٰہِلُوۡنَ ﴿۹۰﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا کیا تم جانتے ہو جو تم نے یوسف اور اس کے بھائی سے کیا تھا جب تم جاہل لوگ تھے۔</div>
+    <br/>
+    <div class="english">(12-90) He said, ‘Do you know what you did to Joseph and his brother, when you were ignorant?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡۤا ءَاِنَّکَ لَاَنۡتَ یُوۡسُفُ ؕ قَالَ اَنَا یُوۡسُفُ وَہٰذَاۤ اَخِیۡ ۫ قَدۡ مَنَّ اللّٰہُ عَلَیۡنَا ؕ اِنَّہٗ مَنۡ یَّـتَّقِ وَیَصۡبِرۡ فَاِنَّ اللّٰہَ لَا یُضِیۡعُ اَجۡرَ الۡمُحۡسِنِیۡنَ ﴿۹۱﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا کیا واقعی تو ہی یوسف ہے؟ اس نے کہا میں ہی یوسف ہوں اور یہ میرا بھائی ہے۔ اللہ نے یقیناً ہم پر بہت احسان کیا ہے۔ یقیناً جو بھی تقویٰ کرے اور صبر کرے تو اللہ ہرگز احسان کرنے والوں کا اجر ضائع نہیں کرتا۔</div>
+    <br/>
+    <div class="english">(12-91) They replied, ‘Art thou Joseph?’ He said, ‘<i>Yes</i>, I am Joseph and this is my brother. Allah has indeed been gracious to us. Verily, whoso is righteous and is steadfast — Allah will never suffer the reward of the good to be lost.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا تَاللّٰہِ لَقَدۡ اٰثَرَکَ اللّٰہُ عَلَیۡنَا وَاِنۡ کُنَّا لَخٰطِئِیۡنَ ﴿۹۲﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا اللہ کی قسم! اللہ نے یقیناً تجھے ہم پر فضیلت دی ہے اور یقیناً ہم ہی خطا کار تھے۔</div>
+    <br/>
+    <div class="english">(12-92) They replied, ‘By Allah! Surely has Allah preferred thee above us and we have indeed been sinners.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ لَا تَثۡرِیۡبَ عَلَیۡکُمُ الۡیَوۡمَ ؕ یَغۡفِرُ اللّٰہُ لَکُمۡ ۫ وَہُوَ اَرۡحَمُ الرّٰحِمِیۡنَ ﴿۹۳﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا آج کے دن تم پر کوئی ملامت نہیں۔ اللہ تمہیں بخش دے گا اور وہ سب رحم کرنے والوں سے زیادہ رحم کرنے والا ہے۔</div>
+    <br/>
+    <div class="english">(12-93) He said, ‘No blame <i>shall lie</i> on you this day; may Allah forgive you! And He is the Most Merciful of those who show mercy.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اِذۡہَبُوۡا بِقَمِیۡصِیۡ ہٰذَا فَاَلۡقُوۡہُ عَلٰی وَجۡہِ اَبِیۡ یَاۡتِ بَصِیۡرًا ۚ وَاۡتُوۡنِیۡ بِاَہۡلِکُمۡ اَجۡمَعِیۡنَ ﴿٪۹۴﴾</div>
+    <br/>
+    <div class="urdu">میری یہ قمیص ساتھ لے جاؤ اور میرے باپ کے سامنے اسے ڈال دو، اس پر حقیقت واضح ہوجائے گی اور (بعد میں) میرے پاس اپنے سب گھر والوں کو لے آؤ۔</div>
+    <br/>
+    <div class="english">(12-94) ‘Go with this shirt of mine and lay it before my father: he will come to know. And bring to me the whole of your family.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَلَمَّا فَصَلَتِ الۡعِیۡرُ قَالَ اَبُوۡہُمۡ اِنِّیۡ لَاَجِدُ رِیۡحَ یُوۡسُفَ  لَوۡلَاۤ اَنۡ تُفَنِّدُوۡنِ ﴿۹۵﴾</div>
+    <br/>
+    <div class="urdu">پس جب قافلہ روانہ ہوا تو ان کے باپ نے کہا یقیناً مجھے یوسف کی خوشبو آرہی ہے خواہ تم مجھے دیوانہ ٹھہراتے رہو۔</div>
+    <br/>
+    <div class="english">(12-95) And when the caravan departed, their father said, ‘Surely, I feel the scent of Joseph, even though you take me to be a dotard.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا تَاللّٰہِ اِنَّکَ لَفِیۡ ضَلٰلِکَ الۡقَدِیۡمِ ﴿ٙ۹۶﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا اللہ کی قسم! یقیناً تُو اپنی اسی پرانی غلطی میں مبتلا ہے۔</div>
+    <br/>
+    <div class="english">(12-96) They replied, ‘By Allah, thou art assuredly in thy old error.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّاۤ اَنۡ جَآءَ الۡبَشِیۡرُ اَلۡقٰٮہُ عَلٰی وَجۡہِہٖ فَارۡتَدَّ بَصِیۡرًا ۚ قَالَ اَلَمۡ اَقُلۡ لَّکُمۡ ۚۙ اِنِّیۡۤ اَعۡلَمُ مِنَ اللّٰہِ مَا لَا تَعۡلَمُوۡنَ ﴿۹۷﴾</div>
+    <br/>
+    <div class="urdu">پھر جب خوشخبری دینے والا آیا (اور) اس نے اُس (قمیص) کو اس کے سامنے ڈال دیا تو اس پر حقیقت واضح ہوگئی۔ اس نے کہا کیا میں تمہیں نہیں کہتا تھا کہ میں یقیناً اللہ کی طرف سے ان باتوں کا علم رکھتا ہوں جو تم نہیں جانتے؟</div>
+    <br/>
+    <div class="english">(12-97) And when the bearer of glad tidings came, he laid it before him and he became enlightened. <i>Then</i> he said, ‘Did I not say to you: I know from Allah what you know not?’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالُوۡا یٰۤاَبَانَا اسۡتَغۡفِرۡ لَنَا ذُنُوۡبَنَاۤ اِنَّا کُنَّا خٰطِئِیۡنَ ﴿۹۸﴾</div>
+    <br/>
+    <div class="urdu">انہوں نے کہا اے ہمارے باپ! ہمارے لئے ہمارے گناہوں کی بخشش طلب کر۔ یقیناً ہم خطاکار تھے۔</div>
+    <br/>
+    <div class="english">(12-98) They said, ‘O our father, ask forgiveness of our sins for us; we have indeed been sinners.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قَالَ سَوۡفَ اَسۡتَغۡفِرُ لَکُمۡ رَبِّیۡ ؕ اِنَّہٗ ہُوَ الۡغَفُوۡرُ الرَّحِیۡمُ ﴿۹۹﴾</div>
+    <br/>
+    <div class="urdu">اس نے کہا میں ضرور تمہارے لئے اپنے ربّ سے بخشش طلب کروں گا۔ یقیناً وہی بہت بخشنے والا (اور) بار بار رحم کرنے والا ہے۔</div>
+    <br/>
+    <div class="english">(12-99) He said, ‘I will certainly ask forgiveness for you of my Lord. Surely, He is the Most Forgiving, the Merciful.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">فَلَمَّا دَخَلُوۡا عَلٰی یُوۡسُفَ اٰوٰۤی اِلَیۡہِ اَبَوَیۡہِ وَقَالَ ادۡخُلُوۡا مِصۡرَ اِنۡ شَآءَ اللّٰہُ اٰمِنِیۡنَ ﴿ؕ۱۰۰﴾</div>
+    <br/>
+    <div class="urdu">پس جب وہ یوسف کے سامنے پیش ہوئے تو اس نے اپنے والدین کو اپنے قریب جگہ دی اور کہا کہ اگر اللہ چاہے تو مصر میں امن کے ساتھ داخل ہو جاؤ۔</div>
+    <br/>
+    <div class="english">(12-100) And when they came to Joseph, he put up his parents with himself, and said, ‘Enter Egypt in peace, if it please Allah.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَرَفَعَ اَبَوَیۡہِ عَلَی الۡعَرۡشِ وَخَرُّوۡا لَہٗ سُجَّدًا ۚ وَقَالَ یٰۤاَبَتِ ہٰذَا تَاۡوِیۡلُ رُءۡیَایَ مِنۡ قَبۡلُ ۫ قَدۡ جَعَلَہَا رَبِّیۡ حَقًّا ؕ وَقَدۡ اَحۡسَنَ بِیۡۤ اِذۡ اَخۡرَجَنِیۡ مِنَ السِّجۡنِ وَجَآءَ بِکُمۡ مِّنَ الۡبَدۡوِ مِنۡۢ بَعۡدِ اَنۡ نَّزَغَ الشَّیۡطٰنُ بَیۡنِیۡ وَبَیۡنَ اِخۡوَتِیۡ ؕ اِنَّ رَبِّیۡ لَطِیۡفٌ لِّمَا یَشَآءُ ؕ اِنَّہٗ ہُوَ الۡعَلِیۡمُ الۡحَکِیۡمُ ﴿۱۰۱﴾</div>
+    <br/>
+    <div class="urdu">اور اس نے اپنے والدین کو عزت کے ساتھ تخت پر بٹھایا اور وہ سب اس کی خاطر سجدہ ریز ہو گئے۔ اور اس نے کہا اے میرے باپ! یہ تعبیر تھی میری پہلے سے دیکھی ہوئی رؤیا کی۔ میرے ربّ نے اسے یقیناً سچ کر دکھایا اور مجھ پر بہت احسان کیا جب اس نے مجھے قید خانہ سے نکالا اور تمہیں صحرا سے لے آیا بعد اس کے کہ شیطان نے میرے اور میرے بھائیوں کے درمیان رخنہ ڈال دیا تھا۔ یقیناً میرا ربّ جس کے لئے چاہے بہت لطف و احسان کرنے والا ہے۔ بے شک وہی دائمی علم رکھنے والا (اور) بہت حکمت والا ہے۔</div>
+    <br/>
+    <div class="english">(12-101) And he raised his parents upon the throne, and they <i>all</i> fell down prostrate <i>before God</i> for him. And he said, ‘O my father, this is the fulfilment of my dream of old. My Lord has made it true. And He bestowed a favour upon me when He took me out of the prison and brought you from the desert after Satan had stirred up discord between me and my brethren. Surely, my Lord is Benignant to whomsoever He pleases; for He is the All-Knowing, the Wise.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">رَبِّ قَدۡ اٰتَیۡتَنِیۡ مِنَ الۡمُلۡکِ وَعَلَّمۡتَنِیۡ مِنۡ تَاۡوِیۡلِ الۡاَحَادِیۡثِ ۚ فَاطِرَ السَّمٰوٰتِ وَالۡاَرۡضِ ۟ اَنۡتَ وَلِیّٖ فِی الدُّنۡیَا وَالۡاٰخِرَۃِ ۚ تَوَفَّنِیۡ مُسۡلِمًا وَّاَلۡحِقۡنِیۡ بِالصّٰلِحِیۡنَ ﴿۱۰۲﴾</div>
+    <br/>
+    <div class="urdu">اے میرے ربّ! تو نے مجھے امورِ سلطنت میں سے حصہ دیا اور باتوں کی اصلیّت سمجھنے کا علم بخشا۔ اے آسمانوں اور زمین کے پیدا کرنے والے! تُو دنیا اور آخرت میں میرا دوست ہے۔ مجھے فرمانبردار ہونے کی حالت میں وفات دے اور مجھے صالحین کے زُمرہ میں شامل کر۔</div>
+    <br/>
+    <div class="english">(12-102) ‘O my Lord, Thou hast bestowed power upon me and taught me the interpretation of dreams. O Maker of the heavens and  the earth, Thou art my Protector in this world and the Hereafter. Let death come to me in a state of submission <i>to Thy will</i> and join me to the righteous.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">ذٰلِکَ مِنۡ اَنۡۢبَآءِ الۡغَیۡبِ نُوۡحِیۡہِ اِلَیۡکَ ۚ وَمَا کُنۡتَ لَدَیۡہِمۡ اِذۡ اَجۡمَعُوۡۤا اَمۡرَہُمۡ وَہُمۡ یَمۡکُرُوۡنَ ﴿۱۰۳﴾</div>
+    <br/>
+    <div class="urdu">یہ غیب کی خبروں میں سے ہے جسے ہم تیری طرف وحی کرتے ہیں اور تُو ان کے پاس نہیں تھا جب انہوں نے اپنی بات پر اتفاق کر لیا تھا جبکہ وہ (بُرے) منصوبے بنا رہے تھے۔</div>
+    <br/>
+    <div class="english">(12-103) That is of the tidings of the unseen, <i>which</i> We reveal to thee. And thou wast not with them when they agreed upon their plan while they were plotting.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَاۤ اَکۡثَرُ النَّاسِ وَلَوۡ حَرَصۡتَ بِمُؤۡمِنِیۡنَ ﴿۱۰۴﴾</div>
+    <br/>
+    <div class="urdu">اور اکثر انسان، خواہ تُو کتنا بھی چاہے، ایمان لانے والے نہیں بنیں گے۔</div>
+    <br/>
+    <div class="english">(12-104) And most men will not believe even though thou eagerly desire <i>it</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا تَسۡـَٔلُہُمۡ عَلَیۡہِ مِنۡ اَجۡرٍ ؕ اِنۡ ہُوَ اِلَّا ذِکۡرٌ لِّلۡعٰلَمِیۡنَ ﴿۱۰۵﴾٪</div>
+    <br/>
+    <div class="urdu">اور تو اُن سے اس (خدمت) پر کوئی اجر نہیں مانگتا۔ یہ تو محض تمام جہانوں کے لئے ایک نصیحت ہے۔</div>
+    <br/>
+    <div class="english">(12-105) And thou dost not ask of them any reward for it. <i>On the contrary</i>, it is but <i>a source of</i> honour for all mankind.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَکَاَیِّنۡ مِّنۡ اٰیَۃٍ فِی السَّمٰوٰتِ وَالۡاَرۡضِ یَمُرُّوۡنَ عَلَیۡہَا وَہُمۡ عَنۡہَا مُعۡرِضُوۡنَ ﴿۱۰۶﴾</div>
+    <br/>
+    <div class="urdu">اور آسمانوں اور زمین میں کتنے ہی نشان ہیں جن پر وہ گزرتے رہتے ہیں اس حال میں کہ وہ ان سے منہ پھیرے ہوئے ہوتے ہیں۔</div>
+    <br/>
+    <div class="english">(12-106) And how many a Sign is there in the heavens and the earth, which they pass by, turning away from it.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَا یُؤۡمِنُ اَکۡثَرُہُمۡ بِاللّٰہِ اِلَّا وَہُمۡ مُّشۡرِکُوۡنَ ﴿۱۰۷﴾</div>
+    <br/>
+    <div class="urdu">اور ان میں سے اکثر اللہ پر ایمان نہیں لاتے مگر اس طرح کہ وہ شرک کر رہے ہوتے ہیں۔</div>
+    <br/>
+    <div class="english">(12-107) And most of them believe not in Allah without <i>also</i> attributing partners <i>to Him</i>.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">اَفَاَمِنُوۡۤا اَنۡ تَاۡتِیَہُمۡ غَاشِیَۃٌ مِّنۡ عَذَابِ اللّٰہِ اَوۡ تَاۡتِیَہُمُ السَّاعَۃُ بَغۡتَۃً وَّہُمۡ لَا یَشۡعُرُوۡنَ ﴿۱۰۸﴾</div>
+    <br/>
+    <div class="urdu">پس کیا وہ اس بات سے امن میں ہیں کہ ان کے پاس اللہ کے عذاب میں سے کوئی ڈھانپ دینے والی (مصیبت) آئے یا (انقلاب کی) گھڑی اچانک آجائے جب کہ وہ (اس کا) کوئی شعور نہ رکھتے ہوں۔</div>
+    <br/>
+    <div class="english">(12-108) Do they, then, feel secure from the coming on them of an overwhelming punishment from Allah or the sudden coming of the Hour upon them while they are unaware?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">قُلۡ ہٰذِہٖ سَبِیۡلِیۡۤ اَدۡعُوۡۤا اِلَی اللّٰہِ ۟ؔ عَلٰی بَصِیۡرَۃٍ اَنَا وَمَنِ اتَّبَعَنِیۡ ؕ وَسُبۡحٰنَ اللّٰہِ وَمَاۤ اَنَا مِنَ الۡمُشۡرِکِیۡنَ ﴿۱۰۹﴾</div>
+    <br/>
+    <div class="urdu">تُو کہہ دے کہ یہ میرا راستہ ہے۔ میں اللہ کی طرف بلاتا ہوں۔ میں بصیرت پر ہوں اور وہ بھی جس نے میری پیروی کی۔ اور پاک ہے اللہ اور میں مشرکوں میں سے نہیں۔</div>
+    <br/>
+    <div class="english">(12-109) Say, ‘This is my way: I call unto Allah on sure knowledge, I and those who follow me. And Holy is Allah; and I am not of those who associate gods <i>with God</i>.’</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">وَمَاۤ اَرۡسَلۡنَا مِنۡ قَبۡلِکَ اِلَّا رِجَالًا نُّوۡحِیۡۤ اِلَیۡہِمۡ مِّنۡ اَہۡلِ الۡقُرٰی ؕ اَفَلَمۡ یَسِیۡرُوۡا فِی الۡاَرۡضِ فَیَنۡظُرُوۡا کَیۡفَ کَانَ عَاقِبَۃُ الَّذِیۡنَ مِنۡ قَبۡلِہِمۡ ؕ وَلَدَارُ الۡاٰخِرَۃِ خَیۡرٌ لِّلَّذِیۡنَ اتَّقَوۡا ؕ اَفَلَا تَعۡقِلُوۡنَ ﴿۱۱۰﴾</div>
+    <br/>
+    <div class="urdu">اور ہم نے تجھ سے پہلے بستیوں کے باشندوں میں سے کبھی کسی کو نہیں بھیجا مگر مَردوں کو جن کی طرف ہم وحی کیا کرتے تھے۔ پس کیا انہوں نے زمین میں سیر نہیں کی کہ وہ دیکھ سکتے کہ اُن لوگوں کا انجام کیسا تھا جو ان سے پہلے تھے۔ اور آخرت کا گھر ہی اُن لوگوں کے لئے بہتر ہے جنہوں نے تقویٰ سے کام لیا۔ پس کیا تم عقل نہیں کرتے؟</div>
+    <br/>
+    <div class="english">(12-110) And We sent not before thee <i>as Messengers</i> any but men, whom We inspired, from among the people of the towns. Have they not then travelled in the earth and seen what was the end of those before them?  And surely, the abode of the Hereafter is better for those who fear God. Will you not then understand?</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">حَتّٰۤی اِذَا اسۡتَیۡـَٔسَ الرُّسُلُ وَظَنُّوۡۤا اَنَّہُمۡ قَدۡ کُذِبُوۡا جَآءَہُمۡ نَصۡرُنَا ۙ فَنُجِّیَ مَنۡ نَّشَآءُ ؕ وَلَا یُرَدُّ بَاۡسُنَا عَنِ الۡقَوۡمِ الۡمُجۡرِمِیۡنَ ﴿۱۱۱﴾</div>
+    <br/>
+    <div class="urdu">یہاں تک کہ جب پیغمبر (ان سے) مایوس ہو گئے اور (لوگوں نے) خیال کیا کہ اُن سے جھوٹ بولا گیا ہے تو ہماری مدد اُن تک پہنچی۔ پس جسے ہم نے چاہا وہ بچا لیا گیا۔ اور ہمارا عذاب مجرم قوم سے ٹالا نہیں جا سکتا۔</div>
+    <br/>
+    <div class="english">(12-111) Till, when the Messengers despaired <i>of the disbelievers</i> and they (the disbelievers) thought that they had been told a lie, Our help came to them, then was saved he whom We pleased. And Our chastisement cannot be averted from the sinful people.</div>
+    <hr/>
+    
+    <br/>
+    <div class="arabic">لَقَدۡ کَانَ فِیۡ قَصَصِہِمۡ عِبۡرَۃٌ لِّاُولِی الۡاَلۡبَابِ ؕ مَا کَانَ حَدِیۡثًا یُّفۡتَرٰی وَلٰکِنۡ تَصۡدِیۡقَ الَّذِیۡ بَیۡنَ یَدَیۡہِ وَتَفۡصِیۡلَ کُلِّ شَیۡءٍ وَّہُدًی وَّرَحۡمَۃً لِّقَوۡمٍ یُّؤۡمِنُوۡنَ ﴿۱۱۲﴾٪</div>
+    <br/>
+    <div class="urdu">یقیناً ان کے تاریخی واقعات کے بیان میں اہلِ عقل کے لئے ایک بڑی عبرت ہے۔ یہ کوئی جھوٹے طور پر بنایا ہوا قصّہ نہیں بلکہ اس کی تصدیق ہے جو اس کے سامنے ہے اور ہر چیز کی خوب وضاحت ہے اور ہدایت اور رحمت ہے ان لوگوں کے لئے جو ایمان لاتے ہیں۔</div>
+    <br/>
+    <div class="english">(12-112) Assuredly, in their narrative is a lesson for men of understanding. It is not a thing that has been forged, but a fulfilment of that which is before it and a detailed exposition of all things, and a guidance and a mercy to a people who believe.</div>
+    <hr/>
+    
+    </body>
